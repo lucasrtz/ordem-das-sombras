@@ -3,10 +3,10 @@
   "revy#ana"
  ],
  "days": 30,
- "generatedAt": "2026-09-30T02:10:47.244Z",
+ "generatedAt": "2026-09-30T12:57:52.902Z",
  "overall": {
-  "games": 15,
-  "wins": 6,
+  "games": 14,
+  "wins": 5,
   "keystones": [
    {
     "key": "8010",
@@ -17,8 +17,8 @@
    {
     "key": "8369",
     "name": "Primeiro Ataque",
-    "games": 4,
-    "wins": 2
+    "games": 3,
+    "wins": 1
    }
   ],
   "secondary": [
@@ -31,8 +31,8 @@
    {
     "key": "8000",
     "name": "Precisão",
-    "games": 4,
-    "wins": 2
+    "games": 3,
+    "wins": 1
    }
   ],
   "spells": [
@@ -45,28 +45,28 @@
    {
     "key": "4+12",
     "name": "Flash + Teleporte",
-    "games": 4,
-    "wins": 1
+    "games": 3,
+    "wins": 0
    }
   ],
   "items": [
    {
     "key": "6699",
     "name": "Cicloespada Voltaica",
-    "games": 15,
-    "wins": 6
+    "games": 14,
+    "wins": 5
    },
    {
     "key": "6696",
     "name": "Arco do Axioma",
-    "games": 12,
-    "wins": 6
+    "games": 11,
+    "wins": 5
    },
    {
     "key": "2517",
     "name": "Fome Eterna",
-    "games": 8,
-    "wins": 4
+    "games": 7,
+    "wins": 3
    },
    {
     "key": "3036",
@@ -75,14 +75,14 @@
     "wins": 2
    },
    {
-    "key": "2520",
-    "name": "Quebra-Bastião",
-    "games": 4,
-    "wins": 2
-   },
-   {
     "key": "6694",
     "name": "Rancor de Serylda",
+    "games": 3,
+    "wins": 1
+   },
+   {
+    "key": "2520",
+    "name": "Quebra-Bastião",
     "games": 3,
     "wins": 1
    }
@@ -91,10 +91,38 @@
    {
     "key": "3168",
     "name": "Caminho Imortal",
-    "games": 13,
-    "wins": 5
+    "games": 12,
+    "wins": 4
    }
-  ]
+  ],
+  "page": {
+   "runes": [
+    8010,
+    8009,
+    9105,
+    8017,
+    8224,
+    8210
+   ],
+   "shards": [
+    5008,
+    5001,
+    5001
+   ],
+   "keystoneGames": 11,
+   "games": 14
+  },
+  "order": {
+   "items": [
+    "6699",
+    "3008",
+    "6696",
+    "2517"
+   ],
+   "firstTwoGames": 10,
+   "firstTwoWins": 4,
+   "games": 12
+  }
  },
  "vs": {
   "Talon": {
@@ -175,7 +203,35 @@
      "games": 2,
      "wins": 1
     }
-   ]
+   ],
+   "page": {
+    "runes": [
+     8010,
+     8009,
+     9105,
+     8017,
+     8224,
+     8210
+    ],
+    "shards": [
+     5008,
+     5001,
+     5001
+    ],
+    "keystoneGames": 1,
+    "games": 2
+   },
+   "order": {
+    "items": [
+     "6699",
+     "3008",
+     "6696",
+     "2517"
+    ],
+    "firstTwoGames": 2,
+    "firstTwoWins": 1,
+    "games": 2
+   }
   },
   "Azir": {
    "games": 1,
@@ -231,7 +287,35 @@
      "games": 1,
      "wins": 0
     }
-   ]
+   ],
+   "page": {
+    "runes": [
+     8010,
+     8009,
+     9105,
+     8017,
+     8224,
+     8210
+    ],
+    "shards": [
+     5008,
+     5001,
+     5001
+    ],
+    "keystoneGames": 1,
+    "games": 1
+   },
+   "order": {
+    "items": [
+     "6699",
+     "3008",
+     "6696",
+     "2517"
+    ],
+    "firstTwoGames": 1,
+    "firstTwoWins": 0,
+    "games": 1
+   }
   },
   "Lux": {
    "games": 1,
@@ -293,7 +377,35 @@
      "games": 1,
      "wins": 0
     }
-   ]
+   ],
+   "page": {
+    "runes": [
+     8010,
+     8009,
+     9105,
+     8017,
+     8224,
+     8210
+    ],
+    "shards": [
+     5008,
+     5001,
+     5001
+    ],
+    "keystoneGames": 1,
+    "games": 1
+   },
+   "order": {
+    "items": [
+     "6699",
+     "3008",
+     "6696",
+     "2517"
+    ],
+    "firstTwoGames": 1,
+    "firstTwoWins": 0,
+    "games": 1
+   }
   },
   "Syndra": {
    "games": 1,
@@ -343,7 +455,34 @@
      "games": 1,
      "wins": 0
     }
-   ]
+   ],
+   "page": {
+    "runes": [
+     8010,
+     8009,
+     9105,
+     8017,
+     8224,
+     8210
+    ],
+    "shards": [
+     5008,
+     5001,
+     5001
+    ],
+    "keystoneGames": 1,
+    "games": 1
+   },
+   "order": {
+    "items": [
+     "6699",
+     "3008",
+     "6696"
+    ],
+    "firstTwoGames": 1,
+    "firstTwoWins": 0,
+    "games": 1
+   }
   },
   "Zilean": {
    "games": 1,
@@ -399,7 +538,35 @@
      "games": 1,
      "wins": 0
     }
-   ]
+   ],
+   "page": {
+    "runes": [
+     8010,
+     8009,
+     9105,
+     8017,
+     8210,
+     8224
+    ],
+    "shards": [
+     5008,
+     5001,
+     5001
+    ],
+    "keystoneGames": 1,
+    "games": 1
+   },
+   "order": {
+    "items": [
+     "6699",
+     "3008",
+     "6696",
+     "2517"
+    ],
+    "firstTwoGames": 1,
+    "firstTwoWins": 0,
+    "games": 1
+   }
   },
   "Locke": {
    "games": 1,
@@ -442,7 +609,25 @@
      "wins": 1
     }
    ],
-   "boots": []
+   "boots": [],
+   "page": {
+    "runes": [
+     8010,
+     8009,
+     9105,
+     8017,
+     8224,
+     8210
+    ],
+    "shards": [
+     5008,
+     5001,
+     5001
+    ],
+    "keystoneGames": 1,
+    "games": 1
+   },
+   "order": null
   },
   "Morgana": {
    "games": 1,
@@ -504,7 +689,35 @@
      "games": 1,
      "wins": 0
     }
-   ]
+   ],
+   "page": {
+    "runes": [
+     8369,
+     8321,
+     8313,
+     8316,
+     9105,
+     8017
+    ],
+    "shards": [
+     5007,
+     5008,
+     5011
+    ],
+    "keystoneGames": 1,
+    "games": 1
+   },
+   "order": {
+    "items": [
+     "6699",
+     "3008",
+     "2520",
+     "6333"
+    ],
+    "firstTwoGames": 1,
+    "firstTwoWins": 0,
+    "games": 1
+   }
   },
   "Sylas": {
    "games": 1,
@@ -566,7 +779,35 @@
      "games": 1,
      "wins": 1
     }
-   ]
+   ],
+   "page": {
+    "runes": [
+     8010,
+     8009,
+     9105,
+     8017,
+     8210,
+     8224
+    ],
+    "shards": [
+     5007,
+     5008,
+     5011
+    ],
+    "keystoneGames": 1,
+    "games": 1
+   },
+   "order": {
+    "items": [
+     "6699",
+     "3008",
+     "6696",
+     "2517"
+    ],
+    "firstTwoGames": 1,
+    "firstTwoWins": 1,
+    "games": 1
+   }
   },
   "Tristana": {
    "games": 1,
@@ -622,7 +863,35 @@
      "games": 1,
      "wins": 1
     }
-   ]
+   ],
+   "page": {
+    "runes": [
+     8369,
+     8321,
+     8313,
+     8316,
+     9105,
+     8017
+    ],
+    "shards": [
+     5007,
+     5008,
+     5011
+    ],
+    "keystoneGames": 1,
+    "games": 1
+   },
+   "order": {
+    "items": [
+     "6699",
+     "3008",
+     "6696",
+     "2517"
+    ],
+    "firstTwoGames": 1,
+    "firstTwoWins": 1,
+    "games": 1
+   }
   },
   "Nasus": {
    "games": 1,
@@ -678,7 +947,35 @@
      "games": 1,
      "wins": 0
     }
-   ]
+   ],
+   "page": {
+    "runes": [
+     8010,
+     8009,
+     9105,
+     8017,
+     8224,
+     8210
+    ],
+    "shards": [
+     5007,
+     5008,
+     5011
+    ],
+    "keystoneGames": 1,
+    "games": 1
+   },
+   "order": {
+    "items": [
+     "6699",
+     "3008",
+     "6696",
+     "3036"
+    ],
+    "firstTwoGames": 1,
+    "firstTwoWins": 0,
+    "games": 1
+   }
   },
   "Akshan": {
    "games": 1,
@@ -740,7 +1037,35 @@
      "games": 1,
      "wins": 1
     }
-   ]
+   ],
+   "page": {
+    "runes": [
+     8010,
+     8009,
+     9105,
+     8017,
+     8224,
+     8210
+    ],
+    "shards": [
+     5007,
+     5008,
+     5011
+    ],
+    "keystoneGames": 1,
+    "games": 1
+   },
+   "order": {
+    "items": [
+     "6699",
+     "3008",
+     "6696",
+     "3036"
+    ],
+    "firstTwoGames": 1,
+    "firstTwoWins": 1,
+    "games": 1
+   }
   },
   "Viktor": {
    "games": 1,
@@ -796,7 +1121,35 @@
      "games": 1,
      "wins": 0
     }
-   ]
+   ],
+   "page": {
+    "runes": [
+     8010,
+     8009,
+     9105,
+     8017,
+     8224,
+     8210
+    ],
+    "shards": [
+     5007,
+     5008,
+     5011
+    ],
+    "keystoneGames": 1,
+    "games": 1
+   },
+   "order": {
+    "items": [
+     "6699",
+     "2520",
+     "3008",
+     "6694"
+    ],
+    "firstTwoGames": 1,
+    "firstTwoWins": 0,
+    "games": 1
+   }
   },
   "Orianna": {
    "games": 1,
@@ -833,69 +1186,25 @@
      "wins": 0
     }
    ],
-   "boots": []
-  },
-  "Malzahar": {
-   "games": 1,
-   "wins": 1,
-   "keystones": [
-    {
-     "key": "8369",
-     "name": "Primeiro Ataque",
-     "games": 1,
-     "wins": 1
-    }
-   ],
-   "secondary": [
-    {
-     "key": "8000",
-     "name": "Precisão",
-     "games": 1,
-     "wins": 1
-    }
-   ],
-   "spells": [
-    {
-     "key": "4+12",
-     "name": "Flash + Teleporte",
-     "games": 1,
-     "wins": 1
-    }
-   ],
-   "items": [
-    {
-     "key": "2520",
-     "name": "Quebra-Bastião",
-     "games": 1,
-     "wins": 1
-    },
-    {
-     "key": "2517",
-     "name": "Fome Eterna",
-     "games": 1,
-     "wins": 1
-    },
-    {
-     "key": "6696",
-     "name": "Arco do Axioma",
-     "games": 1,
-     "wins": 1
-    },
-    {
-     "key": "6699",
-     "name": "Cicloespada Voltaica",
-     "games": 1,
-     "wins": 1
-    }
-   ],
-   "boots": [
-    {
-     "key": "3168",
-     "name": "Caminho Imortal",
-     "games": 1,
-     "wins": 1
-    }
-   ]
+   "boots": [],
+   "page": {
+    "runes": [
+     8010,
+     8009,
+     9105,
+     8017,
+     8224,
+     8210
+    ],
+    "shards": [
+     5007,
+     5008,
+     5011
+    ],
+    "keystoneGames": 1,
+    "games": 1
+   },
+   "order": null
   }
  }
 }

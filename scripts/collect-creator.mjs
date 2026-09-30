@@ -63,6 +63,35 @@ const isLegendary = (id) => {
   return it && !it.into?.length && (it.gold?.total || 0) >= 2000 && !it.tags?.includes("Boots") && !it.tags?.includes("Consumable");
 };
 
+// Ordem real de compra (timeline): botas tier 2 e os 3 primeiros itens lendários, na ordem em que foram comprados.
+function purchaseOrder(timeline, pid) {
+  const bought = [];
+  for (const frame of timeline?.info?.frames || []) {
+    for (const e of frame.events || []) {
+      if (e.participantId !== pid) continue;
+      if (e.type === "ITEM_PURCHASED") bought.push(String(e.itemId));
+      if (e.type === "ITEM_UNDO" && e.beforeId) {
+        const i = bought.lastIndexOf(String(e.beforeId));
+        if (i > -1) bought.splice(i, 1);
+      }
+    }
+  }
+  const order = [];
+  let legendaries = 0;
+  let boots = false;
+  for (const id of bought) {
+    if (isLegendary(id) && legendaries < 3 && !order.includes(id)) {
+      order.push(id);
+      legendaries++;
+    } else if (isBoots(id) && !boots) {
+      order.push(id);
+      boots = true;
+    }
+    if (legendaries === 3 && boots) break;
+  }
+  return order;
+}
+
 const since = Math.floor((Date.now() - DAYS * 86_400_000) / 1000);
 const records = [];
 for (const riotId of accounts) {
@@ -76,6 +105,7 @@ for (const riotId of accounts) {
   let found = 0;
   for (const id of ids) {
     const m = await riot(`/lol/match/v5/matches/${id}`);
+    // (a timeline só é baixada se a partida for de Zed mid)
     const me = m?.info?.participants.find((p) => p.puuid === acc.puuid);
     if (!me || me.championId !== CHAMP_KEY || me.teamPosition !== "MIDDLE") continue;
     const enemy = m.info.participants.find((p) => p.teamId !== me.teamId && p.teamPosition === "MIDDLE");
@@ -89,6 +119,9 @@ for (const riotId of accounts) {
       spells: [me.summoner1Id, me.summoner2Id].sort((a, b) => a - b),
       items: inv.filter(isLegendary),
       boots: inv.find(isBoots) || null,
+      page: [...me.perks.styles[0].selections, ...me.perks.styles[1].selections].map((s) => s.perk),
+      shards: [me.perks.statPerks.offense, me.perks.statPerks.flex, me.perks.statPerks.defense],
+      order: purchaseOrder(await riot(`/lol/match/v5/matches/${id}/timeline`), me.participantId),
     });
     found++;
   }
@@ -111,6 +144,48 @@ const top = (list, keyOf, nameOf, limit) => {
     .slice(0, limit)
     .map(([k, a]) => ({ key: String(k), name: nameOf(k), games: a.games, wins: a.wins }));
 };
+// Linha (0 = pedra angular) e árvore de cada runa, pra montar a página de consenso.
+const perkRow = {};
+runes.forEach((tree) => tree.slots.forEach((s, row) => s.runes.forEach((r) => (perkRow[r.id] = { row, tree: tree.id }))));
+const mode = (values) => {
+  const c = new Map();
+  values.forEach((v) => v != null && c.set(v, (c.get(v) || 0) + 1));
+  return [...c.entries()].sort((a, b) => b[1] - a[1])[0]?.[0];
+};
+function consensusPage(list) {
+  const withPage = list.filter((r) => r.page);
+  const keystone = mode(withPage.map((r) => r.keystone));
+  const base = withPage.filter((r) => r.keystone === keystone);
+  if (!base.length) return null;
+  const primary = [keystone, 1, 2, 3].map((slot, i) => (i === 0 ? slot : mode(base.map((r) => r.page[i]))));
+  const secTree = mode(base.map((r) => r.secondary));
+  const secPicks = base.filter((r) => r.secondary === secTree).flatMap((r) => r.page.slice(4, 6));
+  const first = mode(secPicks);
+  const second = mode(secPicks.filter((p) => perkRow[p]?.row !== perkRow[first]?.row));
+  const shards = [0, 1, 2].map((i) => mode(base.map((r) => r.shards?.[i])));
+  return { runes: [...primary, first, second].filter(Boolean), shards, keystoneGames: base.length, games: withPage.length };
+}
+function consensusOrder(list) {
+  let pool = list.filter((r) => r.order?.length >= 3);
+  const total = pool.length;
+  if (!total) return null;
+  const legendaries = (r) => r.order.filter((id) => !isBoots(id));
+  const seq = [];
+  for (let i = 0; i < 3; i++) {
+    const pick = mode(pool.map((r) => legendaries(r)[i]).filter((id) => id && !seq.includes(id)));
+    if (!pick) break;
+    seq.push(pick);
+    const narrowed = pool.filter((r) => legendaries(r)[i] === pick);
+    if (narrowed.length >= 3) pool = narrowed; // só afunila enquanto houver amostra
+  }
+  const all = list.filter((r) => r.order?.length >= 3);
+  const boots = mode(all.map((r) => r.order.find((id) => isBoots(id))));
+  const bootsAt = mode(all.map((r) => r.order.filter((id) => !isBoots(id) || id === boots).indexOf(boots)).filter((i) => i >= 0));
+  const items = [...seq];
+  if (boots != null) items.splice(Math.min(bootsAt ?? 1, items.length), 0, boots);
+  const firstTwo = all.filter((r) => legendaries(r)[0] === seq[0] && legendaries(r)[1] === seq[1]);
+  return { items, firstTwoGames: firstTwo.length, firstTwoWins: firstTwo.reduce((s, r) => s + r.win, 0), games: all.length };
+}
 const summarize = (list) => ({
   games: list.length,
   wins: list.reduce((s, r) => s + r.win, 0),
@@ -119,6 +194,8 @@ const summarize = (list) => ({
   spells: top(list, (r) => r.spells.join("+"), (k) => k.split("+").map((s) => spellName[s]).join(" + "), 3),
   items: top(list, (r) => r.items, (k) => itemInfo[k]?.name, 6),
   boots: top(list, (r) => r.boots, (k) => itemInfo[k]?.name, 3),
+  page: consensusPage(list),
+  order: consensusOrder(list),
 });
 
 const byEnemy = {};

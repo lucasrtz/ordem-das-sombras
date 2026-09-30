@@ -3,6 +3,8 @@ import { CREATOR_FUNDAMENTOS } from "../lib/matchups.js";
 import { itemIcon } from "../lib/arena.js";
 import { CHAMPION, CREATOR } from "../config.js";
 import CreatorStats from "./CreatorStats.jsx";
+import { RunePage, ItemPath } from "./Loadout.jsx";
+import { useGameData } from "../lib/gamedata.js";
 
 function StatList({ title, entries, total, version, icons }) {
   if (!entries?.length) return null;
@@ -25,6 +27,7 @@ function StatList({ title, entries, total, version, icons }) {
 }
 
 export default function Fundamentos({ version }) {
+  const data = useGameData(version);
   const o = STATS?.overall;
   return (
     <section className="wrap page">
@@ -62,6 +65,21 @@ export default function Fundamentos({ version }) {
               {STATS.tier} · {platformsLabel(STATS.platforms)} · últimos {STATS.days} dias
             </span>
           </p>
+          {o.page && (
+            <div className="ps-feature">
+              <h3>
+                Página de runas mais comum{" "}
+                <span className="ps-num">pedra angular em {pct(o.page.keystoneGames, o.page.games)}% das partidas</span>
+              </h3>
+              <RunePage data={data} runeIds={o.page.runes} shards={o.page.shards} />
+            </div>
+          )}
+          {o.order?.items?.length > 0 && (
+            <div className="ps-feature">
+              <h3>Ordem de compra mais comum</h3>
+              <ItemPath items={o.order.items.map((id) => ({ id, name: data?.itemById?.get(id) || "" }))} version={version} />
+            </div>
+          )}
           <div className="fund-stats">
             <StatList title="Runa principal" entries={o.keystones} total={o.games} />
             <StatList title="Árvore secundária" entries={o.secondary} total={o.games} />

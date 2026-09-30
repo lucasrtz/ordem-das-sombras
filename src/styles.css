@@ -379,6 +379,39 @@ select {
   .block { padding: 18px 16px; }
 }
 
+/* ---------- build: itens, feitiços, runas ---------- */
+.lo-path { list-style: none; margin: 0; padding: 6px 0 0 6px; display: flex; flex-wrap: wrap; align-items: center; gap: 8px 6px; }
+.lo-item { position: relative; line-height: 0; }
+.lo-item img { display: block; border: 1px solid var(--gold-dim); border-radius: 4px; background: #000; }
+.lo-num {
+  position: absolute; top: -6px; left: -6px; z-index: 1;
+  min-width: 17px; height: 17px; padding: 0 4px; border-radius: 9px;
+  display: grid; place-items: center;
+  background: var(--gold); color: var(--bg); font: 700 11px/1 var(--label);
+}
+.lo-arrow { color: var(--gold-dim); line-height: 0; }
+.lo-spells { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 8px 16px; }
+.lo-spells li { display: flex; align-items: center; gap: 8px; font: 600 15px var(--label); }
+.lo-spells img { display: block; border: 1px solid var(--gold-dim); border-radius: 4px; }
+.lo-runes { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 210px), 290px)); gap: 10px; }
+.lo-tree { border: 1px solid var(--line-soft); background: var(--bg-2); padding: 12px 14px; min-width: 0; }
+.lo-tree-head { display: flex; align-items: center; gap: 10px; padding-bottom: 8px; margin-bottom: 6px; border-bottom: 1px solid var(--line-soft); }
+.lo-tree-head > div { display: grid; }
+.lo-tree-label { font: 600 11px var(--label); letter-spacing: .14em; text-transform: uppercase; color: var(--muted); }
+.lo-tree-name { font: 700 16px var(--label); color: var(--gold-hi); }
+.lo-row { display: flex; gap: 10px; align-items: center; margin: 8px 0; }
+.lo-rune { line-height: 0; border-radius: 50%; }
+.lo-rune img { display: block; border-radius: 50%; filter: grayscale(1) brightness(.6); opacity: .45; transition: opacity .15s, filter .15s; }
+.lo-rune.on img { filter: none; opacity: 1; }
+.lo-rune.on { box-shadow: 0 0 0 2px var(--gold), 0 0 12px color-mix(in srgb, var(--gold) 45%, transparent); }
+.lo-shard { display: grid; place-items: center; width: 28px; height: 28px; border-radius: 50%; border: 1px solid transparent; }
+.lo-shard img { filter: grayscale(1); opacity: .35; }
+.lo-shard.on { border-color: var(--gold); }
+.lo-shard.on img { filter: none; opacity: 1; }
+.lo-caption { margin: 8px 0 0; font-size: 14px; color: var(--muted); }
+.setup-rows { display: grid; gap: 18px; }
+.setup-row h3 { margin: 0 0 8px; font: 600 12px var(--label); letter-spacing: .14em; text-transform: uppercase; color: var(--muted); }
+
 /* ---------- estatísticas do patch ---------- */
 .ps-head { margin: 0 0 12px; font-size: 17px; }
 .ps-head strong { color: var(--gold-hi); }
@@ -478,3 +511,9 @@ select {
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation: none !important; transition: none !important; }
 }
+
+.ps-icons img.round { border-radius: 50%; background: #000; }
+.ps-icons img + img { margin-left: -4px; }
+.ps-feature { margin: 16px 0 18px; }
+.ps-feature h3 { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 10px; margin: 0 0 10px; font: 600 12px var(--label); letter-spacing: .14em; text-transform: uppercase; color: var(--muted); }
+.ps-feature h3 .ps-num { letter-spacing: 0; text-transform: none; }

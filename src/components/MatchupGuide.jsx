@@ -6,6 +6,7 @@ import ChampIcon from "./ChampIcon.jsx";
 import { DifficultyBadge } from "./Difficulty.jsx";
 import PatchStats from "./PatchStats.jsx";
 import CreatorStats from "./CreatorStats.jsx";
+import Setup from "./Setup.jsx";
 import { CHAMPION, CREATOR } from "../config.js";
 
 const SETUP_ORDER = ["Runa", "Feitiços", "Build"];
@@ -50,14 +51,7 @@ export default function MatchupGuide({ m, version }) {
             {setup.length > 0 && (
               <section className="block">
                 <h2 className="block-title">Setup do {CREATOR.name}</h2>
-                <dl className="setup">
-                  {setup.map(([k, v]) => (
-                    <div key={k} className="setup-item">
-                      <dt>{k}</dt>
-                      <dd>{v}</dd>
-                    </div>
-                  ))}
-                </dl>
+                <Setup setup={m.setup} version={version} />
               </section>
             )}
 

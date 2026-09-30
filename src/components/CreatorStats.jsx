@@ -1,10 +1,13 @@
 import { CREATOR_STATS, pct } from "../lib/stats.js";
 import { CHAMPION, CREATOR } from "../config.js";
 import { Row } from "./PatchStats.jsx";
+import { RunePage, ItemPath } from "./Loadout.jsx";
+import { useGameData } from "../lib/gamedata.js";
 
 // "Como o Revy joga": partidas de Zed mid das contas autorizadas por ele.
 // Sem champId mostra o geral (aba Fundamentos).
 export default function CreatorStats({ champId, version }) {
+  const data = useGameData(version);
   if (!CREATOR_STATS) return null;
   const s = champId ? CREATOR_STATS.vs[champId] : CREATOR_STATS.overall;
   const accounts = CREATOR_STATS.accounts?.length ? ` · ${CREATOR_STATS.accounts.join(", ")}` : "";
@@ -24,6 +27,21 @@ export default function CreatorStats({ champId, version }) {
             <span className="ps-scope">{scope}</span>
           </p>
           {s.games < 5 && <p className="fine">Poucas partidas: mostra o que ele usou, não uma regra.</p>}
+          {s.page && (
+            <div className="ps-feature">
+              <h3>
+                Página de runas mais comum{" "}
+                <span className="ps-num">pedra angular em {pct(s.page.keystoneGames, s.page.games)}% das partidas</span>
+              </h3>
+              <RunePage data={data} runeIds={s.page.runes} shards={s.page.shards} />
+            </div>
+          )}
+          {s.order?.items?.length > 0 && (
+            <div className="ps-feature">
+              <h3>Ordem de compra mais comum</h3>
+              <ItemPath items={s.order.items.map((id) => ({ id, name: data?.itemById?.get(id) || "" }))} version={version} />
+            </div>
+          )}
           <dl className="ps">
             <Row label="Runa" entries={s.keystones.slice(0, 2)} total={s.games} />
             <Row label="Feitiços" entries={s.spells.slice(0, 2)} total={s.games} />

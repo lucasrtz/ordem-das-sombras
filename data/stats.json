@@ -1,7 +1,7 @@
 {
  "patch": "16.19",
  "version": "16.19.1",
- "generatedAt": "2026-09-30T03:34:46.437Z",
+ "generatedAt": "2026-09-30T13:04:19.876Z",
  "platforms": [
   "br1",
   "kr",
@@ -124,7 +124,35 @@
     "games": 63,
     "wins": 33
    }
-  ]
+  ],
+  "page": {
+   "runes": [
+    8369,
+    8321,
+    8313,
+    8347,
+    8017,
+    9105
+   ],
+   "shards": [
+    5008,
+    5008,
+    5001
+   ],
+   "keystoneGames": 493,
+   "games": 783
+  },
+  "order": {
+   "items": [
+    "6699",
+    "3158",
+    "2520",
+    "3036"
+   ],
+   "firstTwoGames": 348,
+   "firstTwoWins": 191,
+   "games": 688
+  }
  },
  "vs": {
   "Yone": {
@@ -235,7 +263,35 @@
      "games": 1,
      "wins": 0
     }
-   ]
+   ],
+   "page": {
+    "runes": [
+     8369,
+     8321,
+     8313,
+     8316,
+     8017,
+     9105
+    ],
+    "shards": [
+     5008,
+     5008,
+     5011
+    ],
+    "keystoneGames": 39,
+    "games": 43
+   },
+   "order": {
+    "items": [
+     "6699",
+     "3158",
+     "2520",
+     "6695"
+    ],
+    "firstTwoGames": 16,
+    "firstTwoWins": 7,
+    "games": 40
+   }
   },
   "Viktor": {
    "games": 25,
@@ -351,7 +407,35 @@
      "games": 1,
      "wins": 1
     }
-   ]
+   ],
+   "page": {
+    "runes": [
+     8369,
+     8321,
+     8313,
+     8347,
+     9105,
+     8017
+    ],
+    "shards": [
+     5008,
+     5008,
+     5001
+    ],
+    "keystoneGames": 16,
+    "games": 25
+   },
+   "order": {
+    "items": [
+     "6699",
+     "3158",
+     "2520",
+     "3036"
+    ],
+    "firstTwoGames": 15,
+    "firstTwoWins": 9,
+    "games": 21
+   }
   },
   "Syndra": {
    "games": 33,
@@ -467,7 +551,35 @@
      "games": 2,
      "wins": 0
     }
-   ]
+   ],
+   "page": {
+    "runes": [
+     8112,
+     8143,
+     8140,
+     8106,
+     8237,
+     8210
+    ],
+    "shards": [
+     5008,
+     5008,
+     5011
+    ],
+    "keystoneGames": 14,
+    "games": 33
+   },
+   "order": {
+    "items": [
+     "6699",
+     "3158",
+     "2520",
+     "6696"
+    ],
+    "firstTwoGames": 12,
+    "firstTwoWins": 8,
+    "games": 28
+   }
   },
   "Ambessa": {
    "games": 4,
@@ -565,7 +677,35 @@
      "games": 1,
      "wins": 0
     }
-   ]
+   ],
+   "page": {
+    "runes": [
+     8369,
+     8321,
+     8313,
+     8347,
+     9105,
+     8017
+    ],
+    "shards": [
+     5008,
+     5008,
+     5011
+    ],
+    "keystoneGames": 2,
+    "games": 4
+   },
+   "order": {
+    "items": [
+     "6695",
+     "3158",
+     "6699",
+     "6694"
+    ],
+    "firstTwoGames": 1,
+    "firstTwoWins": 0,
+    "games": 2
+   }
   },
   "Akali": {
    "games": 29,
@@ -681,7 +821,35 @@
      "games": 1,
      "wins": 0
     }
-   ]
+   ],
+   "page": {
+    "runes": [
+     8369,
+     8321,
+     8313,
+     8347,
+     8017,
+     9105
+    ],
+    "shards": [
+     5008,
+     5008,
+     5011
+    ],
+    "keystoneGames": 19,
+    "games": 29
+   },
+   "order": {
+    "items": [
+     "6699",
+     "3158",
+     "2520",
+     "3036"
+    ],
+    "firstTwoGames": 8,
+    "firstTwoWins": 4,
+    "games": 22
+   }
   },
   "Garen": {
    "games": 8,
@@ -785,7 +953,35 @@
      "games": 1,
      "wins": 1
     }
-   ]
+   ],
+   "page": {
+    "runes": [
+     8369,
+     8321,
+     8313,
+     8347,
+     9105,
+     8017
+    ],
+    "shards": [
+     5008,
+     5008,
+     5011
+    ],
+    "keystoneGames": 4,
+    "games": 8
+   },
+   "order": {
+    "items": [
+     "6692",
+     "3158",
+     "6699",
+     "3161"
+    ],
+    "firstTwoGames": 2,
+    "firstTwoWins": 2,
+    "games": 8
+   }
   },
   "Lissandra": {
    "games": 25,
@@ -901,7 +1097,35 @@
      "games": 1,
      "wins": 1
     }
-   ]
+   ],
+   "page": {
+    "runes": [
+     8369,
+     8321,
+     8313,
+     8347,
+     9105,
+     8017
+    ],
+    "shards": [
+     5008,
+     5008,
+     5001
+    ],
+    "keystoneGames": 21,
+    "games": 25
+   },
+   "order": {
+    "items": [
+     "6699",
+     "3158",
+     "2520",
+     "3036"
+    ],
+    "firstTwoGames": 10,
+    "firstTwoWins": 6,
+    "games": 23
+   }
   },
   "Yasuo": {
    "games": 29,
@@ -1017,7 +1241,35 @@
      "games": 1,
      "wins": 0
     }
-   ]
+   ],
+   "page": {
+    "runes": [
+     8369,
+     8321,
+     8313,
+     8316,
+     9105,
+     8017
+    ],
+    "shards": [
+     5008,
+     5008,
+     5001
+    ],
+    "keystoneGames": 21,
+    "games": 29
+   },
+   "order": {
+    "items": [
+     "6699",
+     "3158",
+     "2520",
+     "3036"
+    ],
+    "firstTwoGames": 12,
+    "firstTwoWins": 4,
+    "games": 29
+   }
   },
   "Ryze": {
    "games": 23,
@@ -1133,7 +1385,35 @@
      "games": 1,
      "wins": 1
     }
-   ]
+   ],
+   "page": {
+    "runes": [
+     8369,
+     8321,
+     8313,
+     8316,
+     8017,
+     9105
+    ],
+    "shards": [
+     5008,
+     5008,
+     5001
+    ],
+    "keystoneGames": 14,
+    "games": 23
+   },
+   "order": {
+    "items": [
+     "6699",
+     "3158",
+     "2520",
+     "3036"
+    ],
+    "firstTwoGames": 9,
+    "firstTwoWins": 9,
+    "games": 17
+   }
   },
   "Locke": {
    "games": 46,
@@ -1249,7 +1529,35 @@
      "games": 3,
      "wins": 2
     }
-   ]
+   ],
+   "page": {
+    "runes": [
+     8369,
+     8321,
+     8313,
+     8347,
+     9105,
+     8017
+    ],
+    "shards": [
+     5008,
+     5008,
+     5001
+    ],
+    "keystoneGames": 21,
+    "games": 46
+   },
+   "order": {
+    "items": [
+     "6699",
+     "3158",
+     "2520",
+     "3036"
+    ],
+    "firstTwoGames": 25,
+    "firstTwoWins": 16,
+    "games": 37
+   }
   },
   "Talon": {
    "games": 14,
@@ -1359,7 +1667,35 @@
      "games": 1,
      "wins": 0
     }
-   ]
+   ],
+   "page": {
+    "runes": [
+     8369,
+     8321,
+     8313,
+     8316,
+     9105,
+     8017
+    ],
+    "shards": [
+     5008,
+     5008,
+     5001
+    ],
+    "keystoneGames": 10,
+    "games": 14
+   },
+   "order": {
+    "items": [
+     "6699",
+     "3158",
+     "2520",
+     "3036"
+    ],
+    "firstTwoGames": 6,
+    "firstTwoWins": 4,
+    "games": 13
+   }
   },
   "Katarina": {
    "games": 23,
@@ -1463,7 +1799,35 @@
      "games": 3,
      "wins": 2
     }
-   ]
+   ],
+   "page": {
+    "runes": [
+     8112,
+     8139,
+     8140,
+     8106,
+     8237,
+     8210
+    ],
+    "shards": [
+     5008,
+     5008,
+     5011
+    ],
+    "keystoneGames": 12,
+    "games": 23
+   },
+   "order": {
+    "items": [
+     "6699",
+     "3158",
+     "2520",
+     "3036"
+    ],
+    "firstTwoGames": 12,
+    "firstTwoWins": 10,
+    "games": 22
+   }
   },
   "Zac": {
    "games": 1,
@@ -1531,7 +1895,35 @@
      "games": 1,
      "wins": 1
     }
-   ]
+   ],
+   "page": {
+    "runes": [
+     8369,
+     8321,
+     8313,
+     8347,
+     9105,
+     8017
+    ],
+    "shards": [
+     5008,
+     5008,
+     5001
+    ],
+    "keystoneGames": 1,
+    "games": 1
+   },
+   "order": {
+    "items": [
+     "6699",
+     "3158",
+     "2520",
+     "3033"
+    ],
+    "firstTwoGames": 1,
+    "firstTwoWins": 1,
+    "games": 1
+   }
   },
   "Anivia": {
    "games": 15,
@@ -1647,7 +2039,35 @@
      "games": 2,
      "wins": 1
     }
-   ]
+   ],
+   "page": {
+    "runes": [
+     8369,
+     8321,
+     8313,
+     8347,
+     9105,
+     8017
+    ],
+    "shards": [
+     5008,
+     5008,
+     5001
+    ],
+    "keystoneGames": 9,
+    "games": 15
+   },
+   "order": {
+    "items": [
+     "6699",
+     "3158",
+     "2520",
+     "3036"
+    ],
+    "firstTwoGames": 7,
+    "firstTwoWins": 3,
+    "games": 12
+   }
   },
   "Jayce": {
    "games": 8,
@@ -1745,7 +2165,35 @@
      "games": 8,
      "wins": 5
     }
-   ]
+   ],
+   "page": {
+    "runes": [
+     8369,
+     8321,
+     8313,
+     8347,
+     9105,
+     8017
+    ],
+    "shards": [
+     5008,
+     5008,
+     5011
+    ],
+    "keystoneGames": 7,
+    "games": 8
+   },
+   "order": {
+    "items": [
+     "6699",
+     "3158",
+     "2520",
+     "6694"
+    ],
+    "firstTwoGames": 5,
+    "firstTwoWins": 4,
+    "games": 7
+   }
   },
   "Zoe": {
    "games": 21,
@@ -1855,7 +2303,35 @@
      "games": 3,
      "wins": 1
     }
-   ]
+   ],
+   "page": {
+    "runes": [
+     8369,
+     8321,
+     8313,
+     8316,
+     9105,
+     8017
+    ],
+    "shards": [
+     5008,
+     5008,
+     5001
+    ],
+    "keystoneGames": 14,
+    "games": 21
+   },
+   "order": {
+    "items": [
+     "6699",
+     "3158",
+     "2520",
+     "3814"
+    ],
+    "firstTwoGames": 11,
+    "firstTwoWins": 7,
+    "games": 20
+   }
   },
   "Lucian": {
    "games": 7,
@@ -1941,7 +2417,35 @@
      "games": 7,
      "wins": 3
     }
-   ]
+   ],
+   "page": {
+    "runes": [
+     8369,
+     8321,
+     8313,
+     8347,
+     9105,
+     8017
+    ],
+    "shards": [
+     5008,
+     5008,
+     5011
+    ],
+    "keystoneGames": 6,
+    "games": 7
+   },
+   "order": {
+    "items": [
+     "6699",
+     "3158",
+     "2520",
+     "3814"
+    ],
+    "firstTwoGames": 5,
+    "firstTwoWins": 3,
+    "games": 7
+   }
   },
   "Singed": {
    "games": 3,
@@ -2033,7 +2537,35 @@
      "games": 2,
      "wins": 0
     }
-   ]
+   ],
+   "page": {
+    "runes": [
+     8369,
+     8321,
+     8313,
+     8347,
+     9105,
+     8017
+    ],
+    "shards": [
+     5008,
+     5008,
+     5001
+    ],
+    "keystoneGames": 2,
+    "games": 3
+   },
+   "order": {
+    "items": [
+     "6699",
+     "3158",
+     "2520",
+     "3036"
+    ],
+    "firstTwoGames": 2,
+    "firstTwoWins": 0,
+    "games": 2
+   }
   },
   "Chogath": {
    "games": 3,
@@ -2113,7 +2645,35 @@
      "games": 3,
      "wins": 2
     }
-   ]
+   ],
+   "page": {
+    "runes": [
+     8369,
+     8321,
+     8313,
+     8316,
+     9105,
+     8017
+    ],
+    "shards": [
+     5008,
+     5008,
+     5011
+    ],
+    "keystoneGames": 3,
+    "games": 3
+   },
+   "order": {
+    "items": [
+     "6692",
+     "3158",
+     "6699",
+     "3036"
+    ],
+    "firstTwoGames": 1,
+    "firstTwoWins": 1,
+    "games": 3
+   }
   },
   "Cassiopeia": {
    "games": 10,
@@ -2223,7 +2783,35 @@
      "games": 2,
      "wins": 1
     }
-   ]
+   ],
+   "page": {
+    "runes": [
+     8369,
+     8321,
+     8313,
+     8316,
+     8017,
+     9105
+    ],
+    "shards": [
+     5008,
+     5008,
+     5011
+    ],
+    "keystoneGames": 5,
+    "games": 10
+   },
+   "order": {
+    "items": [
+     "6699",
+     "3158",
+     "2520",
+     "3036"
+    ],
+    "firstTwoGames": 6,
+    "firstTwoWins": 2,
+    "games": 9
+   }
   },
   "Ekko": {
    "games": 25,
@@ -2339,7 +2927,35 @@
      "games": 1,
      "wins": 0
     }
-   ]
+   ],
+   "page": {
+    "runes": [
+     8369,
+     8321,
+     8313,
+     8316,
+     8017,
+     9105
+    ],
+    "shards": [
+     5008,
+     5008,
+     5001
+    ],
+    "keystoneGames": 16,
+    "games": 25
+   },
+   "order": {
+    "items": [
+     "6692",
+     "3158",
+     "6699",
+     "6695"
+    ],
+    "firstTwoGames": 8,
+    "firstTwoWins": 4,
+    "games": 24
+   }
   },
   "Leblanc": {
    "games": 19,
@@ -2449,7 +3065,35 @@
      "games": 1,
      "wins": 1
     }
-   ]
+   ],
+   "page": {
+    "runes": [
+     8112,
+     8139,
+     8140,
+     8106,
+     8210,
+     8237
+    ],
+    "shards": [
+     5008,
+     5008,
+     5011
+    ],
+    "keystoneGames": 10,
+    "games": 19
+   },
+   "order": {
+    "items": [
+     "6699",
+     "3158",
+     "2520",
+     "6696"
+    ],
+    "firstTwoGames": 6,
+    "firstTwoWins": 2,
+    "games": 14
+   }
   },
   "KSante": {
    "games": 1,
@@ -2499,7 +3143,34 @@
      "games": 1,
      "wins": 0
     }
-   ]
+   ],
+   "page": {
+    "runes": [
+     8010,
+     9111,
+     9105,
+     8299,
+     8275,
+     8210
+    ],
+    "shards": [
+     5008,
+     5008,
+     5011
+    ],
+    "keystoneGames": 1,
+    "games": 1
+   },
+   "order": {
+    "items": [
+     "6692",
+     "3047",
+     "3071"
+    ],
+    "firstTwoGames": 1,
+    "firstTwoWins": 0,
+    "games": 1
+   }
   },
   "Sylas": {
    "games": 43,
@@ -2615,7 +3286,35 @@
      "games": 3,
      "wins": 2
     }
-   ]
+   ],
+   "page": {
+    "runes": [
+     8369,
+     8321,
+     8313,
+     8316,
+     8017,
+     9105
+    ],
+    "shards": [
+     5008,
+     5008,
+     5011
+    ],
+    "keystoneGames": 22,
+    "games": 43
+   },
+   "order": {
+    "items": [
+     "6699",
+     "3158",
+     "2520",
+     "3036"
+    ],
+    "firstTwoGames": 16,
+    "firstTwoWins": 7,
+    "games": 38
+   }
   },
   "Neeko": {
    "games": 2,
@@ -2689,7 +3388,35 @@
      "games": 1,
      "wins": 1
     }
-   ]
+   ],
+   "page": {
+    "runes": [
+     8369,
+     8321,
+     8313,
+     8347,
+     8017,
+     9105
+    ],
+    "shards": [
+     5007,
+     5008,
+     5011
+    ],
+    "keystoneGames": 2,
+    "games": 2
+   },
+   "order": {
+    "items": [
+     "6699",
+     "3158",
+     "2517",
+     "3814"
+    ],
+    "firstTwoGames": 1,
+    "firstTwoWins": 1,
+    "games": 1
+   }
   },
   "Poppy": {
    "games": 4,
@@ -2775,7 +3502,35 @@
      "games": 3,
      "wins": 2
     }
-   ]
+   ],
+   "page": {
+    "runes": [
+     8369,
+     8321,
+     8313,
+     8347,
+     8017,
+     9105
+    ],
+    "shards": [
+     5008,
+     5008,
+     5001
+    ],
+    "keystoneGames": 3,
+    "games": 4
+   },
+   "order": {
+    "items": [
+     "2520",
+     "3158",
+     "6696",
+     "6695"
+    ],
+    "firstTwoGames": 1,
+    "firstTwoWins": 1,
+    "games": 3
+   }
   },
   "Elise": {
    "games": 1,
@@ -2836,7 +3591,35 @@
      "wins": 0
     }
    ],
-   "boots": []
+   "boots": [],
+   "page": {
+    "runes": [
+     8369,
+     8321,
+     8313,
+     8316,
+     9105,
+     8017
+    ],
+    "shards": [
+     5008,
+     5008,
+     5011
+    ],
+    "keystoneGames": 1,
+    "games": 1
+   },
+   "order": {
+    "items": [
+     "6699",
+     "3158",
+     "2520",
+     "6333"
+    ],
+    "firstTwoGames": 1,
+    "firstTwoWins": 0,
+    "games": 1
+   }
   },
   "Veigar": {
    "games": 11,
@@ -2952,7 +3735,35 @@
      "games": 1,
      "wins": 1
     }
-   ]
+   ],
+   "page": {
+    "runes": [
+     8369,
+     8321,
+     8313,
+     8347,
+     9105,
+     8017
+    ],
+    "shards": [
+     5008,
+     5008,
+     5011
+    ],
+    "keystoneGames": 8,
+    "games": 11
+   },
+   "order": {
+    "items": [
+     "6699",
+     "3158",
+     "2520",
+     "6695"
+    ],
+    "firstTwoGames": 7,
+    "firstTwoWins": 5,
+    "games": 9
+   }
   },
   "Akshan": {
    "games": 11,
@@ -3062,7 +3873,35 @@
      "games": 1,
      "wins": 0
     }
-   ]
+   ],
+   "page": {
+    "runes": [
+     8369,
+     8321,
+     8313,
+     8347,
+     9105,
+     8017
+    ],
+    "shards": [
+     5008,
+     5008,
+     5011
+    ],
+    "keystoneGames": 8,
+    "games": 11
+   },
+   "order": {
+    "items": [
+     "6699",
+     "3158",
+     "2520",
+     "6694"
+    ],
+    "firstTwoGames": 9,
+    "firstTwoWins": 6,
+    "games": 11
+   }
   },
   "Irelia": {
    "games": 17,
@@ -3178,7 +4017,35 @@
      "games": 1,
      "wins": 0
     }
-   ]
+   ],
+   "page": {
+    "runes": [
+     8369,
+     8321,
+     8313,
+     8347,
+     8017,
+     9105
+    ],
+    "shards": [
+     5008,
+     5008,
+     5011
+    ],
+    "keystoneGames": 12,
+    "games": 17
+   },
+   "order": {
+    "items": [
+     "6699",
+     "3158",
+     "2520",
+     "3036"
+    ],
+    "firstTwoGames": 7,
+    "firstTwoWins": 4,
+    "games": 14
+   }
   },
   "Nasus": {
    "games": 12,
@@ -3294,7 +4161,35 @@
      "games": 1,
      "wins": 1
     }
-   ]
+   ],
+   "page": {
+    "runes": [
+     8369,
+     8321,
+     8313,
+     8347,
+     9105,
+     8017
+    ],
+    "shards": [
+     5008,
+     5008,
+     5011
+    ],
+    "keystoneGames": 8,
+    "games": 12
+   },
+   "order": {
+    "items": [
+     "6699",
+     "3158",
+     "2520",
+     "6694"
+    ],
+    "firstTwoGames": 3,
+    "firstTwoWins": 2,
+    "games": 11
+   }
   },
   "Xerath": {
    "games": 6,
@@ -3392,7 +4287,35 @@
      "games": 1,
      "wins": 0
     }
-   ]
+   ],
+   "page": {
+    "runes": [
+     8369,
+     8321,
+     8313,
+     8347,
+     9105,
+     8017
+    ],
+    "shards": [
+     5008,
+     5008,
+     5001
+    ],
+    "keystoneGames": 5,
+    "games": 6
+   },
+   "order": {
+    "items": [
+     "6699",
+     "3158",
+     "2520",
+     "3814"
+    ],
+    "firstTwoGames": 2,
+    "firstTwoWins": 1,
+    "games": 6
+   }
   },
   "Karma": {
    "games": 1,
@@ -3460,7 +4383,35 @@
      "games": 1,
      "wins": 1
     }
-   ]
+   ],
+   "page": {
+    "runes": [
+     8369,
+     8321,
+     8313,
+     8316,
+     8017,
+     9105
+    ],
+    "shards": [
+     5008,
+     5008,
+     5001
+    ],
+    "keystoneGames": 1,
+    "games": 1
+   },
+   "order": {
+    "items": [
+     "6699",
+     "3158",
+     "2520",
+     "6694"
+    ],
+    "firstTwoGames": 1,
+    "firstTwoWins": 1,
+    "games": 1
+   }
   },
   "TwistedFate": {
    "games": 21,
@@ -3570,7 +4521,35 @@
      "games": 1,
      "wins": 0
     }
-   ]
+   ],
+   "page": {
+    "runes": [
+     8369,
+     8321,
+     8313,
+     8347,
+     9105,
+     8017
+    ],
+    "shards": [
+     5008,
+     5008,
+     5011
+    ],
+    "keystoneGames": 13,
+    "games": 21
+   },
+   "order": {
+    "items": [
+     "6699",
+     "3158",
+     "2520",
+     "3036"
+    ],
+    "firstTwoGames": 10,
+    "firstTwoWins": 5,
+    "games": 18
+   }
   },
   "Ahri": {
    "games": 30,
@@ -3680,7 +4659,35 @@
      "games": 2,
      "wins": 0
     }
-   ]
+   ],
+   "page": {
+    "runes": [
+     8369,
+     8321,
+     8313,
+     8347,
+     9105,
+     8017
+    ],
+    "shards": [
+     5008,
+     5008,
+     5011
+    ],
+    "keystoneGames": 19,
+    "games": 30
+   },
+   "order": {
+    "items": [
+     "6699",
+     "3158",
+     "2520",
+     "3036"
+    ],
+    "firstTwoGames": 18,
+    "firstTwoWins": 10,
+    "games": 27
+   }
   },
   "Azir": {
    "games": 8,
@@ -3784,7 +4791,35 @@
      "games": 1,
      "wins": 0
     }
-   ]
+   ],
+   "page": {
+    "runes": [
+     8369,
+     8321,
+     8313,
+     8347,
+     9105,
+     8017
+    ],
+    "shards": [
+     5008,
+     5008,
+     5011
+    ],
+    "keystoneGames": 6,
+    "games": 8
+   },
+   "order": {
+    "items": [
+     "6699",
+     "3158",
+     "2520",
+     "6696"
+    ],
+    "firstTwoGames": 4,
+    "firstTwoWins": 4,
+    "games": 6
+   }
   },
   "Lux": {
    "games": 3,
@@ -3888,7 +4923,35 @@
      "games": 1,
      "wins": 0
     }
-   ]
+   ],
+   "page": {
+    "runes": [
+     8369,
+     8321,
+     8313,
+     8316,
+     9105,
+     8017
+    ],
+    "shards": [
+     5008,
+     5008,
+     5001
+    ],
+    "keystoneGames": 2,
+    "games": 3
+   },
+   "order": {
+    "items": [
+     "6699",
+     "3008",
+     "6696",
+     "3814"
+    ],
+    "firstTwoGames": 2,
+    "firstTwoWins": 0,
+    "games": 3
+   }
   },
   "Zilean": {
    "games": 1,
@@ -3944,7 +5007,35 @@
      "games": 1,
      "wins": 0
     }
-   ]
+   ],
+   "page": {
+    "runes": [
+     8010,
+     8009,
+     9105,
+     8017,
+     8210,
+     8224
+    ],
+    "shards": [
+     5008,
+     5001,
+     5001
+    ],
+    "keystoneGames": 1,
+    "games": 1
+   },
+   "order": {
+    "items": [
+     "6699",
+     "3008",
+     "6696",
+     "2517"
+    ],
+    "firstTwoGames": 1,
+    "firstTwoWins": 0,
+    "games": 1
+   }
   },
   "Morgana": {
    "games": 1,
@@ -4006,7 +5097,35 @@
      "games": 1,
      "wins": 0
     }
-   ]
+   ],
+   "page": {
+    "runes": [
+     8369,
+     8321,
+     8313,
+     8316,
+     9105,
+     8017
+    ],
+    "shards": [
+     5007,
+     5008,
+     5011
+    ],
+    "keystoneGames": 1,
+    "games": 1
+   },
+   "order": {
+    "items": [
+     "6699",
+     "3008",
+     "2520",
+     "6333"
+    ],
+    "firstTwoGames": 1,
+    "firstTwoWins": 0,
+    "games": 1
+   }
   },
   "Qiyana": {
    "games": 13,
@@ -4110,7 +5229,35 @@
      "games": 11,
      "wins": 4
     }
-   ]
+   ],
+   "page": {
+    "runes": [
+     8369,
+     8321,
+     8313,
+     8347,
+     9105,
+     8017
+    ],
+    "shards": [
+     5008,
+     5008,
+     5001
+    ],
+    "keystoneGames": 7,
+    "games": 13
+   },
+   "order": {
+    "items": [
+     "6692",
+     "3158",
+     "6699",
+     "3814"
+    ],
+    "firstTwoGames": 4,
+    "firstTwoWins": 1,
+    "games": 11
+   }
   },
   "Malphite": {
    "games": 6,
@@ -4214,7 +5361,35 @@
      "games": 1,
      "wins": 0
     }
-   ]
+   ],
+   "page": {
+    "runes": [
+     8369,
+     8321,
+     8313,
+     8316,
+     9105,
+     8017
+    ],
+    "shards": [
+     5008,
+     5008,
+     5001
+    ],
+    "keystoneGames": 4,
+    "games": 6
+   },
+   "order": {
+    "items": [
+     "6699",
+     "3158",
+     "2520",
+     "2517"
+    ],
+    "firstTwoGames": 1,
+    "firstTwoWins": 0,
+    "games": 4
+   }
   },
   "AurelionSol": {
    "games": 4,
@@ -4312,7 +5487,35 @@
      "games": 1,
      "wins": 0
     }
-   ]
+   ],
+   "page": {
+    "runes": [
+     8369,
+     8321,
+     8313,
+     8316,
+     9105,
+     8017
+    ],
+    "shards": [
+     5008,
+     5008,
+     5001
+    ],
+    "keystoneGames": 3,
+    "games": 4
+   },
+   "order": {
+    "items": [
+     "6699",
+     "3158",
+     "2520",
+     "6695"
+    ],
+    "firstTwoGames": 2,
+    "firstTwoWins": 0,
+    "games": 4
+   }
   },
   "Vladimir": {
    "games": 15,
@@ -4422,7 +5625,35 @@
      "games": 1,
      "wins": 1
     }
-   ]
+   ],
+   "page": {
+    "runes": [
+     8369,
+     8321,
+     8313,
+     8316,
+     8017,
+     9105
+    ],
+    "shards": [
+     5008,
+     5008,
+     5001
+    ],
+    "keystoneGames": 11,
+    "games": 15
+   },
+   "order": {
+    "items": [
+     "6699",
+     "3158",
+     "2520",
+     "6695"
+    ],
+    "firstTwoGames": 5,
+    "firstTwoWins": 3,
+    "games": 13
+   }
   },
   "Galio": {
    "games": 11,
@@ -4520,7 +5751,35 @@
      "games": 2,
      "wins": 2
     }
-   ]
+   ],
+   "page": {
+    "runes": [
+     8369,
+     8321,
+     8313,
+     8316,
+     9105,
+     8017
+    ],
+    "shards": [
+     5008,
+     5008,
+     5001
+    ],
+    "keystoneGames": 10,
+    "games": 11
+   },
+   "order": {
+    "items": [
+     "6699",
+     "3158",
+     "2520",
+     "3036"
+    ],
+    "firstTwoGames": 2,
+    "firstTwoWins": 2,
+    "games": 9
+   }
   },
   "Vex": {
    "games": 7,
@@ -4630,7 +5889,35 @@
      "games": 1,
      "wins": 1
     }
-   ]
+   ],
+   "page": {
+    "runes": [
+     8369,
+     8321,
+     8313,
+     8347,
+     8017,
+     9105
+    ],
+    "shards": [
+     5008,
+     5008,
+     5011
+    ],
+    "keystoneGames": 6,
+    "games": 7
+   },
+   "order": {
+    "items": [
+     "6699",
+     "3158",
+     "2520",
+     "3036"
+    ],
+    "firstTwoGames": 3,
+    "firstTwoWins": 2,
+    "games": 6
+   }
   },
   "Gwen": {
    "games": 2,
@@ -4704,7 +5991,35 @@
      "games": 2,
      "wins": 1
     }
-   ]
+   ],
+   "page": {
+    "runes": [
+     8369,
+     8321,
+     8313,
+     8347,
+     8210,
+     8237
+    ],
+    "shards": [
+     5008,
+     5008,
+     5011
+    ],
+    "keystoneGames": 1,
+    "games": 2
+   },
+   "order": {
+    "items": [
+     "6699",
+     "3158",
+     "2520",
+     "3036"
+    ],
+    "firstTwoGames": 2,
+    "firstTwoWins": 1,
+    "games": 2
+   }
   },
   "Orianna": {
    "games": 11,
@@ -4808,7 +6123,35 @@
      "games": 1,
      "wins": 0
     }
-   ]
+   ],
+   "page": {
+    "runes": [
+     8369,
+     8321,
+     8313,
+     8316,
+     8017,
+     9105
+    ],
+    "shards": [
+     5008,
+     5008,
+     5001
+    ],
+    "keystoneGames": 7,
+    "games": 11
+   },
+   "order": {
+    "items": [
+     "6699",
+     "3158",
+     "2520",
+     "6694"
+    ],
+    "firstTwoGames": 7,
+    "firstTwoWins": 3,
+    "games": 9
+   }
   },
   "Aurora": {
    "games": 18,
@@ -4924,7 +6267,35 @@
      "games": 1,
      "wins": 0
     }
-   ]
+   ],
+   "page": {
+    "runes": [
+     8112,
+     8139,
+     8140,
+     8106,
+     8210,
+     8237
+    ],
+    "shards": [
+     5008,
+     5008,
+     5011
+    ],
+    "keystoneGames": 8,
+    "games": 18
+   },
+   "order": {
+    "items": [
+     "6699",
+     "3158",
+     "2520",
+     "6694"
+    ],
+    "firstTwoGames": 13,
+    "firstTwoWins": 5,
+    "games": 17
+   }
   },
   "Tristana": {
    "games": 6,
@@ -5028,7 +6399,35 @@
      "games": 1,
      "wins": 1
     }
-   ]
+   ],
+   "page": {
+    "runes": [
+     8112,
+     8143,
+     8140,
+     8106,
+     8237,
+     8210
+    ],
+    "shards": [
+     5008,
+     5008,
+     5011
+    ],
+    "keystoneGames": 4,
+    "games": 6
+   },
+   "order": {
+    "items": [
+     "6699",
+     "3158",
+     "2520",
+     "3036"
+    ],
+    "firstTwoGames": 4,
+    "firstTwoWins": 3,
+    "games": 6
+   }
   },
   "Fizz": {
    "games": 8,
@@ -5138,7 +6537,35 @@
      "games": 1,
      "wins": 1
     }
-   ]
+   ],
+   "page": {
+    "runes": [
+     8369,
+     8321,
+     8313,
+     8347,
+     9105,
+     8017
+    ],
+    "shards": [
+     5008,
+     5008,
+     5011
+    ],
+    "keystoneGames": 6,
+    "games": 8
+   },
+   "order": {
+    "items": [
+     "6692",
+     "3158",
+     "6699",
+     "6694"
+    ],
+    "firstTwoGames": 3,
+    "firstTwoWins": 0,
+    "games": 8
+   }
   },
   "Vayne": {
    "games": 1,
@@ -5188,7 +6615,34 @@
      "games": 1,
      "wins": 0
     }
-   ]
+   ],
+   "page": {
+    "runes": [
+     8369,
+     8321,
+     8313,
+     8316,
+     8017,
+     9105
+    ],
+    "shards": [
+     5008,
+     5008,
+     5011
+    ],
+    "keystoneGames": 1,
+    "games": 1
+   },
+   "order": {
+    "items": [
+     "6699",
+     "3158",
+     "6695"
+    ],
+    "firstTwoGames": 1,
+    "firstTwoWins": 0,
+    "games": 1
+   }
   },
   "Illaoi": {
    "games": 3,
@@ -5280,7 +6734,35 @@
      "games": 1,
      "wins": 0
     }
-   ]
+   ],
+   "page": {
+    "runes": [
+     8369,
+     8321,
+     8313,
+     8316,
+     8017,
+     9105
+    ],
+    "shards": [
+     5008,
+     5008,
+     5011
+    ],
+    "keystoneGames": 2,
+    "games": 3
+   },
+   "order": {
+    "items": [
+     "6699",
+     "3158",
+     "2520",
+     "3036"
+    ],
+    "firstTwoGames": 1,
+    "firstTwoWins": 1,
+    "games": 3
+   }
   },
   "Rumble": {
    "games": 1,
@@ -5342,7 +6824,35 @@
      "games": 1,
      "wins": 1
     }
-   ]
+   ],
+   "page": {
+    "runes": [
+     8369,
+     8321,
+     8313,
+     8316,
+     9105,
+     8017
+    ],
+    "shards": [
+     5008,
+     5008,
+     5001
+    ],
+    "keystoneGames": 1,
+    "games": 1
+   },
+   "order": {
+    "items": [
+     "6692",
+     "3158",
+     "6699",
+     "3814"
+    ],
+    "firstTwoGames": 1,
+    "firstTwoWins": 1,
+    "games": 1
+   }
   },
   "Hwei": {
    "games": 7,
@@ -5446,7 +6956,35 @@
      "games": 1,
      "wins": 0
     }
-   ]
+   ],
+   "page": {
+    "runes": [
+     8369,
+     8321,
+     8313,
+     8316,
+     9105,
+     8017
+    ],
+    "shards": [
+     5008,
+     5008,
+     5001
+    ],
+    "keystoneGames": 5,
+    "games": 7
+   },
+   "order": {
+    "items": [
+     "6699",
+     "3158",
+     "2520",
+     "3036"
+    ],
+    "firstTwoGames": 5,
+    "firstTwoWins": 1,
+    "games": 7
+   }
   },
   "Naafiri": {
    "games": 2,
@@ -5502,7 +7040,34 @@
      "games": 1,
      "wins": 0
     }
-   ]
+   ],
+   "page": {
+    "runes": [
+     8369,
+     8321,
+     8313,
+     8316,
+     8017,
+     9105
+    ],
+    "shards": [
+     5008,
+     5008,
+     5001
+    ],
+    "keystoneGames": 2,
+    "games": 2
+   },
+   "order": {
+    "items": [
+     "3158",
+     "6699",
+     "2520"
+    ],
+    "firstTwoGames": 1,
+    "firstTwoWins": 0,
+    "games": 1
+   }
   },
   "Taliyah": {
    "games": 6,
@@ -5606,7 +7171,35 @@
      "games": 1,
      "wins": 1
     }
-   ]
+   ],
+   "page": {
+    "runes": [
+     8112,
+     8143,
+     8140,
+     8106,
+     8237,
+     8210
+    ],
+    "shards": [
+     5008,
+     5008,
+     5011
+    ],
+    "keystoneGames": 3,
+    "games": 6
+   },
+   "order": {
+    "items": [
+     "2520",
+     "3158",
+     "6699",
+     "6694"
+    ],
+    "firstTwoGames": 1,
+    "firstTwoWins": 0,
+    "games": 5
+   }
   },
   "Kayle": {
    "games": 5,
@@ -5698,7 +7291,35 @@
      "games": 2,
      "wins": 2
     }
-   ]
+   ],
+   "page": {
+    "runes": [
+     8369,
+     8321,
+     8313,
+     8316,
+     8017,
+     9105
+    ],
+    "shards": [
+     5008,
+     5008,
+     5001
+    ],
+    "keystoneGames": 5,
+    "games": 5
+   },
+   "order": {
+    "items": [
+     "6699",
+     "3158",
+     "2520",
+     "3033"
+    ],
+    "firstTwoGames": 3,
+    "firstTwoWins": 3,
+    "games": 5
+   }
   },
   "Tryndamere": {
    "games": 6,
@@ -5790,7 +7411,35 @@
      "games": 6,
      "wins": 0
     }
-   ]
+   ],
+   "page": {
+    "runes": [
+     8369,
+     8321,
+     8313,
+     8316,
+     9105,
+     8017
+    ],
+    "shards": [
+     5008,
+     5008,
+     5001
+    ],
+    "keystoneGames": 5,
+    "games": 6
+   },
+   "order": {
+    "items": [
+     "6699",
+     "3158",
+     "2520",
+     "3036"
+    ],
+    "firstTwoGames": 3,
+    "firstTwoWins": 0,
+    "games": 6
+   }
   },
   "KogMaw": {
    "games": 3,
@@ -5858,7 +7507,35 @@
      "games": 3,
      "wins": 0
     }
-   ]
+   ],
+   "page": {
+    "runes": [
+     8369,
+     8321,
+     8313,
+     8316,
+     9105,
+     8017
+    ],
+    "shards": [
+     5008,
+     5008,
+     5011
+    ],
+    "keystoneGames": 3,
+    "games": 3
+   },
+   "order": {
+    "items": [
+     "6699",
+     "3158",
+     "2520",
+     "3036"
+    ],
+    "firstTwoGames": 2,
+    "firstTwoWins": 0,
+    "games": 2
+   }
   },
   "Gangplank": {
    "games": 2,
@@ -5938,7 +7615,35 @@
      "games": 1,
      "wins": 1
     }
-   ]
+   ],
+   "page": {
+    "runes": [
+     8369,
+     8321,
+     8313,
+     8316,
+     8017,
+     9105
+    ],
+    "shards": [
+     5008,
+     5008,
+     5001
+    ],
+    "keystoneGames": 2,
+    "games": 2
+   },
+   "order": {
+    "items": [
+     "6699",
+     "2520",
+     "3158",
+     "3036"
+    ],
+    "firstTwoGames": 2,
+    "firstTwoWins": 1,
+    "games": 2
+   }
   },
   "Kassadin": {
    "games": 2,
@@ -6012,7 +7717,35 @@
      "games": 1,
      "wins": 0
     }
-   ]
+   ],
+   "page": {
+    "runes": [
+     8010,
+     9111,
+     9105,
+     8017,
+     8275,
+     8237
+    ],
+    "shards": [
+     5008,
+     5008,
+     5011
+    ],
+    "keystoneGames": 2,
+    "games": 2
+   },
+   "order": {
+    "items": [
+     "6699",
+     "3008",
+     "2520",
+     "3036"
+    ],
+    "firstTwoGames": 2,
+    "firstTwoWins": 0,
+    "games": 2
+   }
   },
   "Viego": {
    "games": 5,
@@ -6104,7 +7837,35 @@
      "games": 5,
      "wins": 3
     }
-   ]
+   ],
+   "page": {
+    "runes": [
+     8369,
+     8321,
+     8313,
+     8316,
+     8017,
+     9105
+    ],
+    "shards": [
+     5008,
+     5008,
+     5011
+    ],
+    "keystoneGames": 4,
+    "games": 5
+   },
+   "order": {
+    "items": [
+     "6699",
+     "3158",
+     "2520",
+     "3036"
+    ],
+    "firstTwoGames": 3,
+    "firstTwoWins": 2,
+    "games": 5
+   }
   },
   "Fiddlesticks": {
    "games": 1,
@@ -6166,7 +7927,35 @@
      "games": 1,
      "wins": 1
     }
-   ]
+   ],
+   "page": {
+    "runes": [
+     8369,
+     8321,
+     8313,
+     8316,
+     8017,
+     9105
+    ],
+    "shards": [
+     5008,
+     5008,
+     5011
+    ],
+    "keystoneGames": 1,
+    "games": 1
+   },
+   "order": {
+    "items": [
+     "2520",
+     "3158",
+     "6699",
+     "3814"
+    ],
+    "firstTwoGames": 1,
+    "firstTwoWins": 1,
+    "games": 1
+   }
   },
   "Nunu": {
    "games": 3,
@@ -6264,7 +8053,35 @@
      "games": 2,
      "wins": 2
     }
-   ]
+   ],
+   "page": {
+    "runes": [
+     8010,
+     9111,
+     9105,
+     8299,
+     8275,
+     8210
+    ],
+    "shards": [
+     5008,
+     5008,
+     5011
+    ],
+    "keystoneGames": 1,
+    "games": 3
+   },
+   "order": {
+    "items": [
+     "3158",
+     "6692",
+     "3814",
+     "2517"
+    ],
+    "firstTwoGames": 1,
+    "firstTwoWins": 1,
+    "games": 2
+   }
   },
   "Quinn": {
    "games": 2,
@@ -6332,7 +8149,35 @@
      "games": 2,
      "wins": 2
     }
-   ]
+   ],
+   "page": {
+    "runes": [
+     8369,
+     8321,
+     8313,
+     8316,
+     9105,
+     8017
+    ],
+    "shards": [
+     5008,
+     5008,
+     5011
+    ],
+    "keystoneGames": 2,
+    "games": 2
+   },
+   "order": {
+    "items": [
+     "6699",
+     "3158",
+     "2520",
+     "3036"
+    ],
+    "firstTwoGames": 2,
+    "firstTwoWins": 2,
+    "games": 2
+   }
   },
   "Karthus": {
    "games": 2,
@@ -6400,7 +8245,35 @@
      "games": 2,
      "wins": 1
     }
-   ]
+   ],
+   "page": {
+    "runes": [
+     8369,
+     8321,
+     8313,
+     8347,
+     8210,
+     8237
+    ],
+    "shards": [
+     5008,
+     5008,
+     5001
+    ],
+    "keystoneGames": 1,
+    "games": 2
+   },
+   "order": {
+    "items": [
+     "6699",
+     "3158",
+     "2520",
+     "6694"
+    ],
+    "firstTwoGames": 2,
+    "firstTwoWins": 1,
+    "games": 2
+   }
   },
   "Annie": {
    "games": 2,
@@ -6462,7 +8335,35 @@
      "games": 1,
      "wins": 1
     }
-   ]
+   ],
+   "page": {
+    "runes": [
+     8369,
+     8321,
+     8313,
+     8316,
+     8017,
+     9105
+    ],
+    "shards": [
+     5008,
+     5008,
+     5001
+    ],
+    "keystoneGames": 2,
+    "games": 2
+   },
+   "order": {
+    "items": [
+     "6699",
+     "3158",
+     "2520",
+     "6695"
+    ],
+    "firstTwoGames": 1,
+    "firstTwoWins": 1,
+    "games": 1
+   }
   },
   "TahmKench": {
    "games": 1,
@@ -6505,7 +8406,25 @@
      "wins": 0
     }
    ],
-   "boots": []
+   "boots": [],
+   "page": {
+    "runes": [
+     8369,
+     8321,
+     8313,
+     8347,
+     8017,
+     9105
+    ],
+    "shards": [
+     5008,
+     5008,
+     5001
+    ],
+    "keystoneGames": 1,
+    "games": 1
+   },
+   "order": null
   },
   "LeeSin": {
    "games": 1,
@@ -6573,7 +8492,35 @@
      "games": 1,
      "wins": 0
     }
-   ]
+   ],
+   "page": {
+    "runes": [
+     8369,
+     8321,
+     8313,
+     8316,
+     8473,
+     8242
+    ],
+    "shards": [
+     5008,
+     5008,
+     5011
+    ],
+    "keystoneGames": 1,
+    "games": 1
+   },
+   "order": {
+    "items": [
+     "6692",
+     "3158",
+     "6695",
+     "3036"
+    ],
+    "firstTwoGames": 1,
+    "firstTwoWins": 0,
+    "games": 1
+   }
   },
   "Pantheon": {
    "games": 3,
@@ -6659,7 +8606,35 @@
      "games": 3,
      "wins": 2
     }
-   ]
+   ],
+   "page": {
+    "runes": [
+     8369,
+     8321,
+     8313,
+     8347,
+     8017,
+     9105
+    ],
+    "shards": [
+     5008,
+     5008,
+     5011
+    ],
+    "keystoneGames": 2,
+    "games": 3
+   },
+   "order": {
+    "items": [
+     "6699",
+     "3158",
+     "6696",
+     "3814"
+    ],
+    "firstTwoGames": 1,
+    "firstTwoWins": 1,
+    "games": 2
+   }
   },
   "Khazix": {
    "games": 2,
@@ -6745,7 +8720,35 @@
      "games": 2,
      "wins": 2
     }
-   ]
+   ],
+   "page": {
+    "runes": [
+     8369,
+     8321,
+     8313,
+     8316,
+     9105,
+     8017
+    ],
+    "shards": [
+     5008,
+     5008,
+     5001
+    ],
+    "keystoneGames": 1,
+    "games": 2
+   },
+   "order": {
+    "items": [
+     "6699",
+     "3158",
+     "6696",
+     "6694"
+    ],
+    "firstTwoGames": 1,
+    "firstTwoWins": 1,
+    "games": 2
+   }
   },
   "Diana": {
    "games": 5,
@@ -6855,7 +8858,35 @@
      "games": 1,
      "wins": 0
     }
-   ]
+   ],
+   "page": {
+    "runes": [
+     8112,
+     8139,
+     8140,
+     8106,
+     8237,
+     8210
+    ],
+    "shards": [
+     5008,
+     5008,
+     5001
+    ],
+    "keystoneGames": 2,
+    "games": 5
+   },
+   "order": {
+    "items": [
+     "6699",
+     "3158",
+     "2520",
+     "3036"
+    ],
+    "firstTwoGames": 2,
+    "firstTwoWins": 2,
+    "games": 5
+   }
   },
   "Mel": {
    "games": 5,
@@ -6965,7 +8996,35 @@
      "games": 1,
      "wins": 1
     }
-   ]
+   ],
+   "page": {
+    "runes": [
+     8369,
+     8321,
+     8313,
+     8347,
+     9105,
+     8017
+    ],
+    "shards": [
+     5008,
+     5008,
+     5011
+    ],
+    "keystoneGames": 3,
+    "games": 5
+   },
+   "order": {
+    "items": [
+     "6699",
+     "2520",
+     "3158",
+     "3036"
+    ],
+    "firstTwoGames": 4,
+    "firstTwoWins": 2,
+    "games": 5
+   }
   },
   "Velkoz": {
    "games": 3,
@@ -7063,7 +9122,35 @@
      "games": 3,
      "wins": 1
     }
-   ]
+   ],
+   "page": {
+    "runes": [
+     8010,
+     8009,
+     9105,
+     8299,
+     8444,
+     8451
+    ],
+    "shards": [
+     5008,
+     5008,
+     5011
+    ],
+    "keystoneGames": 1,
+    "games": 3
+   },
+   "order": {
+    "items": [
+     "6692",
+     "3158",
+     "3071",
+     "3036"
+    ],
+    "firstTwoGames": 1,
+    "firstTwoWins": 1,
+    "games": 3
+   }
   },
   "Malzahar": {
    "games": 2,
@@ -7137,7 +9224,35 @@
      "games": 1,
      "wins": 0
     }
-   ]
+   ],
+   "page": {
+    "runes": [
+     8369,
+     8321,
+     8313,
+     8347,
+     8017,
+     9105
+    ],
+    "shards": [
+     5008,
+     5008,
+     5001
+    ],
+    "keystoneGames": 2,
+    "games": 2
+   },
+   "order": {
+    "items": [
+     "3179",
+     "6698",
+     "3158",
+     "2520"
+    ],
+    "firstTwoGames": 1,
+    "firstTwoWins": 0,
+    "games": 1
+   }
   },
   "Shen": {
    "games": 1,
@@ -7205,7 +9320,35 @@
      "games": 1,
      "wins": 1
     }
-   ]
+   ],
+   "page": {
+    "runes": [
+     8369,
+     8321,
+     8313,
+     8316,
+     9105,
+     8017
+    ],
+    "shards": [
+     5008,
+     5008,
+     5001
+    ],
+    "keystoneGames": 1,
+    "games": 1
+   },
+   "order": {
+    "items": [
+     "6692",
+     "3008",
+     "6699",
+     "3036"
+    ],
+    "firstTwoGames": 1,
+    "firstTwoWins": 1,
+    "games": 1
+   }
   },
   "Riven": {
    "games": 3,
@@ -7297,7 +9440,35 @@
      "games": 1,
      "wins": 0
     }
-   ]
+   ],
+   "page": {
+    "runes": [
+     8369,
+     8321,
+     8345,
+     8316,
+     8210,
+     8236
+    ],
+    "shards": [
+     5008,
+     5008,
+     5001
+    ],
+    "keystoneGames": 2,
+    "games": 3
+   },
+   "order": {
+    "items": [
+     "6692",
+     "3158",
+     "6699",
+     "2520"
+    ],
+    "firstTwoGames": 2,
+    "firstTwoWins": 0,
+    "games": 3
+   }
   },
   "Evelynn": {
    "games": 1,
@@ -7353,7 +9524,35 @@
      "games": 1,
      "wins": 0
     }
-   ]
+   ],
+   "page": {
+    "runes": [
+     8010,
+     8009,
+     9105,
+     8017,
+     8210,
+     8275
+    ],
+    "shards": [
+     5008,
+     5008,
+     5001
+    ],
+    "keystoneGames": 1,
+    "games": 1
+   },
+   "order": {
+    "items": [
+     "2520",
+     "3111",
+     "3071",
+     "6695"
+    ],
+    "firstTwoGames": 1,
+    "firstTwoWins": 0,
+    "games": 1
+   }
   },
   "Corki": {
    "games": 3,
@@ -7433,7 +9632,35 @@
      "games": 3,
      "wins": 1
     }
-   ]
+   ],
+   "page": {
+    "runes": [
+     8369,
+     8321,
+     8313,
+     8347,
+     9105,
+     8017
+    ],
+    "shards": [
+     5008,
+     5008,
+     5011
+    ],
+    "keystoneGames": 2,
+    "games": 3
+   },
+   "order": {
+    "items": [
+     "6692",
+     "3158",
+     "6699",
+     "6694"
+    ],
+    "firstTwoGames": 2,
+    "firstTwoWins": 1,
+    "games": 3
+   }
   },
   "MissFortune": {
    "games": 1,
@@ -7463,7 +9690,25 @@
     }
    ],
    "items": [],
-   "boots": []
+   "boots": [],
+   "page": {
+    "runes": [
+     8010,
+     9111,
+     9105,
+     8299,
+     8275,
+     8210
+    ],
+    "shards": [
+     5008,
+     5008,
+     5001
+    ],
+    "keystoneGames": 1,
+    "games": 1
+   },
+   "order": null
   },
   "Renekton": {
    "games": 1,
@@ -7506,7 +9751,34 @@
      "wins": 0
     }
    ],
-   "boots": []
+   "boots": [],
+   "page": {
+    "runes": [
+     8010,
+     8009,
+     9105,
+     8299,
+     8275,
+     8210
+    ],
+    "shards": [
+     5008,
+     5008,
+     5011
+    ],
+    "keystoneGames": 1,
+    "games": 1
+   },
+   "order": {
+    "items": [
+     "6692",
+     "6699",
+     "3047"
+    ],
+    "firstTwoGames": 1,
+    "firstTwoWins": 0,
+    "games": 1
+   }
   },
   "Ivern": {
    "games": 1,
@@ -7562,7 +9834,35 @@
      "games": 1,
      "wins": 0
     }
-   ]
+   ],
+   "page": {
+    "runes": [
+     8112,
+     8143,
+     8140,
+     8106,
+     8210,
+     8237
+    ],
+    "shards": [
+     5008,
+     5008,
+     5011
+    ],
+    "keystoneGames": 1,
+    "games": 1
+   },
+   "order": {
+    "items": [
+     "6699",
+     "6695",
+     "2520",
+     "3158"
+    ],
+    "firstTwoGames": 1,
+    "firstTwoWins": 0,
+    "games": 1
+   }
   },
   "Aphelios": {
    "games": 1,
@@ -7624,7 +9924,35 @@
      "games": 1,
      "wins": 0
     }
-   ]
+   ],
+   "page": {
+    "runes": [
+     8369,
+     8321,
+     8313,
+     8316,
+     9105,
+     8017
+    ],
+    "shards": [
+     5008,
+     5008,
+     5001
+    ],
+    "keystoneGames": 1,
+    "games": 1
+   },
+   "order": {
+    "items": [
+     "6699",
+     "3158",
+     "2520",
+     "2517"
+    ],
+    "firstTwoGames": 1,
+    "firstTwoWins": 0,
+    "games": 1
+   }
   },
   "Swain": {
    "games": 1,
@@ -7674,7 +10002,34 @@
      "games": 1,
      "wins": 0
     }
-   ]
+   ],
+   "page": {
+    "runes": [
+     8369,
+     8321,
+     8313,
+     8316,
+     8017,
+     9105
+    ],
+    "shards": [
+     5008,
+     5008,
+     5001
+    ],
+    "keystoneGames": 1,
+    "games": 1
+   },
+   "order": {
+    "items": [
+     "6699",
+     "3158",
+     "2520"
+    ],
+    "firstTwoGames": 1,
+    "firstTwoWins": 0,
+    "games": 1
+   }
   },
   "Lulu": {
    "games": 1,
@@ -7730,7 +10085,35 @@
      "games": 1,
      "wins": 1
     }
-   ]
+   ],
+   "page": {
+    "runes": [
+     8369,
+     8321,
+     8313,
+     8316,
+     9105,
+     8017
+    ],
+    "shards": [
+     5008,
+     5008,
+     5011
+    ],
+    "keystoneGames": 1,
+    "games": 1
+   },
+   "order": {
+    "items": [
+     "6699",
+     "3008",
+     "6695",
+     "3036"
+    ],
+    "firstTwoGames": 1,
+    "firstTwoWins": 1,
+    "games": 1
+   }
   },
   "Gragas": {
    "games": 2,
@@ -7822,7 +10205,35 @@
      "games": 2,
      "wins": 2
     }
-   ]
+   ],
+   "page": {
+    "runes": [
+     8010,
+     8009,
+     9105,
+     8017,
+     8275,
+     8210
+    ],
+    "shards": [
+     5008,
+     5008,
+     5011
+    ],
+    "keystoneGames": 1,
+    "games": 2
+   },
+   "order": {
+    "items": [
+     "6699",
+     "3158",
+     "2520",
+     "3036"
+    ],
+    "firstTwoGames": 2,
+    "firstTwoWins": 2,
+    "games": 2
+   }
   },
   "Ziggs": {
    "games": 1,
@@ -7872,7 +10283,34 @@
      "games": 1,
      "wins": 0
     }
-   ]
+   ],
+   "page": {
+    "runes": [
+     8369,
+     8321,
+     8313,
+     8316,
+     8017,
+     9105
+    ],
+    "shards": [
+     5008,
+     5008,
+     5001
+    ],
+    "keystoneGames": 1,
+    "games": 1
+   },
+   "order": {
+    "items": [
+     "6699",
+     "3008",
+     "2520"
+    ],
+    "firstTwoGames": 1,
+    "firstTwoWins": 0,
+    "games": 1
+   }
   },
   "MasterYi": {
    "games": 1,
@@ -7922,7 +10360,34 @@
      "games": 1,
      "wins": 1
     }
-   ]
+   ],
+   "page": {
+    "runes": [
+     8010,
+     9111,
+     9105,
+     8017,
+     8210,
+     8275
+    ],
+    "shards": [
+     5008,
+     5008,
+     5011
+    ],
+    "keystoneGames": 1,
+    "games": 1
+   },
+   "order": {
+    "items": [
+     "6699",
+     "3158",
+     "2520"
+    ],
+    "firstTwoGames": 1,
+    "firstTwoWins": 1,
+    "games": 1
+   }
   },
   "Ornn": {
    "games": 1,
@@ -7972,7 +10437,34 @@
      "games": 1,
      "wins": 0
     }
-   ]
+   ],
+   "page": {
+    "runes": [
+     8369,
+     8321,
+     8313,
+     8316,
+     8017,
+     9105
+    ],
+    "shards": [
+     5008,
+     5008,
+     5011
+    ],
+    "keystoneGames": 1,
+    "games": 1
+   },
+   "order": {
+    "items": [
+     "6699",
+     "3158",
+     "2520"
+    ],
+    "firstTwoGames": 1,
+    "firstTwoWins": 0,
+    "games": 1
+   }
   },
   "Nocturne": {
    "games": 1,
@@ -8022,7 +10514,34 @@
      "games": 1,
      "wins": 1
     }
-   ]
+   ],
+   "page": {
+    "runes": [
+     8369,
+     8304,
+     8313,
+     8347,
+     9105,
+     8017
+    ],
+    "shards": [
+     5008,
+     5008,
+     5011
+    ],
+    "keystoneGames": 1,
+    "games": 1
+   },
+   "order": {
+    "items": [
+     "6699",
+     "3158",
+     "2520"
+    ],
+    "firstTwoGames": 1,
+    "firstTwoWins": 1,
+    "games": 1
+   }
   }
  }
 }

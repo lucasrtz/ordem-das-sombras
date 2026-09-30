@@ -1,5 +1,7 @@
 // Coleta estatísticas agregadas de Zed mid por inimigo, direto da API oficial da Riot.
-// Uso: node scripts/collect-stats.mjs [--platforms br1,kr,euw1,na1] [--minutes 60] [--days 21] [--aggregate-only]
+// Uso: node scripts/collect-stats.mjs [--platforms br1,kr,euw1,na1] [--minutes 60] [--days 21] [--enrich] [--aggregate-only]
+// --enrich: completa as partidas do cache com página de runas e ordem de compra (baixa a partida e a timeline de novo).
+// --aggregate-only: só recalcula data/stats.json com o cache, sem chamar a API.
 // Precisa de RIOT_API_KEY no .env. Resultado: data/stats.json (só agregados, nenhum jogador identificável).
 // Pode ser interrompido e rodado de novo: o progresso fica em data/.cache/.
 import fs from "node:fs";
@@ -24,7 +26,8 @@ const REGION_OF = { br1: "americas", na1: "americas", la1: "americas", la2: "ame
 const PLATFORMS = arg("platforms", "br1,kr,euw1,na1").split(",");
 const MAX_MS = Number(arg("minutes", 60)) * 60_000;
 const DAYS = Number(arg("days", 21));
-const AGGREGATE_ONLY = process.argv.includes("--aggregate-only"); // só recalcula stats.json com o cache, sem chamar a API
+const ENRICH = process.argv.includes("--enrich");
+const AGGREGATE_ONLY = process.argv.includes("--aggregate-only");
 const CHAMP_KEY = 238; // Zed
 const MIN_POINTS = 30_000; // maestria mínima pra considerar alguém jogador de Zed
 
@@ -134,7 +137,46 @@ function extract(m) {
     items: inv.filter(isLegendary),
     boots: inv.find(isBoots) || null,
     minutes: Math.round(info.gameDuration / 60),
+    pid: me.participantId,
+    page: [...me.perks.styles[0].selections, ...me.perks.styles[1].selections].map((s) => s.perk),
+    shards: [me.perks.statPerks.offense, me.perks.statPerks.flex, me.perks.statPerks.defense],
   };
+}
+
+// Ordem real de compra (timeline): botas tier 2 e os 3 primeiros itens lendários, na ordem em que foram comprados.
+function purchaseOrder(timeline, pid) {
+  const bought = [];
+  for (const frame of timeline?.info?.frames || []) {
+    for (const e of frame.events || []) {
+      if (e.participantId !== pid) continue;
+      if (e.type === "ITEM_PURCHASED") bought.push(String(e.itemId));
+      if (e.type === "ITEM_UNDO" && e.beforeId) {
+        const i = bought.lastIndexOf(String(e.beforeId));
+        if (i > -1) bought.splice(i, 1);
+      }
+    }
+  }
+  const order = [];
+  let legendaries = 0;
+  let boots = false;
+  for (const id of bought) {
+    if (isLegendary(id) && legendaries < 3 && !order.includes(id)) {
+      order.push(id);
+      legendaries++;
+    } else if (isBoots(id) && !boots) {
+      order.push(id);
+      boots = true;
+    }
+    if (legendaries === 3 && boots) break;
+  }
+  return order;
+}
+const regionOfMatch = (id) => REGION_OF[id.split("_")[0].toLowerCase()];
+async function addDetails(id, record, m) {
+  if (!record) return record;
+  const tl = await riot(regionOfMatch(id), `/lol/match/v5/matches/${id}/timeline`);
+  const full = { ...record, ...((m && extract(m)) || {}) };
+  return { ...full, order: tl ? purchaseOrder(tl, full.pid) : [] };
 }
 
 async function collectPlatform(platform) {
@@ -182,7 +224,7 @@ async function collectPlatform(platform) {
       for (const id of ids) {
         if (id in matches || timeLeft() <= 0) continue;
         const m = await riot(region, `/lol/match/v5/matches/${id}`);
-        matches[id] = m ? extract(m) : 0;
+        matches[id] = m ? await addDetails(id, extract(m), m) : 0;
         save();
       }
       seenIds[puuid] = Date.now();
@@ -201,7 +243,28 @@ function log() {
 }
 const ticker = setInterval(log, 60_000);
 
-if (!AGGREGATE_ONLY) {
+if (ENRICH) {
+  // Partidas do cache sem página de runas/ordem de compra: baixa de novo, em paralelo por região.
+  const pending = Object.entries(matches).filter(([, r]) => r && (!r.page || !r.order));
+  console.log(`Completando ${pending.length} partidas com runas e ordem de compra...`);
+  const byRegion = {};
+  pending.forEach(([id, r]) => (byRegion[regionOfMatch(id)] ||= []).push([id, r]));
+  let done = 0;
+  try {
+    await Promise.all(
+      Object.entries(byRegion).map(async ([region, list]) => {
+        for (const [id, r] of list) {
+          const m = await riot(region, `/lol/match/v5/matches/${id}`);
+          matches[id] = await addDetails(id, r, m);
+          if (++done % 50 === 0) console.log(`  ${done}/${pending.length}`);
+          save();
+        }
+      })
+    );
+  } finally {
+    save(true);
+  }
+} else if (!AGGREGATE_ONLY) {
   try {
     await Promise.all(PLATFORMS.map((p) => collectPlatform(p).catch((e) => console.error(`${p}: ${e.message}`))));
   } finally {
@@ -228,6 +291,48 @@ const top = (list, keyOf, nameOf, limit) => {
     .slice(0, limit)
     .map(([k, a]) => ({ key: String(k), name: nameOf(k), games: a.games, wins: a.wins }));
 };
+// Linha (0 = pedra angular) e árvore de cada runa, pra montar a página de consenso.
+const perkRow = {};
+runes.forEach((tree) => tree.slots.forEach((s, row) => s.runes.forEach((r) => (perkRow[r.id] = { row, tree: tree.id }))));
+const mode = (values) => {
+  const c = new Map();
+  values.forEach((v) => v != null && c.set(v, (c.get(v) || 0) + 1));
+  return [...c.entries()].sort((a, b) => b[1] - a[1])[0]?.[0];
+};
+function consensusPage(list) {
+  const withPage = list.filter((r) => r.page);
+  const keystone = mode(withPage.map((r) => r.keystone));
+  const base = withPage.filter((r) => r.keystone === keystone);
+  if (!base.length) return null;
+  const primary = [keystone, 1, 2, 3].map((slot, i) => (i === 0 ? slot : mode(base.map((r) => r.page[i]))));
+  const secTree = mode(base.map((r) => r.secondary));
+  const secPicks = base.filter((r) => r.secondary === secTree).flatMap((r) => r.page.slice(4, 6));
+  const first = mode(secPicks);
+  const second = mode(secPicks.filter((p) => perkRow[p]?.row !== perkRow[first]?.row));
+  const shards = [0, 1, 2].map((i) => mode(base.map((r) => r.shards?.[i])));
+  return { runes: [...primary, first, second].filter(Boolean), shards, keystoneGames: base.length, games: withPage.length };
+}
+function consensusOrder(list) {
+  let pool = list.filter((r) => r.order?.length >= 3);
+  const total = pool.length;
+  if (!total) return null;
+  const legendaries = (r) => r.order.filter((id) => !isBoots(id));
+  const seq = [];
+  for (let i = 0; i < 3; i++) {
+    const pick = mode(pool.map((r) => legendaries(r)[i]).filter((id) => id && !seq.includes(id)));
+    if (!pick) break;
+    seq.push(pick);
+    const narrowed = pool.filter((r) => legendaries(r)[i] === pick);
+    if (narrowed.length >= 3) pool = narrowed; // só afunila enquanto houver amostra
+  }
+  const all = list.filter((r) => r.order?.length >= 3);
+  const boots = mode(all.map((r) => r.order.find((id) => isBoots(id))));
+  const bootsAt = mode(all.map((r) => r.order.filter((id) => !isBoots(id) || id === boots).indexOf(boots)).filter((i) => i >= 0));
+  const items = [...seq];
+  if (boots != null) items.splice(Math.min(bootsAt ?? 1, items.length), 0, boots);
+  const firstTwo = all.filter((r) => legendaries(r)[0] === seq[0] && legendaries(r)[1] === seq[1]);
+  return { items, firstTwoGames: firstTwo.length, firstTwoWins: firstTwo.reduce((s, r) => s + r.win, 0), games: all.length };
+}
 const summarize = (list) => ({
   games: list.length,
   wins: list.reduce((s, r) => s + r.win, 0),
@@ -236,6 +341,9 @@ const summarize = (list) => ({
   spells: top(list, (r) => r.spells.join("+"), (k) => k.split("+").map((s) => spellName[s]).join(" + "), 3),
   items: top(list, (r) => r.items, (k) => itemInfo[k]?.name, 6),
   boots: top(list, (r) => r.boots, (k) => itemInfo[k]?.name, 3),
+  // Página de runas e ordem de compra "de consenso": a escolha mais comum de cada linha/posição.
+  page: consensusPage(list),
+  order: consensusOrder(list),
 });
 
 const byEnemy = {};
