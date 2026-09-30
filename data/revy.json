@@ -1,0 +1,9 @@
+{
+  "_como_usar": "Conteúdo do Revy. Em 'matchups', use o nome do campeão em inglês como está no jogo (ex.: \"Ahri\", \"Twisted Fate\", \"Vel'Koz\"). Todos os campos são opcionais: o que ficar vazio é preenchido com os dados da API da Riot. Depois de editar, rode: npm run matchups",
+  "accounts": [
+    "revy#ana"
+  ],
+  "showAccountNames": true,
+  "fundamentos": [],
+  "matchups": {}
+}

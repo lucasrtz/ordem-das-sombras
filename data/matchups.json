@@ -1,0 +1,540 @@
+{
+  "difficultyScale": {
+    "1": "Ultra fácil",
+    "2": "Fácil",
+    "3": "Mediano",
+    "4": "Difícil",
+    "5": "Muito difícil"
+  },
+  "patch": "16.19",
+  "fundamentos": [],
+  "matchups": [
+    {
+      "champion": "Ahri",
+      "class": "Mago",
+      "difficulty": 3,
+      "difficultySource": "dados",
+      "summary": "Zed venceu 47% de 30 partidas contra Ahri no patch 16.19 (média geral do Zed: 49%).",
+      "setup": {
+        "Runa": "Primeiro Ataque",
+        "Feitiços": "Flash + Incendiar",
+        "Build": "Cicloespada Voltaica → Quebra-Bastião → Limiar da Noite"
+      },
+      "setupSource": "dados",
+      "laneTips": [],
+      "onlyTierList": true,
+      "sources": [],
+      "games": 30
+    },
+    {
+      "champion": "Akali",
+      "class": "Assassino",
+      "difficulty": 2,
+      "difficultySource": "dados",
+      "summary": "Zed venceu 55% de 29 partidas contra Akali no patch 16.19 (média geral do Zed: 49%).",
+      "setup": {
+        "Runa": "Primeiro Ataque",
+        "Feitiços": "Flash + Incendiar",
+        "Build": "Cicloespada Voltaica → Quebra-Bastião → Eclipse"
+      },
+      "setupSource": "dados",
+      "laneTips": [],
+      "onlyTierList": true,
+      "sources": [],
+      "games": 29
+    },
+    {
+      "champion": "Akshan",
+      "class": "Atirador",
+      "difficulty": 1,
+      "difficultySource": "dados",
+      "summary": "Zed venceu 64% de 11 partidas contra Akshan no patch 16.19 (média geral do Zed: 49%).",
+      "setup": {
+        "Runa": "Primeiro Ataque",
+        "Feitiços": "Flash + Incendiar",
+        "Build": "Cicloespada Voltaica → Quebra-Bastião → Rancor de Serylda"
+      },
+      "setupSource": "dados",
+      "laneTips": [],
+      "onlyTierList": true,
+      "sources": [],
+      "games": 11
+    },
+    {
+      "champion": "Anivia",
+      "class": "Mago",
+      "difficulty": 2,
+      "difficultySource": "dados",
+      "summary": "Zed venceu 60% de 15 partidas contra Anivia no patch 16.19 (média geral do Zed: 49%).",
+      "setup": {
+        "Runa": "Primeiro Ataque",
+        "Feitiços": "Flash + Incendiar",
+        "Build": "Cicloespada Voltaica → Quebra-Bastião → Lembranças do Lorde Dominik"
+      },
+      "setupSource": "dados",
+      "laneTips": [],
+      "onlyTierList": true,
+      "sources": [],
+      "games": 15
+    },
+    {
+      "champion": "Aurora",
+      "class": "Mago",
+      "difficulty": 5,
+      "difficultySource": "dados",
+      "summary": "Zed venceu 33% de 18 partidas contra Aurora no patch 16.19 (média geral do Zed: 49%).",
+      "setup": {
+        "Runa": "Eletrocutar",
+        "Feitiços": "Flash + Incendiar",
+        "Build": "Cicloespada Voltaica → Quebra-Bastião → Limiar da Noite"
+      },
+      "setupSource": "dados",
+      "laneTips": [],
+      "onlyTierList": true,
+      "sources": [],
+      "games": 18
+    },
+    {
+      "champion": "Azir",
+      "class": "Mago",
+      "difficulty": 2,
+      "difficultySource": "dados",
+      "summary": "Zed venceu 63% de 8 partidas contra Azir no patch 16.19 (média geral do Zed: 49%).",
+      "setup": {
+        "Runa": "Primeiro Ataque",
+        "Feitiços": "Flash + Teleporte",
+        "Build": "Cicloespada Voltaica → Quebra-Bastião → Presa da Serpente"
+      },
+      "setupSource": "dados",
+      "laneTips": [],
+      "onlyTierList": true,
+      "sources": [],
+      "games": 8
+    },
+    {
+      "champion": "Cassiopeia",
+      "class": "Mago",
+      "difficulty": 3,
+      "difficultySource": "dados",
+      "summary": "Zed venceu 50% de 10 partidas contra Cassiopeia no patch 16.19 (média geral do Zed: 49%).",
+      "setup": {
+        "Runa": "Primeiro Ataque",
+        "Feitiços": "Flash + Incendiar",
+        "Build": "Cicloespada Voltaica → Quebra-Bastião → Presa da Serpente"
+      },
+      "setupSource": "dados",
+      "laneTips": [],
+      "onlyTierList": true,
+      "sources": [],
+      "games": 10
+    },
+    {
+      "champion": "Ekko",
+      "class": "Assassino",
+      "difficulty": 3,
+      "difficultySource": "dados",
+      "summary": "Zed venceu 52% de 25 partidas contra Ekko no patch 16.19 (média geral do Zed: 49%).",
+      "setup": {
+        "Runa": "Primeiro Ataque",
+        "Feitiços": "Flash + Incendiar",
+        "Build": "Cicloespada Voltaica → Eclipse → Quebra-Bastião"
+      },
+      "setupSource": "dados",
+      "laneTips": [],
+      "onlyTierList": true,
+      "sources": [],
+      "games": 25
+    },
+    {
+      "champion": "Fizz",
+      "class": "Assassino",
+      "difficulty": 3,
+      "difficultySource": "dados",
+      "summary": "Zed venceu 50% de 8 partidas contra Fizz no patch 16.19 (média geral do Zed: 49%).",
+      "setup": {
+        "Runa": "Primeiro Ataque",
+        "Feitiços": "Flash + Incendiar",
+        "Build": "Cicloespada Voltaica → Quebra-Bastião → Eclipse"
+      },
+      "setupSource": "dados",
+      "laneTips": [],
+      "onlyTierList": true,
+      "sources": [],
+      "games": 8
+    },
+    {
+      "champion": "Galio",
+      "class": "Tanque",
+      "difficulty": 3,
+      "difficultySource": "dados",
+      "summary": "Zed venceu 45% de 11 partidas contra Galio no patch 16.19 (média geral do Zed: 49%).",
+      "setup": {
+        "Runa": "Primeiro Ataque",
+        "Feitiços": "Flash + Teleporte",
+        "Build": "Cicloespada Voltaica → Quebra-Bastião → Lembranças do Lorde Dominik"
+      },
+      "setupSource": "dados",
+      "laneTips": [],
+      "onlyTierList": true,
+      "sources": [],
+      "games": 11
+    },
+    {
+      "champion": "Garen",
+      "class": "Lutador",
+      "difficulty": 3,
+      "difficultySource": "dados",
+      "summary": "Zed venceu 50% de 8 partidas contra Garen no patch 16.19 (média geral do Zed: 49%).",
+      "setup": {
+        "Runa": "Primeiro Ataque",
+        "Feitiços": "Flash + Incendiar",
+        "Build": "Eclipse → Cicloespada Voltaica → Presa da Serpente"
+      },
+      "setupSource": "dados",
+      "laneTips": [],
+      "onlyTierList": true,
+      "sources": [],
+      "games": 8
+    },
+    {
+      "champion": "Irelia",
+      "class": "Lutador",
+      "difficulty": 4,
+      "difficultySource": "dados",
+      "summary": "Zed venceu 41% de 17 partidas contra Irelia no patch 16.19 (média geral do Zed: 49%).",
+      "setup": {
+        "Runa": "Primeiro Ataque",
+        "Feitiços": "Flash + Incendiar",
+        "Build": "Cicloespada Voltaica → Quebra-Bastião → Eclipse"
+      },
+      "setupSource": "dados",
+      "laneTips": [],
+      "onlyTierList": true,
+      "sources": [],
+      "games": 17
+    },
+    {
+      "champion": "Jayce",
+      "class": "Lutador",
+      "difficulty": 2,
+      "difficultySource": "dados",
+      "summary": "Zed venceu 63% de 8 partidas contra Jayce no patch 16.19 (média geral do Zed: 49%).",
+      "setup": {
+        "Runa": "Primeiro Ataque",
+        "Feitiços": "Flash + Incendiar",
+        "Build": "Quebra-Bastião → Cicloespada Voltaica → Rancor de Serylda"
+      },
+      "setupSource": "dados",
+      "laneTips": [],
+      "onlyTierList": true,
+      "sources": [],
+      "games": 8
+    },
+    {
+      "champion": "Katarina",
+      "class": "Assassino",
+      "difficulty": 2,
+      "difficultySource": "dados",
+      "summary": "Zed venceu 57% de 23 partidas contra Katarina no patch 16.19 (média geral do Zed: 49%).",
+      "setup": {
+        "Runa": "Eletrocutar",
+        "Feitiços": "Flash + Incendiar",
+        "Build": "Cicloespada Voltaica → Quebra-Bastião → Lembranças do Lorde Dominik"
+      },
+      "setupSource": "dados",
+      "laneTips": [],
+      "onlyTierList": true,
+      "sources": [],
+      "games": 23
+    },
+    {
+      "champion": "LeBlanc",
+      "class": "Assassino",
+      "difficulty": 4,
+      "difficultySource": "dados",
+      "summary": "Zed venceu 42% de 19 partidas contra LeBlanc no patch 16.19 (média geral do Zed: 49%).",
+      "setup": {
+        "Runa": "Eletrocutar",
+        "Feitiços": "Flash + Incendiar",
+        "Build": "Cicloespada Voltaica → Quebra-Bastião → Presa da Serpente"
+      },
+      "setupSource": "dados",
+      "laneTips": [],
+      "onlyTierList": true,
+      "sources": [],
+      "games": 19
+    },
+    {
+      "champion": "Lissandra",
+      "class": "Mago",
+      "difficulty": 1,
+      "difficultySource": "dados",
+      "summary": "Zed venceu 60% de 25 partidas contra Lissandra no patch 16.19 (média geral do Zed: 49%).",
+      "setup": {
+        "Runa": "Primeiro Ataque",
+        "Feitiços": "Flash + Incendiar",
+        "Build": "Cicloespada Voltaica → Quebra-Bastião → Eclipse"
+      },
+      "setupSource": "dados",
+      "laneTips": [],
+      "onlyTierList": true,
+      "sources": [],
+      "games": 25
+    },
+    {
+      "champion": "Locke",
+      "class": "Assassino",
+      "difficulty": 1,
+      "difficultySource": "dados",
+      "summary": "Zed venceu 59% de 46 partidas contra Locke no patch 16.19 (média geral do Zed: 49%).",
+      "setup": {
+        "Runa": "Primeiro Ataque",
+        "Feitiços": "Flash + Incendiar",
+        "Build": "Cicloespada Voltaica → Quebra-Bastião → Lembranças do Lorde Dominik"
+      },
+      "setupSource": "dados",
+      "laneTips": [],
+      "onlyTierList": true,
+      "sources": [],
+      "games": 46
+    },
+    {
+      "champion": "Nasus",
+      "class": "Lutador",
+      "difficulty": 3,
+      "difficultySource": "dados",
+      "summary": "Zed venceu 50% de 12 partidas contra Nasus no patch 16.19 (média geral do Zed: 49%).",
+      "setup": {
+        "Runa": "Primeiro Ataque",
+        "Feitiços": "Flash + Incendiar",
+        "Build": "Cicloespada Voltaica → Quebra-Bastião → Lembranças do Lorde Dominik"
+      },
+      "setupSource": "dados",
+      "laneTips": [],
+      "onlyTierList": true,
+      "sources": [],
+      "games": 12
+    },
+    {
+      "champion": "Orianna",
+      "class": "Mago",
+      "difficulty": 3,
+      "difficultySource": "dados",
+      "summary": "Zed venceu 45% de 11 partidas contra Orianna no patch 16.19 (média geral do Zed: 49%).",
+      "setup": {
+        "Runa": "Primeiro Ataque",
+        "Feitiços": "Flash + Teleporte",
+        "Build": "Cicloespada Voltaica → Quebra-Bastião → Rancor de Serylda"
+      },
+      "setupSource": "dados",
+      "laneTips": [],
+      "onlyTierList": true,
+      "sources": [],
+      "games": 11
+    },
+    {
+      "champion": "Qiyana",
+      "class": "Assassino",
+      "difficulty": 5,
+      "difficultySource": "dados",
+      "summary": "Zed venceu 31% de 13 partidas contra Qiyana no patch 16.19 (média geral do Zed: 49%).",
+      "setup": {
+        "Runa": "Primeiro Ataque",
+        "Feitiços": "Flash + Incendiar",
+        "Build": "Cicloespada Voltaica → Quebra-Bastião → Eclipse"
+      },
+      "setupSource": "dados",
+      "laneTips": [],
+      "onlyTierList": true,
+      "sources": [],
+      "games": 13
+    },
+    {
+      "champion": "Ryze",
+      "class": "Mago",
+      "difficulty": 1,
+      "difficultySource": "dados",
+      "summary": "Zed venceu 65% de 23 partidas contra Ryze no patch 16.19 (média geral do Zed: 49%).",
+      "setup": {
+        "Runa": "Primeiro Ataque",
+        "Feitiços": "Flash + Incendiar",
+        "Build": "Cicloespada Voltaica → Quebra-Bastião → Lembranças do Lorde Dominik"
+      },
+      "setupSource": "dados",
+      "laneTips": [],
+      "onlyTierList": true,
+      "sources": [],
+      "games": 23
+    },
+    {
+      "champion": "Sylas",
+      "class": "Mago",
+      "difficulty": 4,
+      "difficultySource": "dados",
+      "summary": "Zed venceu 42% de 43 partidas contra Sylas no patch 16.19 (média geral do Zed: 49%).",
+      "setup": {
+        "Runa": "Primeiro Ataque",
+        "Feitiços": "Flash + Incendiar",
+        "Build": "Cicloespada Voltaica → Quebra-Bastião → Eclipse"
+      },
+      "setupSource": "dados",
+      "laneTips": [],
+      "onlyTierList": true,
+      "sources": [],
+      "games": 43
+    },
+    {
+      "champion": "Syndra",
+      "class": "Mago",
+      "difficulty": 4,
+      "difficultySource": "dados",
+      "summary": "Zed venceu 45% de 33 partidas contra Syndra no patch 16.19 (média geral do Zed: 49%).",
+      "setup": {
+        "Runa": "Eletrocutar",
+        "Feitiços": "Flash + Incendiar",
+        "Build": "Cicloespada Voltaica → Quebra-Bastião → Limiar da Noite"
+      },
+      "setupSource": "dados",
+      "laneTips": [],
+      "onlyTierList": true,
+      "sources": [],
+      "games": 33
+    },
+    {
+      "champion": "Talon",
+      "class": "Assassino",
+      "difficulty": 2,
+      "difficultySource": "dados",
+      "summary": "Zed venceu 57% de 14 partidas contra Talon no patch 16.19 (média geral do Zed: 49%).",
+      "setup": {
+        "Runa": "Primeiro Ataque",
+        "Feitiços": "Flash + Incendiar",
+        "Build": "Cicloespada Voltaica → Quebra-Bastião → Lembranças do Lorde Dominik"
+      },
+      "setupSource": "dados",
+      "laneTips": [],
+      "onlyTierList": true,
+      "sources": [],
+      "games": 14
+    },
+    {
+      "champion": "Twisted Fate",
+      "class": "Mago",
+      "difficulty": 5,
+      "difficultySource": "dados",
+      "summary": "Zed venceu 38% de 21 partidas contra Twisted Fate no patch 16.19 (média geral do Zed: 49%).",
+      "setup": {
+        "Runa": "Primeiro Ataque",
+        "Feitiços": "Flash + Incendiar",
+        "Build": "Cicloespada Voltaica → Quebra-Bastião → Limiar da Noite"
+      },
+      "setupSource": "dados",
+      "laneTips": [],
+      "onlyTierList": true,
+      "sources": [],
+      "games": 21
+    },
+    {
+      "champion": "Veigar",
+      "class": "Mago",
+      "difficulty": 1,
+      "difficultySource": "dados",
+      "summary": "Zed venceu 82% de 11 partidas contra Veigar no patch 16.19 (média geral do Zed: 49%).",
+      "setup": {
+        "Runa": "Primeiro Ataque",
+        "Feitiços": "Flash + Incendiar",
+        "Build": "Cicloespada Voltaica → Quebra-Bastião → Presa da Serpente"
+      },
+      "setupSource": "dados",
+      "laneTips": [],
+      "onlyTierList": true,
+      "sources": [],
+      "games": 11
+    },
+    {
+      "champion": "Viktor",
+      "class": "Mago",
+      "difficulty": 2,
+      "difficultySource": "dados",
+      "summary": "Zed venceu 56% de 25 partidas contra Viktor no patch 16.19 (média geral do Zed: 49%).",
+      "setup": {
+        "Runa": "Primeiro Ataque",
+        "Feitiços": "Flash + Incendiar",
+        "Build": "Cicloespada Voltaica → Quebra-Bastião → Lembranças do Lorde Dominik"
+      },
+      "setupSource": "dados",
+      "laneTips": [],
+      "onlyTierList": true,
+      "sources": [],
+      "games": 25
+    },
+    {
+      "champion": "Vladimir",
+      "class": "Mago",
+      "difficulty": 3,
+      "difficultySource": "dados",
+      "summary": "Zed venceu 53% de 15 partidas contra Vladimir no patch 16.19 (média geral do Zed: 49%).",
+      "setup": {
+        "Runa": "Primeiro Ataque",
+        "Feitiços": "Flash + Incendiar",
+        "Build": "Cicloespada Voltaica → Quebra-Bastião → Eclipse"
+      },
+      "setupSource": "dados",
+      "laneTips": [],
+      "onlyTierList": true,
+      "sources": [],
+      "games": 15
+    },
+    {
+      "champion": "Yasuo",
+      "class": "Lutador",
+      "difficulty": 3,
+      "difficultySource": "dados",
+      "summary": "Zed venceu 52% de 29 partidas contra Yasuo no patch 16.19 (média geral do Zed: 49%).",
+      "setup": {
+        "Runa": "Primeiro Ataque",
+        "Feitiços": "Flash + Incendiar",
+        "Build": "Cicloespada Voltaica → Presa da Serpente → Quebra-Bastião"
+      },
+      "setupSource": "dados",
+      "laneTips": [],
+      "onlyTierList": true,
+      "sources": [],
+      "games": 29
+    },
+    {
+      "champion": "Yone",
+      "class": "Lutador",
+      "difficulty": 3,
+      "difficultySource": "dados",
+      "summary": "Zed venceu 47% de 43 partidas contra Yone no patch 16.19 (média geral do Zed: 49%).",
+      "setup": {
+        "Runa": "Primeiro Ataque",
+        "Feitiços": "Flash + Incendiar",
+        "Build": "Cicloespada Voltaica → Presa da Serpente → Quebra-Bastião"
+      },
+      "setupSource": "dados",
+      "laneTips": [],
+      "onlyTierList": true,
+      "sources": [],
+      "games": 43
+    },
+    {
+      "champion": "Zoe",
+      "class": "Mago",
+      "difficulty": 3,
+      "difficultySource": "dados",
+      "summary": "Zed venceu 48% de 21 partidas contra Zoe no patch 16.19 (média geral do Zed: 49%).",
+      "setup": {
+        "Runa": "Primeiro Ataque",
+        "Feitiços": "Flash + Incendiar",
+        "Build": "Cicloespada Voltaica → Quebra-Bastião → Limiar da Noite"
+      },
+      "setupSource": "dados",
+      "laneTips": [],
+      "onlyTierList": true,
+      "sources": [],
+      "games": 21
+    }
+  ]
+}

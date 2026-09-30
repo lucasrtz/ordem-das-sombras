@@ -1,0 +1,8028 @@
+{
+ "patch": "16.19",
+ "version": "16.19.1",
+ "generatedAt": "2026-09-30T03:34:46.437Z",
+ "platforms": [
+  "br1",
+  "kr",
+  "euw1",
+  "na1"
+ ],
+ "tier": "Mestre+",
+ "days": 21,
+ "overall": {
+  "games": 783,
+  "wins": 384,
+  "keystones": [
+   {
+    "key": "8369",
+    "name": "Primeiro Ataque",
+    "games": 493,
+    "wins": 247
+   },
+   {
+    "key": "8112",
+    "name": "Eletrocutar",
+    "games": 151,
+    "wins": 66
+   },
+   {
+    "key": "8010",
+    "name": "Conquistador",
+    "games": 123,
+    "wins": 62
+   }
+  ],
+  "secondary": [
+   {
+    "key": "8000",
+    "name": "Precisão",
+    "games": 452,
+    "wins": 224
+   },
+   {
+    "key": "8200",
+    "name": "Feitiçaria",
+    "games": 217,
+    "wins": 96
+   }
+  ],
+  "spells": [
+   {
+    "key": "4+14",
+    "name": "Flash + Incendiar",
+    "games": 511,
+    "wins": 250
+   },
+   {
+    "key": "4+12",
+    "name": "Flash + Teleporte",
+    "games": 218,
+    "wins": 109
+   },
+   {
+    "key": "3+4",
+    "name": "Exaustão + Flash",
+    "games": 18,
+    "wins": 9
+   }
+  ],
+  "items": [
+   {
+    "key": "6699",
+    "name": "Cicloespada Voltaica",
+    "games": 677,
+    "wins": 344
+   },
+   {
+    "key": "2520",
+    "name": "Quebra-Bastião",
+    "games": 486,
+    "wins": 250
+   },
+   {
+    "key": "3036",
+    "name": "Lembranças do Lorde Dominik",
+    "games": 218,
+    "wins": 111
+   },
+   {
+    "key": "6695",
+    "name": "Presa da Serpente",
+    "games": 191,
+    "wins": 93
+   },
+   {
+    "key": "3814",
+    "name": "Limiar da Noite",
+    "games": 178,
+    "wins": 111
+   },
+   {
+    "key": "6692",
+    "name": "Eclipse",
+    "games": 175,
+    "wins": 86
+   }
+  ],
+  "boots": [
+   {
+    "key": "3171",
+    "name": "Lucidez Escarlate",
+    "games": 587,
+    "wins": 295
+   },
+   {
+    "key": "3168",
+    "name": "Caminho Imortal",
+    "games": 74,
+    "wins": 39
+   },
+   {
+    "key": "3173",
+    "name": "Esmagadores Acorrentados",
+    "games": 63,
+    "wins": 33
+   }
+  ]
+ },
+ "vs": {
+  "Yone": {
+   "games": 43,
+   "wins": 20,
+   "keystones": [
+    {
+     "key": "8369",
+     "name": "Primeiro Ataque",
+     "games": 39,
+     "wins": 17
+    },
+    {
+     "key": "8112",
+     "name": "Eletrocutar",
+     "games": 3,
+     "wins": 2
+    },
+    {
+     "key": "8010",
+     "name": "Conquistador",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 33,
+     "wins": 14
+    },
+    {
+     "key": "8200",
+     "name": "Feitiçaria",
+     "games": 7,
+     "wins": 4
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 32,
+     "wins": 16
+    },
+    {
+     "key": "4+12",
+     "name": "Flash + Teleporte",
+     "games": 11,
+     "wins": 4
+    }
+   ],
+   "items": [
+    {
+     "key": "6699",
+     "name": "Cicloespada Voltaica",
+     "games": 43,
+     "wins": 20
+    },
+    {
+     "key": "6695",
+     "name": "Presa da Serpente",
+     "games": 28,
+     "wins": 11
+    },
+    {
+     "key": "2520",
+     "name": "Quebra-Bastião",
+     "games": 27,
+     "wins": 13
+    },
+    {
+     "key": "3036",
+     "name": "Lembranças do Lorde Dominik",
+     "games": 13,
+     "wins": 5
+    },
+    {
+     "key": "3814",
+     "name": "Limiar da Noite",
+     "games": 8,
+     "wins": 5
+    },
+    {
+     "key": "6694",
+     "name": "Rancor de Serylda",
+     "games": 7,
+     "wins": 5
+    }
+   ],
+   "boots": [
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 38,
+     "wins": 18
+    },
+    {
+     "key": "3168",
+     "name": "Caminho Imortal",
+     "games": 2,
+     "wins": 1
+    },
+    {
+     "key": "3174",
+     "name": "Mobilização Blindada",
+     "games": 1,
+     "wins": 0
+    }
+   ]
+  },
+  "Viktor": {
+   "games": 25,
+   "wins": 14,
+   "keystones": [
+    {
+     "key": "8369",
+     "name": "Primeiro Ataque",
+     "games": 16,
+     "wins": 9
+    },
+    {
+     "key": "8112",
+     "name": "Eletrocutar",
+     "games": 5,
+     "wins": 2
+    },
+    {
+     "key": "8010",
+     "name": "Conquistador",
+     "games": 4,
+     "wins": 3
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 14,
+     "wins": 8
+    },
+    {
+     "key": "8400",
+     "name": "Determinação",
+     "games": 7,
+     "wins": 4
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 15,
+     "wins": 9
+    },
+    {
+     "key": "4+12",
+     "name": "Flash + Teleporte",
+     "games": 9,
+     "wins": 5
+    },
+    {
+     "key": "3+12",
+     "name": "Exaustão + Teleporte",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "items": [
+    {
+     "key": "6699",
+     "name": "Cicloespada Voltaica",
+     "games": 22,
+     "wins": 13
+    },
+    {
+     "key": "2520",
+     "name": "Quebra-Bastião",
+     "games": 19,
+     "wins": 10
+    },
+    {
+     "key": "3036",
+     "name": "Lembranças do Lorde Dominik",
+     "games": 9,
+     "wins": 4
+    },
+    {
+     "key": "6695",
+     "name": "Presa da Serpente",
+     "games": 8,
+     "wins": 4
+    },
+    {
+     "key": "6692",
+     "name": "Eclipse",
+     "games": 4,
+     "wins": 3
+    },
+    {
+     "key": "2517",
+     "name": "Fome Eterna",
+     "games": 3,
+     "wins": 0
+    }
+   ],
+   "boots": [
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 21,
+     "wins": 12
+    },
+    {
+     "key": "3173",
+     "name": "Esmagadores Acorrentados",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "3168",
+     "name": "Caminho Imortal",
+     "games": 1,
+     "wins": 1
+    }
+   ]
+  },
+  "Syndra": {
+   "games": 33,
+   "wins": 15,
+   "keystones": [
+    {
+     "key": "8112",
+     "name": "Eletrocutar",
+     "games": 14,
+     "wins": 4
+    },
+    {
+     "key": "8369",
+     "name": "Primeiro Ataque",
+     "games": 13,
+     "wins": 8
+    },
+    {
+     "key": "8010",
+     "name": "Conquistador",
+     "games": 6,
+     "wins": 3
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 16,
+     "wins": 9
+    },
+    {
+     "key": "8200",
+     "name": "Feitiçaria",
+     "games": 14,
+     "wins": 4
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 21,
+     "wins": 10
+    },
+    {
+     "key": "4+12",
+     "name": "Flash + Teleporte",
+     "games": 11,
+     "wins": 5
+    },
+    {
+     "key": "1+4",
+     "name": "Purificar + Flash",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "items": [
+    {
+     "key": "6699",
+     "name": "Cicloespada Voltaica",
+     "games": 32,
+     "wins": 15
+    },
+    {
+     "key": "2520",
+     "name": "Quebra-Bastião",
+     "games": 20,
+     "wins": 13
+    },
+    {
+     "key": "3814",
+     "name": "Limiar da Noite",
+     "games": 10,
+     "wins": 7
+    },
+    {
+     "key": "6696",
+     "name": "Arco do Axioma",
+     "games": 6,
+     "wins": 3
+    },
+    {
+     "key": "3036",
+     "name": "Lembranças do Lorde Dominik",
+     "games": 6,
+     "wins": 2
+    },
+    {
+     "key": "6694",
+     "name": "Rancor de Serylda",
+     "games": 4,
+     "wins": 3
+    }
+   ],
+   "boots": [
+    {
+     "key": "3173",
+     "name": "Esmagadores Acorrentados",
+     "games": 15,
+     "wins": 9
+    },
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 15,
+     "wins": 6
+    },
+    {
+     "key": "3168",
+     "name": "Caminho Imortal",
+     "games": 2,
+     "wins": 0
+    }
+   ]
+  },
+  "Ambessa": {
+   "games": 4,
+   "wins": 1,
+   "keystones": [
+    {
+     "key": "8369",
+     "name": "Primeiro Ataque",
+     "games": 2,
+     "wins": 0
+    },
+    {
+     "key": "8229",
+     "name": "Cometa Arcano",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "8010",
+     "name": "Conquistador",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 3,
+     "wins": 1
+    },
+    {
+     "key": "8200",
+     "name": "Feitiçaria",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+12",
+     "name": "Flash + Teleporte",
+     "games": 3,
+     "wins": 1
+    },
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "items": [
+    {
+     "key": "6695",
+     "name": "Presa da Serpente",
+     "games": 3,
+     "wins": 0
+    },
+    {
+     "key": "3814",
+     "name": "Limiar da Noite",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "6699",
+     "name": "Cicloespada Voltaica",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "6694",
+     "name": "Rancor de Serylda",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "6692",
+     "name": "Eclipse",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "3036",
+     "name": "Lembranças do Lorde Dominik",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "boots": [
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 1,
+     "wins": 0
+    }
+   ]
+  },
+  "Akali": {
+   "games": 29,
+   "wins": 16,
+   "keystones": [
+    {
+     "key": "8369",
+     "name": "Primeiro Ataque",
+     "games": 19,
+     "wins": 10
+    },
+    {
+     "key": "8112",
+     "name": "Eletrocutar",
+     "games": 5,
+     "wins": 2
+    },
+    {
+     "key": "8010",
+     "name": "Conquistador",
+     "games": 4,
+     "wins": 3
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 16,
+     "wins": 7
+    },
+    {
+     "key": "8200",
+     "name": "Feitiçaria",
+     "games": 8,
+     "wins": 5
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 18,
+     "wins": 10
+    },
+    {
+     "key": "4+12",
+     "name": "Flash + Teleporte",
+     "games": 10,
+     "wins": 5
+    },
+    {
+     "key": "3+12",
+     "name": "Exaustão + Teleporte",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "items": [
+    {
+     "key": "6699",
+     "name": "Cicloespada Voltaica",
+     "games": 22,
+     "wins": 13
+    },
+    {
+     "key": "2520",
+     "name": "Quebra-Bastião",
+     "games": 18,
+     "wins": 9
+    },
+    {
+     "key": "6692",
+     "name": "Eclipse",
+     "games": 8,
+     "wins": 5
+    },
+    {
+     "key": "3036",
+     "name": "Lembranças do Lorde Dominik",
+     "games": 8,
+     "wins": 4
+    },
+    {
+     "key": "3814",
+     "name": "Limiar da Noite",
+     "games": 8,
+     "wins": 4
+    },
+    {
+     "key": "2517",
+     "name": "Fome Eterna",
+     "games": 5,
+     "wins": 2
+    }
+   ],
+   "boots": [
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 22,
+     "wins": 13
+    },
+    {
+     "key": "3168",
+     "name": "Caminho Imortal",
+     "games": 2,
+     "wins": 1
+    },
+    {
+     "key": "3173",
+     "name": "Esmagadores Acorrentados",
+     "games": 1,
+     "wins": 0
+    }
+   ]
+  },
+  "Garen": {
+   "games": 8,
+   "wins": 4,
+   "keystones": [
+    {
+     "key": "8369",
+     "name": "Primeiro Ataque",
+     "games": 4,
+     "wins": 3
+    },
+    {
+     "key": "8010",
+     "name": "Conquistador",
+     "games": 3,
+     "wins": 1
+    },
+    {
+     "key": "8112",
+     "name": "Eletrocutar",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 4,
+     "wins": 3
+    },
+    {
+     "key": "8200",
+     "name": "Feitiçaria",
+     "games": 3,
+     "wins": 1
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 5,
+     "wins": 2
+    },
+    {
+     "key": "4+12",
+     "name": "Flash + Teleporte",
+     "games": 3,
+     "wins": 2
+    }
+   ],
+   "items": [
+    {
+     "key": "6692",
+     "name": "Eclipse",
+     "games": 5,
+     "wins": 3
+    },
+    {
+     "key": "6699",
+     "name": "Cicloespada Voltaica",
+     "games": 4,
+     "wins": 2
+    },
+    {
+     "key": "6695",
+     "name": "Presa da Serpente",
+     "games": 3,
+     "wins": 2
+    },
+    {
+     "key": "3071",
+     "name": "Cutelo Negro",
+     "games": 3,
+     "wins": 1
+    },
+    {
+     "key": "2520",
+     "name": "Quebra-Bastião",
+     "games": 2,
+     "wins": 1
+    },
+    {
+     "key": "3036",
+     "name": "Lembranças do Lorde Dominik",
+     "games": 2,
+     "wins": 2
+    }
+   ],
+   "boots": [
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 7,
+     "wins": 3
+    },
+    {
+     "key": "3168",
+     "name": "Caminho Imortal",
+     "games": 1,
+     "wins": 1
+    }
+   ]
+  },
+  "Lissandra": {
+   "games": 25,
+   "wins": 15,
+   "keystones": [
+    {
+     "key": "8369",
+     "name": "Primeiro Ataque",
+     "games": 21,
+     "wins": 12
+    },
+    {
+     "key": "8010",
+     "name": "Conquistador",
+     "games": 3,
+     "wins": 2
+    },
+    {
+     "key": "8112",
+     "name": "Eletrocutar",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 16,
+     "wins": 11
+    },
+    {
+     "key": "8200",
+     "name": "Feitiçaria",
+     "games": 6,
+     "wins": 3
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 12,
+     "wins": 8
+    },
+    {
+     "key": "4+12",
+     "name": "Flash + Teleporte",
+     "games": 6,
+     "wins": 5
+    },
+    {
+     "key": "1+4",
+     "name": "Purificar + Flash",
+     "games": 5,
+     "wins": 2
+    }
+   ],
+   "items": [
+    {
+     "key": "6699",
+     "name": "Cicloespada Voltaica",
+     "games": 22,
+     "wins": 14
+    },
+    {
+     "key": "2520",
+     "name": "Quebra-Bastião",
+     "games": 15,
+     "wins": 9
+    },
+    {
+     "key": "6692",
+     "name": "Eclipse",
+     "games": 7,
+     "wins": 4
+    },
+    {
+     "key": "3814",
+     "name": "Limiar da Noite",
+     "games": 7,
+     "wins": 4
+    },
+    {
+     "key": "6696",
+     "name": "Arco do Axioma",
+     "games": 5,
+     "wins": 4
+    },
+    {
+     "key": "3036",
+     "name": "Lembranças do Lorde Dominik",
+     "games": 5,
+     "wins": 3
+    }
+   ],
+   "boots": [
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 17,
+     "wins": 10
+    },
+    {
+     "key": "3173",
+     "name": "Esmagadores Acorrentados",
+     "games": 7,
+     "wins": 4
+    },
+    {
+     "key": "3168",
+     "name": "Caminho Imortal",
+     "games": 1,
+     "wins": 1
+    }
+   ]
+  },
+  "Yasuo": {
+   "games": 29,
+   "wins": 15,
+   "keystones": [
+    {
+     "key": "8369",
+     "name": "Primeiro Ataque",
+     "games": 21,
+     "wins": 11
+    },
+    {
+     "key": "8010",
+     "name": "Conquistador",
+     "games": 5,
+     "wins": 3
+    },
+    {
+     "key": "8112",
+     "name": "Eletrocutar",
+     "games": 3,
+     "wins": 1
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 18,
+     "wins": 10
+    },
+    {
+     "key": "8200",
+     "name": "Feitiçaria",
+     "games": 9,
+     "wins": 4
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 22,
+     "wins": 13
+    },
+    {
+     "key": "4+12",
+     "name": "Flash + Teleporte",
+     "games": 6,
+     "wins": 2
+    },
+    {
+     "key": "3+12",
+     "name": "Exaustão + Teleporte",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "items": [
+    {
+     "key": "6699",
+     "name": "Cicloespada Voltaica",
+     "games": 23,
+     "wins": 12
+    },
+    {
+     "key": "6695",
+     "name": "Presa da Serpente",
+     "games": 19,
+     "wins": 9
+    },
+    {
+     "key": "2520",
+     "name": "Quebra-Bastião",
+     "games": 16,
+     "wins": 7
+    },
+    {
+     "key": "3036",
+     "name": "Lembranças do Lorde Dominik",
+     "games": 10,
+     "wins": 5
+    },
+    {
+     "key": "6692",
+     "name": "Eclipse",
+     "games": 8,
+     "wins": 6
+    },
+    {
+     "key": "3814",
+     "name": "Limiar da Noite",
+     "games": 5,
+     "wins": 2
+    }
+   ],
+   "boots": [
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 23,
+     "wins": 12
+    },
+    {
+     "key": "3174",
+     "name": "Mobilização Blindada",
+     "games": 4,
+     "wins": 3
+    },
+    {
+     "key": "3173",
+     "name": "Esmagadores Acorrentados",
+     "games": 1,
+     "wins": 0
+    }
+   ]
+  },
+  "Ryze": {
+   "games": 23,
+   "wins": 15,
+   "keystones": [
+    {
+     "key": "8369",
+     "name": "Primeiro Ataque",
+     "games": 14,
+     "wins": 10
+    },
+    {
+     "key": "8010",
+     "name": "Conquistador",
+     "games": 6,
+     "wins": 3
+    },
+    {
+     "key": "8112",
+     "name": "Eletrocutar",
+     "games": 2,
+     "wins": 1
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 12,
+     "wins": 9
+    },
+    {
+     "key": "8200",
+     "name": "Feitiçaria",
+     "games": 7,
+     "wins": 3
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 15,
+     "wins": 10
+    },
+    {
+     "key": "4+12",
+     "name": "Flash + Teleporte",
+     "games": 7,
+     "wins": 4
+    },
+    {
+     "key": "3+12",
+     "name": "Exaustão + Teleporte",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "items": [
+    {
+     "key": "6699",
+     "name": "Cicloespada Voltaica",
+     "games": 20,
+     "wins": 14
+    },
+    {
+     "key": "2520",
+     "name": "Quebra-Bastião",
+     "games": 13,
+     "wins": 10
+    },
+    {
+     "key": "3036",
+     "name": "Lembranças do Lorde Dominik",
+     "games": 8,
+     "wins": 7
+    },
+    {
+     "key": "6695",
+     "name": "Presa da Serpente",
+     "games": 6,
+     "wins": 6
+    },
+    {
+     "key": "6692",
+     "name": "Eclipse",
+     "games": 5,
+     "wins": 2
+    },
+    {
+     "key": "2517",
+     "name": "Fome Eterna",
+     "games": 3,
+     "wins": 3
+    }
+   ],
+   "boots": [
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 17,
+     "wins": 13
+    },
+    {
+     "key": "3168",
+     "name": "Caminho Imortal",
+     "games": 4,
+     "wins": 1
+    },
+    {
+     "key": "3173",
+     "name": "Esmagadores Acorrentados",
+     "games": 1,
+     "wins": 1
+    }
+   ]
+  },
+  "Locke": {
+   "games": 46,
+   "wins": 27,
+   "keystones": [
+    {
+     "key": "8369",
+     "name": "Primeiro Ataque",
+     "games": 21,
+     "wins": 15
+    },
+    {
+     "key": "8112",
+     "name": "Eletrocutar",
+     "games": 15,
+     "wins": 6
+    },
+    {
+     "key": "8010",
+     "name": "Conquistador",
+     "games": 8,
+     "wins": 4
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 22,
+     "wins": 15
+    },
+    {
+     "key": "8200",
+     "name": "Feitiçaria",
+     "games": 20,
+     "wins": 8
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 36,
+     "wins": 19
+    },
+    {
+     "key": "4+12",
+     "name": "Flash + Teleporte",
+     "games": 7,
+     "wins": 6
+    },
+    {
+     "key": "3+12",
+     "name": "Exaustão + Teleporte",
+     "games": 2,
+     "wins": 2
+    }
+   ],
+   "items": [
+    {
+     "key": "6699",
+     "name": "Cicloespada Voltaica",
+     "games": 38,
+     "wins": 24
+    },
+    {
+     "key": "2520",
+     "name": "Quebra-Bastião",
+     "games": 31,
+     "wins": 19
+    },
+    {
+     "key": "3036",
+     "name": "Lembranças do Lorde Dominik",
+     "games": 14,
+     "wins": 10
+    },
+    {
+     "key": "6695",
+     "name": "Presa da Serpente",
+     "games": 9,
+     "wins": 7
+    },
+    {
+     "key": "6692",
+     "name": "Eclipse",
+     "games": 9,
+     "wins": 6
+    },
+    {
+     "key": "3814",
+     "name": "Limiar da Noite",
+     "games": 9,
+     "wins": 9
+    }
+   ],
+   "boots": [
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 33,
+     "wins": 20
+    },
+    {
+     "key": "3168",
+     "name": "Caminho Imortal",
+     "games": 4,
+     "wins": 3
+    },
+    {
+     "key": "3173",
+     "name": "Esmagadores Acorrentados",
+     "games": 3,
+     "wins": 2
+    }
+   ]
+  },
+  "Talon": {
+   "games": 14,
+   "wins": 8,
+   "keystones": [
+    {
+     "key": "8369",
+     "name": "Primeiro Ataque",
+     "games": 10,
+     "wins": 6
+    },
+    {
+     "key": "8010",
+     "name": "Conquistador",
+     "games": 2,
+     "wins": 1
+    },
+    {
+     "key": "8112",
+     "name": "Eletrocutar",
+     "games": 2,
+     "wins": 1
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 10,
+     "wins": 6
+    },
+    {
+     "key": "8200",
+     "name": "Feitiçaria",
+     "games": 3,
+     "wins": 2
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 9,
+     "wins": 5
+    },
+    {
+     "key": "4+12",
+     "name": "Flash + Teleporte",
+     "games": 5,
+     "wins": 3
+    }
+   ],
+   "items": [
+    {
+     "key": "6699",
+     "name": "Cicloespada Voltaica",
+     "games": 14,
+     "wins": 8
+    },
+    {
+     "key": "2520",
+     "name": "Quebra-Bastião",
+     "games": 6,
+     "wins": 4
+    },
+    {
+     "key": "3036",
+     "name": "Lembranças do Lorde Dominik",
+     "games": 5,
+     "wins": 4
+    },
+    {
+     "key": "2517",
+     "name": "Fome Eterna",
+     "games": 5,
+     "wins": 4
+    },
+    {
+     "key": "6696",
+     "name": "Arco do Axioma",
+     "games": 4,
+     "wins": 2
+    },
+    {
+     "key": "3814",
+     "name": "Limiar da Noite",
+     "games": 3,
+     "wins": 2
+    }
+   ],
+   "boots": [
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 10,
+     "wins": 6
+    },
+    {
+     "key": "3168",
+     "name": "Caminho Imortal",
+     "games": 2,
+     "wins": 1
+    },
+    {
+     "key": "3174",
+     "name": "Mobilização Blindada",
+     "games": 1,
+     "wins": 0
+    }
+   ]
+  },
+  "Katarina": {
+   "games": 23,
+   "wins": 13,
+   "keystones": [
+    {
+     "key": "8112",
+     "name": "Eletrocutar",
+     "games": 12,
+     "wins": 5
+    },
+    {
+     "key": "8369",
+     "name": "Primeiro Ataque",
+     "games": 8,
+     "wins": 6
+    },
+    {
+     "key": "8010",
+     "name": "Conquistador",
+     "games": 3,
+     "wins": 2
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8200",
+     "name": "Feitiçaria",
+     "games": 10,
+     "wins": 4
+    },
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 10,
+     "wins": 7
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 20,
+     "wins": 10
+    },
+    {
+     "key": "4+12",
+     "name": "Flash + Teleporte",
+     "games": 3,
+     "wins": 3
+    }
+   ],
+   "items": [
+    {
+     "key": "6699",
+     "name": "Cicloespada Voltaica",
+     "games": 22,
+     "wins": 12
+    },
+    {
+     "key": "2520",
+     "name": "Quebra-Bastião",
+     "games": 13,
+     "wins": 10
+    },
+    {
+     "key": "3036",
+     "name": "Lembranças do Lorde Dominik",
+     "games": 8,
+     "wins": 6
+    },
+    {
+     "key": "6692",
+     "name": "Eclipse",
+     "games": 7,
+     "wins": 2
+    },
+    {
+     "key": "3814",
+     "name": "Limiar da Noite",
+     "games": 6,
+     "wins": 4
+    },
+    {
+     "key": "6695",
+     "name": "Presa da Serpente",
+     "games": 6,
+     "wins": 3
+    }
+   ],
+   "boots": [
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 19,
+     "wins": 10
+    },
+    {
+     "key": "3168",
+     "name": "Caminho Imortal",
+     "games": 3,
+     "wins": 2
+    }
+   ]
+  },
+  "Zac": {
+   "games": 1,
+   "wins": 1,
+   "keystones": [
+    {
+     "key": "8369",
+     "name": "Primeiro Ataque",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "items": [
+    {
+     "key": "6699",
+     "name": "Cicloespada Voltaica",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "2520",
+     "name": "Quebra-Bastião",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "3033",
+     "name": "Lembrete Mortal",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "6696",
+     "name": "Arco do Axioma",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "2517",
+     "name": "Fome Eterna",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "boots": [
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 1,
+     "wins": 1
+    }
+   ]
+  },
+  "Anivia": {
+   "games": 15,
+   "wins": 9,
+   "keystones": [
+    {
+     "key": "8369",
+     "name": "Primeiro Ataque",
+     "games": 9,
+     "wins": 5
+    },
+    {
+     "key": "8010",
+     "name": "Conquistador",
+     "games": 3,
+     "wins": 3
+    },
+    {
+     "key": "8112",
+     "name": "Eletrocutar",
+     "games": 2,
+     "wins": 1
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 8,
+     "wins": 4
+    },
+    {
+     "key": "8200",
+     "name": "Feitiçaria",
+     "games": 6,
+     "wins": 4
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 8,
+     "wins": 5
+    },
+    {
+     "key": "4+12",
+     "name": "Flash + Teleporte",
+     "games": 5,
+     "wins": 3
+    },
+    {
+     "key": "3+4",
+     "name": "Exaustão + Flash",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "items": [
+    {
+     "key": "6699",
+     "name": "Cicloespada Voltaica",
+     "games": 14,
+     "wins": 8
+    },
+    {
+     "key": "2520",
+     "name": "Quebra-Bastião",
+     "games": 9,
+     "wins": 4
+    },
+    {
+     "key": "3036",
+     "name": "Lembranças do Lorde Dominik",
+     "games": 6,
+     "wins": 2
+    },
+    {
+     "key": "6692",
+     "name": "Eclipse",
+     "games": 4,
+     "wins": 3
+    },
+    {
+     "key": "2517",
+     "name": "Fome Eterna",
+     "games": 2,
+     "wins": 1
+    },
+    {
+     "key": "3814",
+     "name": "Limiar da Noite",
+     "games": 2,
+     "wins": 2
+    }
+   ],
+   "boots": [
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 10,
+     "wins": 5
+    },
+    {
+     "key": "3168",
+     "name": "Caminho Imortal",
+     "games": 2,
+     "wins": 2
+    },
+    {
+     "key": "3173",
+     "name": "Esmagadores Acorrentados",
+     "games": 2,
+     "wins": 1
+    }
+   ]
+  },
+  "Jayce": {
+   "games": 8,
+   "wins": 5,
+   "keystones": [
+    {
+     "key": "8369",
+     "name": "Primeiro Ataque",
+     "games": 7,
+     "wins": 4
+    },
+    {
+     "key": "8112",
+     "name": "Eletrocutar",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 5,
+     "wins": 4
+    },
+    {
+     "key": "8400",
+     "name": "Determinação",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 6,
+     "wins": 4
+    },
+    {
+     "key": "4+12",
+     "name": "Flash + Teleporte",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "3+12",
+     "name": "Exaustão + Teleporte",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "items": [
+    {
+     "key": "2520",
+     "name": "Quebra-Bastião",
+     "games": 8,
+     "wins": 5
+    },
+    {
+     "key": "6699",
+     "name": "Cicloespada Voltaica",
+     "games": 7,
+     "wins": 5
+    },
+    {
+     "key": "6694",
+     "name": "Rancor de Serylda",
+     "games": 5,
+     "wins": 3
+    },
+    {
+     "key": "2517",
+     "name": "Fome Eterna",
+     "games": 2,
+     "wins": 1
+    },
+    {
+     "key": "3814",
+     "name": "Limiar da Noite",
+     "games": 2,
+     "wins": 1
+    },
+    {
+     "key": "6695",
+     "name": "Presa da Serpente",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "boots": [
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 8,
+     "wins": 5
+    }
+   ]
+  },
+  "Zoe": {
+   "games": 21,
+   "wins": 10,
+   "keystones": [
+    {
+     "key": "8369",
+     "name": "Primeiro Ataque",
+     "games": 14,
+     "wins": 7
+    },
+    {
+     "key": "8112",
+     "name": "Eletrocutar",
+     "games": 5,
+     "wins": 1
+    },
+    {
+     "key": "8229",
+     "name": "Cometa Arcano",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 14,
+     "wins": 6
+    },
+    {
+     "key": "8200",
+     "name": "Feitiçaria",
+     "games": 5,
+     "wins": 2
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 8,
+     "wins": 3
+    },
+    {
+     "key": "1+4",
+     "name": "Purificar + Flash",
+     "games": 5,
+     "wins": 3
+    },
+    {
+     "key": "4+12",
+     "name": "Flash + Teleporte",
+     "games": 5,
+     "wins": 2
+    }
+   ],
+   "items": [
+    {
+     "key": "6699",
+     "name": "Cicloespada Voltaica",
+     "games": 19,
+     "wins": 9
+    },
+    {
+     "key": "2520",
+     "name": "Quebra-Bastião",
+     "games": 14,
+     "wins": 8
+    },
+    {
+     "key": "3814",
+     "name": "Limiar da Noite",
+     "games": 8,
+     "wins": 5
+    },
+    {
+     "key": "3036",
+     "name": "Lembranças do Lorde Dominik",
+     "games": 5,
+     "wins": 2
+    },
+    {
+     "key": "2517",
+     "name": "Fome Eterna",
+     "games": 4,
+     "wins": 1
+    },
+    {
+     "key": "6695",
+     "name": "Presa da Serpente",
+     "games": 4,
+     "wins": 2
+    }
+   ],
+   "boots": [
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 17,
+     "wins": 9
+    },
+    {
+     "key": "3173",
+     "name": "Esmagadores Acorrentados",
+     "games": 3,
+     "wins": 1
+    }
+   ]
+  },
+  "Lucian": {
+   "games": 7,
+   "wins": 3,
+   "keystones": [
+    {
+     "key": "8369",
+     "name": "Primeiro Ataque",
+     "games": 6,
+     "wins": 2
+    },
+    {
+     "key": "8112",
+     "name": "Eletrocutar",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 6,
+     "wins": 2
+    },
+    {
+     "key": "8200",
+     "name": "Feitiçaria",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 7,
+     "wins": 3
+    }
+   ],
+   "items": [
+    {
+     "key": "6699",
+     "name": "Cicloespada Voltaica",
+     "games": 7,
+     "wins": 3
+    },
+    {
+     "key": "2520",
+     "name": "Quebra-Bastião",
+     "games": 6,
+     "wins": 3
+    },
+    {
+     "key": "3814",
+     "name": "Limiar da Noite",
+     "games": 6,
+     "wins": 3
+    },
+    {
+     "key": "6692",
+     "name": "Eclipse",
+     "games": 2,
+     "wins": 0
+    },
+    {
+     "key": "3036",
+     "name": "Lembranças do Lorde Dominik",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "6696",
+     "name": "Arco do Axioma",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "boots": [
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 7,
+     "wins": 3
+    }
+   ]
+  },
+  "Singed": {
+   "games": 3,
+   "wins": 0,
+   "keystones": [
+    {
+     "key": "8369",
+     "name": "Primeiro Ataque",
+     "games": 2,
+     "wins": 0
+    },
+    {
+     "key": "8010",
+     "name": "Conquistador",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 2,
+     "wins": 0
+    },
+    {
+     "key": "8400",
+     "name": "Determinação",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 2,
+     "wins": 0
+    },
+    {
+     "key": "4+12",
+     "name": "Flash + Teleporte",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "items": [
+    {
+     "key": "6699",
+     "name": "Cicloespada Voltaica",
+     "games": 2,
+     "wins": 0
+    },
+    {
+     "key": "2520",
+     "name": "Quebra-Bastião",
+     "games": 2,
+     "wins": 0
+    },
+    {
+     "key": "2517",
+     "name": "Fome Eterna",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "3036",
+     "name": "Lembranças do Lorde Dominik",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "3814",
+     "name": "Limiar da Noite",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "6694",
+     "name": "Rancor de Serylda",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "boots": [
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 2,
+     "wins": 0
+    }
+   ]
+  },
+  "Chogath": {
+   "games": 3,
+   "wins": 2,
+   "keystones": [
+    {
+     "key": "8369",
+     "name": "Primeiro Ataque",
+     "games": 3,
+     "wins": 2
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 3,
+     "wins": 2
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 2,
+     "wins": 1
+    },
+    {
+     "key": "4+12",
+     "name": "Flash + Teleporte",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "items": [
+    {
+     "key": "2520",
+     "name": "Quebra-Bastião",
+     "games": 3,
+     "wins": 2
+    },
+    {
+     "key": "3036",
+     "name": "Lembranças do Lorde Dominik",
+     "games": 3,
+     "wins": 2
+    },
+    {
+     "key": "6699",
+     "name": "Cicloespada Voltaica",
+     "games": 2,
+     "wins": 1
+    },
+    {
+     "key": "6692",
+     "name": "Eclipse",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "6695",
+     "name": "Presa da Serpente",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "3142",
+     "name": "Lâmina Fantasma de Youmuu",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "boots": [
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 3,
+     "wins": 2
+    }
+   ]
+  },
+  "Cassiopeia": {
+   "games": 10,
+   "wins": 5,
+   "keystones": [
+    {
+     "key": "8369",
+     "name": "Primeiro Ataque",
+     "games": 5,
+     "wins": 2
+    },
+    {
+     "key": "8010",
+     "name": "Conquistador",
+     "games": 3,
+     "wins": 2
+    },
+    {
+     "key": "8112",
+     "name": "Eletrocutar",
+     "games": 2,
+     "wins": 1
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8200",
+     "name": "Feitiçaria",
+     "games": 6,
+     "wins": 4
+    },
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 4,
+     "wins": 1
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 7,
+     "wins": 3
+    },
+    {
+     "key": "4+12",
+     "name": "Flash + Teleporte",
+     "games": 2,
+     "wins": 1
+    },
+    {
+     "key": "3+4",
+     "name": "Exaustão + Flash",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "items": [
+    {
+     "key": "6699",
+     "name": "Cicloespada Voltaica",
+     "games": 9,
+     "wins": 4
+    },
+    {
+     "key": "2520",
+     "name": "Quebra-Bastião",
+     "games": 6,
+     "wins": 2
+    },
+    {
+     "key": "6695",
+     "name": "Presa da Serpente",
+     "games": 4,
+     "wins": 2
+    },
+    {
+     "key": "3036",
+     "name": "Lembranças do Lorde Dominik",
+     "games": 3,
+     "wins": 1
+    },
+    {
+     "key": "3814",
+     "name": "Limiar da Noite",
+     "games": 3,
+     "wins": 0
+    },
+    {
+     "key": "6694",
+     "name": "Rancor de Serylda",
+     "games": 2,
+     "wins": 1
+    }
+   ],
+   "boots": [
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 8,
+     "wins": 4
+    },
+    {
+     "key": "3173",
+     "name": "Esmagadores Acorrentados",
+     "games": 2,
+     "wins": 1
+    }
+   ]
+  },
+  "Ekko": {
+   "games": 25,
+   "wins": 13,
+   "keystones": [
+    {
+     "key": "8369",
+     "name": "Primeiro Ataque",
+     "games": 16,
+     "wins": 9
+    },
+    {
+     "key": "8010",
+     "name": "Conquistador",
+     "games": 5,
+     "wins": 2
+    },
+    {
+     "key": "8112",
+     "name": "Eletrocutar",
+     "games": 4,
+     "wins": 2
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 14,
+     "wins": 8
+    },
+    {
+     "key": "8400",
+     "name": "Determinação",
+     "games": 4,
+     "wins": 1
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 17,
+     "wins": 7
+    },
+    {
+     "key": "4+12",
+     "name": "Flash + Teleporte",
+     "games": 7,
+     "wins": 6
+    },
+    {
+     "key": "3+4",
+     "name": "Exaustão + Flash",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "items": [
+    {
+     "key": "6699",
+     "name": "Cicloespada Voltaica",
+     "games": 20,
+     "wins": 11
+    },
+    {
+     "key": "6692",
+     "name": "Eclipse",
+     "games": 14,
+     "wins": 7
+    },
+    {
+     "key": "2520",
+     "name": "Quebra-Bastião",
+     "games": 13,
+     "wins": 6
+    },
+    {
+     "key": "6695",
+     "name": "Presa da Serpente",
+     "games": 10,
+     "wins": 6
+    },
+    {
+     "key": "6694",
+     "name": "Rancor de Serylda",
+     "games": 6,
+     "wins": 2
+    },
+    {
+     "key": "3036",
+     "name": "Lembranças do Lorde Dominik",
+     "games": 6,
+     "wins": 4
+    }
+   ],
+   "boots": [
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 20,
+     "wins": 10
+    },
+    {
+     "key": "3168",
+     "name": "Caminho Imortal",
+     "games": 3,
+     "wins": 3
+    },
+    {
+     "key": "3173",
+     "name": "Esmagadores Acorrentados",
+     "games": 1,
+     "wins": 0
+    }
+   ]
+  },
+  "Leblanc": {
+   "games": 19,
+   "wins": 8,
+   "keystones": [
+    {
+     "key": "8112",
+     "name": "Eletrocutar",
+     "games": 10,
+     "wins": 4
+    },
+    {
+     "key": "8010",
+     "name": "Conquistador",
+     "games": 4,
+     "wins": 2
+    },
+    {
+     "key": "8369",
+     "name": "Primeiro Ataque",
+     "games": 4,
+     "wins": 2
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8200",
+     "name": "Feitiçaria",
+     "games": 8,
+     "wins": 4
+    },
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 6,
+     "wins": 1
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 16,
+     "wins": 7
+    },
+    {
+     "key": "4+12",
+     "name": "Flash + Teleporte",
+     "games": 3,
+     "wins": 1
+    }
+   ],
+   "items": [
+    {
+     "key": "6699",
+     "name": "Cicloespada Voltaica",
+     "games": 14,
+     "wins": 6
+    },
+    {
+     "key": "2520",
+     "name": "Quebra-Bastião",
+     "games": 11,
+     "wins": 4
+    },
+    {
+     "key": "6695",
+     "name": "Presa da Serpente",
+     "games": 5,
+     "wins": 2
+    },
+    {
+     "key": "3814",
+     "name": "Limiar da Noite",
+     "games": 3,
+     "wins": 3
+    },
+    {
+     "key": "6694",
+     "name": "Rancor de Serylda",
+     "games": 3,
+     "wins": 2
+    },
+    {
+     "key": "3036",
+     "name": "Lembranças do Lorde Dominik",
+     "games": 3,
+     "wins": 0
+    }
+   ],
+   "boots": [
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 12,
+     "wins": 4
+    },
+    {
+     "key": "3173",
+     "name": "Esmagadores Acorrentados",
+     "games": 4,
+     "wins": 3
+    },
+    {
+     "key": "3168",
+     "name": "Caminho Imortal",
+     "games": 1,
+     "wins": 1
+    }
+   ]
+  },
+  "KSante": {
+   "games": 1,
+   "wins": 0,
+   "keystones": [
+    {
+     "key": "8010",
+     "name": "Conquistador",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8200",
+     "name": "Feitiçaria",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "spells": [
+    {
+     "key": "3+12",
+     "name": "Exaustão + Teleporte",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "items": [
+    {
+     "key": "6692",
+     "name": "Eclipse",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "3071",
+     "name": "Cutelo Negro",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "boots": [
+    {
+     "key": "3174",
+     "name": "Mobilização Blindada",
+     "games": 1,
+     "wins": 0
+    }
+   ]
+  },
+  "Sylas": {
+   "games": 43,
+   "wins": 18,
+   "keystones": [
+    {
+     "key": "8369",
+     "name": "Primeiro Ataque",
+     "games": 22,
+     "wins": 9
+    },
+    {
+     "key": "8010",
+     "name": "Conquistador",
+     "games": 15,
+     "wins": 8
+    },
+    {
+     "key": "8112",
+     "name": "Eletrocutar",
+     "games": 6,
+     "wins": 1
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 19,
+     "wins": 8
+    },
+    {
+     "key": "8400",
+     "name": "Determinação",
+     "games": 17,
+     "wins": 8
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 36,
+     "wins": 16
+    },
+    {
+     "key": "4+12",
+     "name": "Flash + Teleporte",
+     "games": 6,
+     "wins": 2
+    },
+    {
+     "key": "3+4",
+     "name": "Exaustão + Flash",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "items": [
+    {
+     "key": "6699",
+     "name": "Cicloespada Voltaica",
+     "games": 32,
+     "wins": 11
+    },
+    {
+     "key": "2520",
+     "name": "Quebra-Bastião",
+     "games": 23,
+     "wins": 10
+    },
+    {
+     "key": "6692",
+     "name": "Eclipse",
+     "games": 17,
+     "wins": 9
+    },
+    {
+     "key": "3036",
+     "name": "Lembranças do Lorde Dominik",
+     "games": 11,
+     "wins": 5
+    },
+    {
+     "key": "6694",
+     "name": "Rancor de Serylda",
+     "games": 8,
+     "wins": 3
+    },
+    {
+     "key": "3071",
+     "name": "Cutelo Negro",
+     "games": 8,
+     "wins": 5
+    }
+   ],
+   "boots": [
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 32,
+     "wins": 15
+    },
+    {
+     "key": "3168",
+     "name": "Caminho Imortal",
+     "games": 6,
+     "wins": 1
+    },
+    {
+     "key": "3173",
+     "name": "Esmagadores Acorrentados",
+     "games": 3,
+     "wins": 2
+    }
+   ]
+  },
+  "Neeko": {
+   "games": 2,
+   "wins": 1,
+   "keystones": [
+    {
+     "key": "8369",
+     "name": "Primeiro Ataque",
+     "games": 2,
+     "wins": 1
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "8200",
+     "name": "Feitiçaria",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "4+12",
+     "name": "Flash + Teleporte",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "items": [
+    {
+     "key": "6699",
+     "name": "Cicloespada Voltaica",
+     "games": 2,
+     "wins": 1
+    },
+    {
+     "key": "2517",
+     "name": "Fome Eterna",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "3814",
+     "name": "Limiar da Noite",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "boots": [
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "3173",
+     "name": "Esmagadores Acorrentados",
+     "games": 1,
+     "wins": 1
+    }
+   ]
+  },
+  "Poppy": {
+   "games": 4,
+   "wins": 2,
+   "keystones": [
+    {
+     "key": "8369",
+     "name": "Primeiro Ataque",
+     "games": 3,
+     "wins": 1
+    },
+    {
+     "key": "8010",
+     "name": "Conquistador",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 3,
+     "wins": 1
+    },
+    {
+     "key": "8100",
+     "name": "Dominação",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+12",
+     "name": "Flash + Teleporte",
+     "games": 4,
+     "wins": 2
+    }
+   ],
+   "items": [
+    {
+     "key": "6699",
+     "name": "Cicloespada Voltaica",
+     "games": 3,
+     "wins": 1
+    },
+    {
+     "key": "6695",
+     "name": "Presa da Serpente",
+     "games": 3,
+     "wins": 2
+    },
+    {
+     "key": "2520",
+     "name": "Quebra-Bastião",
+     "games": 2,
+     "wins": 1
+    },
+    {
+     "key": "6696",
+     "name": "Arco do Axioma",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "6694",
+     "name": "Rancor de Serylda",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "3036",
+     "name": "Lembranças do Lorde Dominik",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "boots": [
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 3,
+     "wins": 2
+    }
+   ]
+  },
+  "Elise": {
+   "games": 1,
+   "wins": 0,
+   "keystones": [
+    {
+     "key": "8369",
+     "name": "Primeiro Ataque",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "spells": [
+    {
+     "key": "3+4",
+     "name": "Exaustão + Flash",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "items": [
+    {
+     "key": "6699",
+     "name": "Cicloespada Voltaica",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "2520",
+     "name": "Quebra-Bastião",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "6333",
+     "name": "Dança da Morte",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "3814",
+     "name": "Limiar da Noite",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "6694",
+     "name": "Rancor de Serylda",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "boots": []
+  },
+  "Veigar": {
+   "games": 11,
+   "wins": 9,
+   "keystones": [
+    {
+     "key": "8369",
+     "name": "Primeiro Ataque",
+     "games": 8,
+     "wins": 7
+    },
+    {
+     "key": "8112",
+     "name": "Eletrocutar",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "8128",
+     "name": "Colheita Sombria",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 6,
+     "wins": 4
+    },
+    {
+     "key": "8200",
+     "name": "Feitiçaria",
+     "games": 4,
+     "wins": 4
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 6,
+     "wins": 5
+    },
+    {
+     "key": "4+12",
+     "name": "Flash + Teleporte",
+     "games": 4,
+     "wins": 3
+    },
+    {
+     "key": "1+4",
+     "name": "Purificar + Flash",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "items": [
+    {
+     "key": "6699",
+     "name": "Cicloespada Voltaica",
+     "games": 11,
+     "wins": 9
+    },
+    {
+     "key": "2520",
+     "name": "Quebra-Bastião",
+     "games": 9,
+     "wins": 7
+    },
+    {
+     "key": "6695",
+     "name": "Presa da Serpente",
+     "games": 4,
+     "wins": 3
+    },
+    {
+     "key": "3036",
+     "name": "Lembranças do Lorde Dominik",
+     "games": 4,
+     "wins": 3
+    },
+    {
+     "key": "2517",
+     "name": "Fome Eterna",
+     "games": 3,
+     "wins": 3
+    },
+    {
+     "key": "6694",
+     "name": "Rancor de Serylda",
+     "games": 3,
+     "wins": 2
+    }
+   ],
+   "boots": [
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 5,
+     "wins": 4
+    },
+    {
+     "key": "3173",
+     "name": "Esmagadores Acorrentados",
+     "games": 4,
+     "wins": 3
+    },
+    {
+     "key": "3170",
+     "name": "Marcha Célere",
+     "games": 1,
+     "wins": 1
+    }
+   ]
+  },
+  "Akshan": {
+   "games": 11,
+   "wins": 7,
+   "keystones": [
+    {
+     "key": "8369",
+     "name": "Primeiro Ataque",
+     "games": 8,
+     "wins": 6
+    },
+    {
+     "key": "8112",
+     "name": "Eletrocutar",
+     "games": 3,
+     "wins": 1
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 7,
+     "wins": 5
+    },
+    {
+     "key": "8200",
+     "name": "Feitiçaria",
+     "games": 3,
+     "wins": 1
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 5,
+     "wins": 4
+    },
+    {
+     "key": "4+12",
+     "name": "Flash + Teleporte",
+     "games": 4,
+     "wins": 1
+    },
+    {
+     "key": "3+4",
+     "name": "Exaustão + Flash",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "items": [
+    {
+     "key": "6699",
+     "name": "Cicloespada Voltaica",
+     "games": 11,
+     "wins": 7
+    },
+    {
+     "key": "2520",
+     "name": "Quebra-Bastião",
+     "games": 11,
+     "wins": 7
+    },
+    {
+     "key": "6694",
+     "name": "Rancor de Serylda",
+     "games": 5,
+     "wins": 3
+    },
+    {
+     "key": "6696",
+     "name": "Arco do Axioma",
+     "games": 3,
+     "wins": 1
+    },
+    {
+     "key": "3814",
+     "name": "Limiar da Noite",
+     "games": 3,
+     "wins": 2
+    },
+    {
+     "key": "3036",
+     "name": "Lembranças do Lorde Dominik",
+     "games": 2,
+     "wins": 2
+    }
+   ],
+   "boots": [
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 8,
+     "wins": 5
+    },
+    {
+     "key": "3168",
+     "name": "Caminho Imortal",
+     "games": 2,
+     "wins": 2
+    },
+    {
+     "key": "3174",
+     "name": "Mobilização Blindada",
+     "games": 1,
+     "wins": 0
+    }
+   ]
+  },
+  "Irelia": {
+   "games": 17,
+   "wins": 7,
+   "keystones": [
+    {
+     "key": "8369",
+     "name": "Primeiro Ataque",
+     "games": 12,
+     "wins": 5
+    },
+    {
+     "key": "8010",
+     "name": "Conquistador",
+     "games": 4,
+     "wins": 2
+    },
+    {
+     "key": "8112",
+     "name": "Eletrocutar",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 11,
+     "wins": 5
+    },
+    {
+     "key": "8200",
+     "name": "Feitiçaria",
+     "games": 4,
+     "wins": 2
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 10,
+     "wins": 6
+    },
+    {
+     "key": "4+12",
+     "name": "Flash + Teleporte",
+     "games": 5,
+     "wins": 0
+    },
+    {
+     "key": "3+4",
+     "name": "Exaustão + Flash",
+     "games": 2,
+     "wins": 1
+    }
+   ],
+   "items": [
+    {
+     "key": "6699",
+     "name": "Cicloespada Voltaica",
+     "games": 10,
+     "wins": 5
+    },
+    {
+     "key": "2520",
+     "name": "Quebra-Bastião",
+     "games": 9,
+     "wins": 5
+    },
+    {
+     "key": "6692",
+     "name": "Eclipse",
+     "games": 8,
+     "wins": 3
+    },
+    {
+     "key": "3036",
+     "name": "Lembranças do Lorde Dominik",
+     "games": 4,
+     "wins": 2
+    },
+    {
+     "key": "6694",
+     "name": "Rancor de Serylda",
+     "games": 3,
+     "wins": 2
+    },
+    {
+     "key": "3814",
+     "name": "Limiar da Noite",
+     "games": 3,
+     "wins": 2
+    }
+   ],
+   "boots": [
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 8,
+     "wins": 3
+    },
+    {
+     "key": "3168",
+     "name": "Caminho Imortal",
+     "games": 5,
+     "wins": 3
+    },
+    {
+     "key": "3173",
+     "name": "Esmagadores Acorrentados",
+     "games": 1,
+     "wins": 0
+    }
+   ]
+  },
+  "Nasus": {
+   "games": 12,
+   "wins": 6,
+   "keystones": [
+    {
+     "key": "8369",
+     "name": "Primeiro Ataque",
+     "games": 8,
+     "wins": 4
+    },
+    {
+     "key": "8112",
+     "name": "Eletrocutar",
+     "games": 2,
+     "wins": 2
+    },
+    {
+     "key": "8010",
+     "name": "Conquistador",
+     "games": 2,
+     "wins": 0
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 7,
+     "wins": 4
+    },
+    {
+     "key": "8200",
+     "name": "Feitiçaria",
+     "games": 4,
+     "wins": 1
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 7,
+     "wins": 3
+    },
+    {
+     "key": "4+12",
+     "name": "Flash + Teleporte",
+     "games": 4,
+     "wins": 2
+    },
+    {
+     "key": "3+12",
+     "name": "Exaustão + Teleporte",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "items": [
+    {
+     "key": "6699",
+     "name": "Cicloespada Voltaica",
+     "games": 11,
+     "wins": 6
+    },
+    {
+     "key": "2520",
+     "name": "Quebra-Bastião",
+     "games": 6,
+     "wins": 2
+    },
+    {
+     "key": "3036",
+     "name": "Lembranças do Lorde Dominik",
+     "games": 6,
+     "wins": 2
+    },
+    {
+     "key": "6692",
+     "name": "Eclipse",
+     "games": 5,
+     "wins": 2
+    },
+    {
+     "key": "3814",
+     "name": "Limiar da Noite",
+     "games": 4,
+     "wins": 3
+    },
+    {
+     "key": "6694",
+     "name": "Rancor de Serylda",
+     "games": 3,
+     "wins": 3
+    }
+   ],
+   "boots": [
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 9,
+     "wins": 4
+    },
+    {
+     "key": "3174",
+     "name": "Mobilização Blindada",
+     "games": 2,
+     "wins": 1
+    },
+    {
+     "key": "3168",
+     "name": "Caminho Imortal",
+     "games": 1,
+     "wins": 1
+    }
+   ]
+  },
+  "Xerath": {
+   "games": 6,
+   "wins": 2,
+   "keystones": [
+    {
+     "key": "8369",
+     "name": "Primeiro Ataque",
+     "games": 5,
+     "wins": 1
+    },
+    {
+     "key": "8112",
+     "name": "Eletrocutar",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 5,
+     "wins": 2
+    },
+    {
+     "key": "8100",
+     "name": "Dominação",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 5,
+     "wins": 2
+    },
+    {
+     "key": "3+12",
+     "name": "Exaustão + Teleporte",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "items": [
+    {
+     "key": "6699",
+     "name": "Cicloespada Voltaica",
+     "games": 6,
+     "wins": 2
+    },
+    {
+     "key": "2520",
+     "name": "Quebra-Bastião",
+     "games": 4,
+     "wins": 1
+    },
+    {
+     "key": "2517",
+     "name": "Fome Eterna",
+     "games": 3,
+     "wins": 1
+    },
+    {
+     "key": "3814",
+     "name": "Limiar da Noite",
+     "games": 3,
+     "wins": 1
+    },
+    {
+     "key": "6694",
+     "name": "Rancor de Serylda",
+     "games": 2,
+     "wins": 0
+    },
+    {
+     "key": "3036",
+     "name": "Lembranças do Lorde Dominik",
+     "games": 2,
+     "wins": 0
+    }
+   ],
+   "boots": [
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 5,
+     "wins": 2
+    },
+    {
+     "key": "3168",
+     "name": "Caminho Imortal",
+     "games": 1,
+     "wins": 0
+    }
+   ]
+  },
+  "Karma": {
+   "games": 1,
+   "wins": 1,
+   "keystones": [
+    {
+     "key": "8369",
+     "name": "Primeiro Ataque",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+12",
+     "name": "Flash + Teleporte",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "items": [
+    {
+     "key": "6699",
+     "name": "Cicloespada Voltaica",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "2520",
+     "name": "Quebra-Bastião",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "6694",
+     "name": "Rancor de Serylda",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "3814",
+     "name": "Limiar da Noite",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "2517",
+     "name": "Fome Eterna",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "boots": [
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 1,
+     "wins": 1
+    }
+   ]
+  },
+  "TwistedFate": {
+   "games": 21,
+   "wins": 8,
+   "keystones": [
+    {
+     "key": "8369",
+     "name": "Primeiro Ataque",
+     "games": 13,
+     "wins": 6
+    },
+    {
+     "key": "8112",
+     "name": "Eletrocutar",
+     "games": 5,
+     "wins": 1
+    },
+    {
+     "key": "8010",
+     "name": "Conquistador",
+     "games": 3,
+     "wins": 1
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 13,
+     "wins": 5
+    },
+    {
+     "key": "8200",
+     "name": "Feitiçaria",
+     "games": 7,
+     "wins": 2
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 11,
+     "wins": 4
+    },
+    {
+     "key": "4+12",
+     "name": "Flash + Teleporte",
+     "games": 10,
+     "wins": 4
+    }
+   ],
+   "items": [
+    {
+     "key": "6699",
+     "name": "Cicloespada Voltaica",
+     "games": 18,
+     "wins": 8
+    },
+    {
+     "key": "2520",
+     "name": "Quebra-Bastião",
+     "games": 12,
+     "wins": 5
+    },
+    {
+     "key": "3814",
+     "name": "Limiar da Noite",
+     "games": 7,
+     "wins": 5
+    },
+    {
+     "key": "6695",
+     "name": "Presa da Serpente",
+     "games": 6,
+     "wins": 4
+    },
+    {
+     "key": "6696",
+     "name": "Arco do Axioma",
+     "games": 5,
+     "wins": 2
+    },
+    {
+     "key": "3036",
+     "name": "Lembranças do Lorde Dominik",
+     "games": 5,
+     "wins": 2
+    }
+   ],
+   "boots": [
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 17,
+     "wins": 6
+    },
+    {
+     "key": "3173",
+     "name": "Esmagadores Acorrentados",
+     "games": 2,
+     "wins": 2
+    },
+    {
+     "key": "3174",
+     "name": "Mobilização Blindada",
+     "games": 1,
+     "wins": 0
+    }
+   ]
+  },
+  "Ahri": {
+   "games": 30,
+   "wins": 14,
+   "keystones": [
+    {
+     "key": "8369",
+     "name": "Primeiro Ataque",
+     "games": 19,
+     "wins": 9
+    },
+    {
+     "key": "8112",
+     "name": "Eletrocutar",
+     "games": 7,
+     "wins": 2
+    },
+    {
+     "key": "8128",
+     "name": "Colheita Sombria",
+     "games": 2,
+     "wins": 1
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 20,
+     "wins": 10
+    },
+    {
+     "key": "8200",
+     "name": "Feitiçaria",
+     "games": 10,
+     "wins": 4
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 22,
+     "wins": 9
+    },
+    {
+     "key": "4+12",
+     "name": "Flash + Teleporte",
+     "games": 8,
+     "wins": 5
+    }
+   ],
+   "items": [
+    {
+     "key": "6699",
+     "name": "Cicloespada Voltaica",
+     "games": 28,
+     "wins": 14
+    },
+    {
+     "key": "2520",
+     "name": "Quebra-Bastião",
+     "games": 20,
+     "wins": 11
+    },
+    {
+     "key": "3814",
+     "name": "Limiar da Noite",
+     "games": 11,
+     "wins": 7
+    },
+    {
+     "key": "3036",
+     "name": "Lembranças do Lorde Dominik",
+     "games": 10,
+     "wins": 4
+    },
+    {
+     "key": "6694",
+     "name": "Rancor de Serylda",
+     "games": 7,
+     "wins": 4
+    },
+    {
+     "key": "6695",
+     "name": "Presa da Serpente",
+     "games": 6,
+     "wins": 1
+    }
+   ],
+   "boots": [
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 23,
+     "wins": 13
+    },
+    {
+     "key": "3173",
+     "name": "Esmagadores Acorrentados",
+     "games": 4,
+     "wins": 1
+    },
+    {
+     "key": "3168",
+     "name": "Caminho Imortal",
+     "games": 2,
+     "wins": 0
+    }
+   ]
+  },
+  "Azir": {
+   "games": 8,
+   "wins": 5,
+   "keystones": [
+    {
+     "key": "8369",
+     "name": "Primeiro Ataque",
+     "games": 6,
+     "wins": 4
+    },
+    {
+     "key": "8010",
+     "name": "Conquistador",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "8112",
+     "name": "Eletrocutar",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 5,
+     "wins": 3
+    },
+    {
+     "key": "8200",
+     "name": "Feitiçaria",
+     "games": 2,
+     "wins": 1
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+12",
+     "name": "Flash + Teleporte",
+     "games": 4,
+     "wins": 3
+    },
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 4,
+     "wins": 2
+    }
+   ],
+   "items": [
+    {
+     "key": "6699",
+     "name": "Cicloespada Voltaica",
+     "games": 8,
+     "wins": 5
+    },
+    {
+     "key": "2520",
+     "name": "Quebra-Bastião",
+     "games": 5,
+     "wins": 4
+    },
+    {
+     "key": "6695",
+     "name": "Presa da Serpente",
+     "games": 3,
+     "wins": 2
+    },
+    {
+     "key": "6696",
+     "name": "Arco do Axioma",
+     "games": 2,
+     "wins": 1
+    },
+    {
+     "key": "3036",
+     "name": "Lembranças do Lorde Dominik",
+     "games": 2,
+     "wins": 2
+    },
+    {
+     "key": "3814",
+     "name": "Limiar da Noite",
+     "games": 2,
+     "wins": 2
+    }
+   ],
+   "boots": [
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 6,
+     "wins": 5
+    },
+    {
+     "key": "3168",
+     "name": "Caminho Imortal",
+     "games": 1,
+     "wins": 0
+    }
+   ]
+  },
+  "Lux": {
+   "games": 3,
+   "wins": 0,
+   "keystones": [
+    {
+     "key": "8369",
+     "name": "Primeiro Ataque",
+     "games": 2,
+     "wins": 0
+    },
+    {
+     "key": "8010",
+     "name": "Conquistador",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 2,
+     "wins": 0
+    },
+    {
+     "key": "8200",
+     "name": "Feitiçaria",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 2,
+     "wins": 0
+    },
+    {
+     "key": "4+12",
+     "name": "Flash + Teleporte",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "items": [
+    {
+     "key": "6699",
+     "name": "Cicloespada Voltaica",
+     "games": 3,
+     "wins": 0
+    },
+    {
+     "key": "6696",
+     "name": "Arco do Axioma",
+     "games": 2,
+     "wins": 0
+    },
+    {
+     "key": "3814",
+     "name": "Limiar da Noite",
+     "games": 2,
+     "wins": 0
+    },
+    {
+     "key": "2517",
+     "name": "Fome Eterna",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "3036",
+     "name": "Lembranças do Lorde Dominik",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "2520",
+     "name": "Quebra-Bastião",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "boots": [
+    {
+     "key": "3168",
+     "name": "Caminho Imortal",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "3173",
+     "name": "Esmagadores Acorrentados",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 1,
+     "wins": 0
+    }
+   ]
+  },
+  "Zilean": {
+   "games": 1,
+   "wins": 0,
+   "keystones": [
+    {
+     "key": "8010",
+     "name": "Conquistador",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8200",
+     "name": "Feitiçaria",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "items": [
+    {
+     "key": "6696",
+     "name": "Arco do Axioma",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "6699",
+     "name": "Cicloespada Voltaica",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "2517",
+     "name": "Fome Eterna",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "boots": [
+    {
+     "key": "3168",
+     "name": "Caminho Imortal",
+     "games": 1,
+     "wins": 0
+    }
+   ]
+  },
+  "Morgana": {
+   "games": 1,
+   "wins": 0,
+   "keystones": [
+    {
+     "key": "8369",
+     "name": "Primeiro Ataque",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "items": [
+    {
+     "key": "3036",
+     "name": "Lembranças do Lorde Dominik",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "6333",
+     "name": "Dança da Morte",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "6699",
+     "name": "Cicloespada Voltaica",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "2520",
+     "name": "Quebra-Bastião",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "boots": [
+    {
+     "key": "3168",
+     "name": "Caminho Imortal",
+     "games": 1,
+     "wins": 0
+    }
+   ]
+  },
+  "Qiyana": {
+   "games": 13,
+   "wins": 4,
+   "keystones": [
+    {
+     "key": "8369",
+     "name": "Primeiro Ataque",
+     "games": 7,
+     "wins": 1
+    },
+    {
+     "key": "8112",
+     "name": "Eletrocutar",
+     "games": 5,
+     "wins": 2
+    },
+    {
+     "key": "8010",
+     "name": "Conquistador",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 6,
+     "wins": 1
+    },
+    {
+     "key": "8400",
+     "name": "Determinação",
+     "games": 4,
+     "wins": 2
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 7,
+     "wins": 3
+    },
+    {
+     "key": "3+4",
+     "name": "Exaustão + Flash",
+     "games": 4,
+     "wins": 1
+    },
+    {
+     "key": "3+12",
+     "name": "Exaustão + Teleporte",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "items": [
+    {
+     "key": "6699",
+     "name": "Cicloespada Voltaica",
+     "games": 13,
+     "wins": 4
+    },
+    {
+     "key": "2520",
+     "name": "Quebra-Bastião",
+     "games": 7,
+     "wins": 2
+    },
+    {
+     "key": "6692",
+     "name": "Eclipse",
+     "games": 5,
+     "wins": 2
+    },
+    {
+     "key": "6695",
+     "name": "Presa da Serpente",
+     "games": 5,
+     "wins": 2
+    },
+    {
+     "key": "3814",
+     "name": "Limiar da Noite",
+     "games": 3,
+     "wins": 2
+    },
+    {
+     "key": "3036",
+     "name": "Lembranças do Lorde Dominik",
+     "games": 3,
+     "wins": 0
+    }
+   ],
+   "boots": [
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 11,
+     "wins": 4
+    }
+   ]
+  },
+  "Malphite": {
+   "games": 6,
+   "wins": 1,
+   "keystones": [
+    {
+     "key": "8369",
+     "name": "Primeiro Ataque",
+     "games": 4,
+     "wins": 1
+    },
+    {
+     "key": "8229",
+     "name": "Cometa Arcano",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "8112",
+     "name": "Eletrocutar",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 5,
+     "wins": 1
+    },
+    {
+     "key": "8200",
+     "name": "Feitiçaria",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 4,
+     "wins": 1
+    },
+    {
+     "key": "4+12",
+     "name": "Flash + Teleporte",
+     "games": 2,
+     "wins": 0
+    }
+   ],
+   "items": [
+    {
+     "key": "6699",
+     "name": "Cicloespada Voltaica",
+     "games": 3,
+     "wins": 1
+    },
+    {
+     "key": "6692",
+     "name": "Eclipse",
+     "games": 3,
+     "wins": 0
+    },
+    {
+     "key": "3036",
+     "name": "Lembranças do Lorde Dominik",
+     "games": 2,
+     "wins": 0
+    },
+    {
+     "key": "2520",
+     "name": "Quebra-Bastião",
+     "games": 2,
+     "wins": 0
+    },
+    {
+     "key": "3156",
+     "name": "Mandíbula de Malmortius",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "2517",
+     "name": "Fome Eterna",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "boots": [
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 4,
+     "wins": 1
+    },
+    {
+     "key": "3173",
+     "name": "Esmagadores Acorrentados",
+     "games": 1,
+     "wins": 0
+    }
+   ]
+  },
+  "AurelionSol": {
+   "games": 4,
+   "wins": 0,
+   "keystones": [
+    {
+     "key": "8369",
+     "name": "Primeiro Ataque",
+     "games": 3,
+     "wins": 0
+    },
+    {
+     "key": "8010",
+     "name": "Conquistador",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 3,
+     "wins": 0
+    },
+    {
+     "key": "8200",
+     "name": "Feitiçaria",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+12",
+     "name": "Flash + Teleporte",
+     "games": 3,
+     "wins": 0
+    },
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "items": [
+    {
+     "key": "6699",
+     "name": "Cicloespada Voltaica",
+     "games": 4,
+     "wins": 0
+    },
+    {
+     "key": "2520",
+     "name": "Quebra-Bastião",
+     "games": 3,
+     "wins": 0
+    },
+    {
+     "key": "3814",
+     "name": "Limiar da Noite",
+     "games": 2,
+     "wins": 0
+    },
+    {
+     "key": "6695",
+     "name": "Presa da Serpente",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "2517",
+     "name": "Fome Eterna",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "3036",
+     "name": "Lembranças do Lorde Dominik",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "boots": [
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 3,
+     "wins": 0
+    },
+    {
+     "key": "3168",
+     "name": "Caminho Imortal",
+     "games": 1,
+     "wins": 0
+    }
+   ]
+  },
+  "Vladimir": {
+   "games": 15,
+   "wins": 8,
+   "keystones": [
+    {
+     "key": "8369",
+     "name": "Primeiro Ataque",
+     "games": 11,
+     "wins": 6
+    },
+    {
+     "key": "8010",
+     "name": "Conquistador",
+     "games": 2,
+     "wins": 0
+    },
+    {
+     "key": "8229",
+     "name": "Cometa Arcano",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 11,
+     "wins": 7
+    },
+    {
+     "key": "8200",
+     "name": "Feitiçaria",
+     "games": 2,
+     "wins": 1
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 10,
+     "wins": 6
+    },
+    {
+     "key": "4+12",
+     "name": "Flash + Teleporte",
+     "games": 4,
+     "wins": 2
+    },
+    {
+     "key": "4+21",
+     "name": "Flash + Barreira",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "items": [
+    {
+     "key": "6699",
+     "name": "Cicloespada Voltaica",
+     "games": 14,
+     "wins": 8
+    },
+    {
+     "key": "2520",
+     "name": "Quebra-Bastião",
+     "games": 9,
+     "wins": 5
+    },
+    {
+     "key": "6692",
+     "name": "Eclipse",
+     "games": 4,
+     "wins": 2
+    },
+    {
+     "key": "3814",
+     "name": "Limiar da Noite",
+     "games": 2,
+     "wins": 2
+    },
+    {
+     "key": "3036",
+     "name": "Lembranças do Lorde Dominik",
+     "games": 2,
+     "wins": 1
+    },
+    {
+     "key": "2517",
+     "name": "Fome Eterna",
+     "games": 2,
+     "wins": 1
+    }
+   ],
+   "boots": [
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 14,
+     "wins": 7
+    },
+    {
+     "key": "3168",
+     "name": "Caminho Imortal",
+     "games": 1,
+     "wins": 1
+    }
+   ]
+  },
+  "Galio": {
+   "games": 11,
+   "wins": 5,
+   "keystones": [
+    {
+     "key": "8369",
+     "name": "Primeiro Ataque",
+     "games": 10,
+     "wins": 4
+    },
+    {
+     "key": "8010",
+     "name": "Conquistador",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 9,
+     "wins": 4
+    },
+    {
+     "key": "8400",
+     "name": "Determinação",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+12",
+     "name": "Flash + Teleporte",
+     "games": 7,
+     "wins": 3
+    },
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 4,
+     "wins": 2
+    }
+   ],
+   "items": [
+    {
+     "key": "6699",
+     "name": "Cicloespada Voltaica",
+     "games": 7,
+     "wins": 4
+    },
+    {
+     "key": "2520",
+     "name": "Quebra-Bastião",
+     "games": 6,
+     "wins": 2
+    },
+    {
+     "key": "3036",
+     "name": "Lembranças do Lorde Dominik",
+     "games": 5,
+     "wins": 3
+    },
+    {
+     "key": "6692",
+     "name": "Eclipse",
+     "games": 4,
+     "wins": 3
+    },
+    {
+     "key": "6694",
+     "name": "Rancor de Serylda",
+     "games": 2,
+     "wins": 1
+    },
+    {
+     "key": "3161",
+     "name": "Lança de Shojin",
+     "games": 2,
+     "wins": 2
+    }
+   ],
+   "boots": [
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 8,
+     "wins": 3
+    },
+    {
+     "key": "3168",
+     "name": "Caminho Imortal",
+     "games": 2,
+     "wins": 2
+    }
+   ]
+  },
+  "Vex": {
+   "games": 7,
+   "wins": 4,
+   "keystones": [
+    {
+     "key": "8369",
+     "name": "Primeiro Ataque",
+     "games": 6,
+     "wins": 3
+    },
+    {
+     "key": "8112",
+     "name": "Eletrocutar",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 4,
+     "wins": 2
+    },
+    {
+     "key": "8400",
+     "name": "Determinação",
+     "games": 2,
+     "wins": 2
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 4,
+     "wins": 2
+    },
+    {
+     "key": "4+12",
+     "name": "Flash + Teleporte",
+     "games": 2,
+     "wins": 1
+    },
+    {
+     "key": "3+4",
+     "name": "Exaustão + Flash",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "items": [
+    {
+     "key": "6699",
+     "name": "Cicloespada Voltaica",
+     "games": 6,
+     "wins": 3
+    },
+    {
+     "key": "2520",
+     "name": "Quebra-Bastião",
+     "games": 6,
+     "wins": 4
+    },
+    {
+     "key": "3036",
+     "name": "Lembranças do Lorde Dominik",
+     "games": 3,
+     "wins": 1
+    },
+    {
+     "key": "6696",
+     "name": "Arco do Axioma",
+     "games": 2,
+     "wins": 1
+    },
+    {
+     "key": "3814",
+     "name": "Limiar da Noite",
+     "games": 2,
+     "wins": 1
+    },
+    {
+     "key": "3033",
+     "name": "Lembrete Mortal",
+     "games": 2,
+     "wins": 2
+    }
+   ],
+   "boots": [
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 5,
+     "wins": 2
+    },
+    {
+     "key": "3173",
+     "name": "Esmagadores Acorrentados",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "3168",
+     "name": "Caminho Imortal",
+     "games": 1,
+     "wins": 1
+    }
+   ]
+  },
+  "Gwen": {
+   "games": 2,
+   "wins": 1,
+   "keystones": [
+    {
+     "key": "8369",
+     "name": "Primeiro Ataque",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "8112",
+     "name": "Eletrocutar",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8200",
+     "name": "Feitiçaria",
+     "games": 2,
+     "wins": 1
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 2,
+     "wins": 1
+    }
+   ],
+   "items": [
+    {
+     "key": "6699",
+     "name": "Cicloespada Voltaica",
+     "games": 2,
+     "wins": 1
+    },
+    {
+     "key": "2520",
+     "name": "Quebra-Bastião",
+     "games": 2,
+     "wins": 1
+    },
+    {
+     "key": "3036",
+     "name": "Lembranças do Lorde Dominik",
+     "games": 2,
+     "wins": 1
+    },
+    {
+     "key": "6696",
+     "name": "Arco do Axioma",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "2517",
+     "name": "Fome Eterna",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "boots": [
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 2,
+     "wins": 1
+    }
+   ]
+  },
+  "Orianna": {
+   "games": 11,
+   "wins": 5,
+   "keystones": [
+    {
+     "key": "8369",
+     "name": "Primeiro Ataque",
+     "games": 7,
+     "wins": 4
+    },
+    {
+     "key": "8010",
+     "name": "Conquistador",
+     "games": 3,
+     "wins": 0
+    },
+    {
+     "key": "8112",
+     "name": "Eletrocutar",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 5,
+     "wins": 3
+    },
+    {
+     "key": "8400",
+     "name": "Determinação",
+     "games": 3,
+     "wins": 1
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+12",
+     "name": "Flash + Teleporte",
+     "games": 7,
+     "wins": 3
+    },
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 4,
+     "wins": 2
+    }
+   ],
+   "items": [
+    {
+     "key": "6699",
+     "name": "Cicloespada Voltaica",
+     "games": 10,
+     "wins": 5
+    },
+    {
+     "key": "2520",
+     "name": "Quebra-Bastião",
+     "games": 7,
+     "wins": 3
+    },
+    {
+     "key": "6694",
+     "name": "Rancor de Serylda",
+     "games": 6,
+     "wins": 3
+    },
+    {
+     "key": "3814",
+     "name": "Limiar da Noite",
+     "games": 3,
+     "wins": 1
+    },
+    {
+     "key": "3026",
+     "name": "Anjo Guardião",
+     "games": 2,
+     "wins": 1
+    },
+    {
+     "key": "6696",
+     "name": "Arco do Axioma",
+     "games": 2,
+     "wins": 1
+    }
+   ],
+   "boots": [
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 10,
+     "wins": 5
+    },
+    {
+     "key": "3168",
+     "name": "Caminho Imortal",
+     "games": 1,
+     "wins": 0
+    }
+   ]
+  },
+  "Aurora": {
+   "games": 18,
+   "wins": 6,
+   "keystones": [
+    {
+     "key": "8112",
+     "name": "Eletrocutar",
+     "games": 8,
+     "wins": 3
+    },
+    {
+     "key": "8369",
+     "name": "Primeiro Ataque",
+     "games": 8,
+     "wins": 3
+    },
+    {
+     "key": "8010",
+     "name": "Conquistador",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8200",
+     "name": "Feitiçaria",
+     "games": 9,
+     "wins": 3
+    },
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 6,
+     "wins": 2
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 11,
+     "wins": 3
+    },
+    {
+     "key": "4+12",
+     "name": "Flash + Teleporte",
+     "games": 6,
+     "wins": 3
+    },
+    {
+     "key": "3+12",
+     "name": "Exaustão + Teleporte",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "items": [
+    {
+     "key": "6699",
+     "name": "Cicloespada Voltaica",
+     "games": 18,
+     "wins": 6
+    },
+    {
+     "key": "2520",
+     "name": "Quebra-Bastião",
+     "games": 16,
+     "wins": 6
+    },
+    {
+     "key": "3814",
+     "name": "Limiar da Noite",
+     "games": 4,
+     "wins": 2
+    },
+    {
+     "key": "6694",
+     "name": "Rancor de Serylda",
+     "games": 3,
+     "wins": 0
+    },
+    {
+     "key": "3036",
+     "name": "Lembranças do Lorde Dominik",
+     "games": 2,
+     "wins": 0
+    },
+    {
+     "key": "6695",
+     "name": "Presa da Serpente",
+     "games": 2,
+     "wins": 1
+    }
+   ],
+   "boots": [
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 16,
+     "wins": 6
+    },
+    {
+     "key": "3168",
+     "name": "Caminho Imortal",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "3173",
+     "name": "Esmagadores Acorrentados",
+     "games": 1,
+     "wins": 0
+    }
+   ]
+  },
+  "Tristana": {
+   "games": 6,
+   "wins": 5,
+   "keystones": [
+    {
+     "key": "8112",
+     "name": "Eletrocutar",
+     "games": 4,
+     "wins": 3
+    },
+    {
+     "key": "8010",
+     "name": "Conquistador",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "8369",
+     "name": "Primeiro Ataque",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8200",
+     "name": "Feitiçaria",
+     "games": 5,
+     "wins": 4
+    },
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 5,
+     "wins": 4
+    },
+    {
+     "key": "3+4",
+     "name": "Exaustão + Flash",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "items": [
+    {
+     "key": "6699",
+     "name": "Cicloespada Voltaica",
+     "games": 6,
+     "wins": 5
+    },
+    {
+     "key": "2520",
+     "name": "Quebra-Bastião",
+     "games": 5,
+     "wins": 4
+    },
+    {
+     "key": "3036",
+     "name": "Lembranças do Lorde Dominik",
+     "games": 4,
+     "wins": 3
+    },
+    {
+     "key": "6697",
+     "name": "Húbris",
+     "games": 2,
+     "wins": 2
+    },
+    {
+     "key": "6695",
+     "name": "Presa da Serpente",
+     "games": 2,
+     "wins": 1
+    },
+    {
+     "key": "2517",
+     "name": "Fome Eterna",
+     "games": 2,
+     "wins": 1
+    }
+   ],
+   "boots": [
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 5,
+     "wins": 4
+    },
+    {
+     "key": "3168",
+     "name": "Caminho Imortal",
+     "games": 1,
+     "wins": 1
+    }
+   ]
+  },
+  "Fizz": {
+   "games": 8,
+   "wins": 4,
+   "keystones": [
+    {
+     "key": "8369",
+     "name": "Primeiro Ataque",
+     "games": 6,
+     "wins": 2
+    },
+    {
+     "key": "8112",
+     "name": "Eletrocutar",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "8010",
+     "name": "Conquistador",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 4,
+     "wins": 1
+    },
+    {
+     "key": "8400",
+     "name": "Determinação",
+     "games": 3,
+     "wins": 2
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 4,
+     "wins": 3
+    },
+    {
+     "key": "4+12",
+     "name": "Flash + Teleporte",
+     "games": 4,
+     "wins": 1
+    }
+   ],
+   "items": [
+    {
+     "key": "6699",
+     "name": "Cicloespada Voltaica",
+     "games": 7,
+     "wins": 3
+    },
+    {
+     "key": "2520",
+     "name": "Quebra-Bastião",
+     "games": 4,
+     "wins": 3
+    },
+    {
+     "key": "6692",
+     "name": "Eclipse",
+     "games": 4,
+     "wins": 1
+    },
+    {
+     "key": "6696",
+     "name": "Arco do Axioma",
+     "games": 3,
+     "wins": 2
+    },
+    {
+     "key": "6695",
+     "name": "Presa da Serpente",
+     "games": 2,
+     "wins": 1
+    },
+    {
+     "key": "6694",
+     "name": "Rancor de Serylda",
+     "games": 2,
+     "wins": 0
+    }
+   ],
+   "boots": [
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 6,
+     "wins": 2
+    },
+    {
+     "key": "3168",
+     "name": "Caminho Imortal",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "3173",
+     "name": "Esmagadores Acorrentados",
+     "games": 1,
+     "wins": 1
+    }
+   ]
+  },
+  "Vayne": {
+   "games": 1,
+   "wins": 0,
+   "keystones": [
+    {
+     "key": "8369",
+     "name": "Primeiro Ataque",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "items": [
+    {
+     "key": "6695",
+     "name": "Presa da Serpente",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "6699",
+     "name": "Cicloespada Voltaica",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "boots": [
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 1,
+     "wins": 0
+    }
+   ]
+  },
+  "Illaoi": {
+   "games": 3,
+   "wins": 1,
+   "keystones": [
+    {
+     "key": "8369",
+     "name": "Primeiro Ataque",
+     "games": 2,
+     "wins": 1
+    },
+    {
+     "key": "8010",
+     "name": "Conquistador",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 2,
+     "wins": 1
+    },
+    {
+     "key": "8200",
+     "name": "Feitiçaria",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 3,
+     "wins": 1
+    }
+   ],
+   "items": [
+    {
+     "key": "3814",
+     "name": "Limiar da Noite",
+     "games": 2,
+     "wins": 1
+    },
+    {
+     "key": "6699",
+     "name": "Cicloespada Voltaica",
+     "games": 2,
+     "wins": 1
+    },
+    {
+     "key": "3036",
+     "name": "Lembranças do Lorde Dominik",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "2520",
+     "name": "Quebra-Bastião",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "6695",
+     "name": "Presa da Serpente",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "3033",
+     "name": "Lembrete Mortal",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "boots": [
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 2,
+     "wins": 1
+    },
+    {
+     "key": "3168",
+     "name": "Caminho Imortal",
+     "games": 1,
+     "wins": 0
+    }
+   ]
+  },
+  "Rumble": {
+   "games": 1,
+   "wins": 1,
+   "keystones": [
+    {
+     "key": "8369",
+     "name": "Primeiro Ataque",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+12",
+     "name": "Flash + Teleporte",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "items": [
+    {
+     "key": "6692",
+     "name": "Eclipse",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "6699",
+     "name": "Cicloespada Voltaica",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "3814",
+     "name": "Limiar da Noite",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "6695",
+     "name": "Presa da Serpente",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "boots": [
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 1,
+     "wins": 1
+    }
+   ]
+  },
+  "Hwei": {
+   "games": 7,
+   "wins": 1,
+   "keystones": [
+    {
+     "key": "8369",
+     "name": "Primeiro Ataque",
+     "games": 5,
+     "wins": 0
+    },
+    {
+     "key": "8112",
+     "name": "Eletrocutar",
+     "games": 2,
+     "wins": 1
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 5,
+     "wins": 0
+    },
+    {
+     "key": "8200",
+     "name": "Feitiçaria",
+     "games": 2,
+     "wins": 1
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 4,
+     "wins": 1
+    },
+    {
+     "key": "4+12",
+     "name": "Flash + Teleporte",
+     "games": 2,
+     "wins": 0
+    },
+    {
+     "key": "1+4",
+     "name": "Purificar + Flash",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "items": [
+    {
+     "key": "6699",
+     "name": "Cicloespada Voltaica",
+     "games": 7,
+     "wins": 1
+    },
+    {
+     "key": "2520",
+     "name": "Quebra-Bastião",
+     "games": 6,
+     "wins": 1
+    },
+    {
+     "key": "3814",
+     "name": "Limiar da Noite",
+     "games": 5,
+     "wins": 1
+    },
+    {
+     "key": "3036",
+     "name": "Lembranças do Lorde Dominik",
+     "games": 3,
+     "wins": 1
+    },
+    {
+     "key": "6695",
+     "name": "Presa da Serpente",
+     "games": 3,
+     "wins": 0
+    },
+    {
+     "key": "6694",
+     "name": "Rancor de Serylda",
+     "games": 2,
+     "wins": 0
+    }
+   ],
+   "boots": [
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 6,
+     "wins": 1
+    },
+    {
+     "key": "3174",
+     "name": "Mobilização Blindada",
+     "games": 1,
+     "wins": 0
+    }
+   ]
+  },
+  "Naafiri": {
+   "games": 2,
+   "wins": 0,
+   "keystones": [
+    {
+     "key": "8369",
+     "name": "Primeiro Ataque",
+     "games": 2,
+     "wins": 0
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 2,
+     "wins": 0
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 2,
+     "wins": 0
+    }
+   ],
+   "items": [
+    {
+     "key": "6699",
+     "name": "Cicloespada Voltaica",
+     "games": 2,
+     "wins": 0
+    },
+    {
+     "key": "2520",
+     "name": "Quebra-Bastião",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "boots": [
+    {
+     "key": "3168",
+     "name": "Caminho Imortal",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 1,
+     "wins": 0
+    }
+   ]
+  },
+  "Taliyah": {
+   "games": 6,
+   "wins": 3,
+   "keystones": [
+    {
+     "key": "8112",
+     "name": "Eletrocutar",
+     "games": 3,
+     "wins": 2
+    },
+    {
+     "key": "8369",
+     "name": "Primeiro Ataque",
+     "games": 2,
+     "wins": 1
+    },
+    {
+     "key": "8010",
+     "name": "Conquistador",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8200",
+     "name": "Feitiçaria",
+     "games": 4,
+     "wins": 2
+    },
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 2,
+     "wins": 1
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 5,
+     "wins": 3
+    },
+    {
+     "key": "4+12",
+     "name": "Flash + Teleporte",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "items": [
+    {
+     "key": "2520",
+     "name": "Quebra-Bastião",
+     "games": 5,
+     "wins": 2
+    },
+    {
+     "key": "6699",
+     "name": "Cicloespada Voltaica",
+     "games": 5,
+     "wins": 3
+    },
+    {
+     "key": "3814",
+     "name": "Limiar da Noite",
+     "games": 2,
+     "wins": 1
+    },
+    {
+     "key": "6694",
+     "name": "Rancor de Serylda",
+     "games": 2,
+     "wins": 1
+    },
+    {
+     "key": "6695",
+     "name": "Presa da Serpente",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "6692",
+     "name": "Eclipse",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "boots": [
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 5,
+     "wins": 2
+    },
+    {
+     "key": "3168",
+     "name": "Caminho Imortal",
+     "games": 1,
+     "wins": 1
+    }
+   ]
+  },
+  "Kayle": {
+   "games": 5,
+   "wins": 5,
+   "keystones": [
+    {
+     "key": "8369",
+     "name": "Primeiro Ataque",
+     "games": 5,
+     "wins": 5
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 3,
+     "wins": 3
+    },
+    {
+     "key": "8100",
+     "name": "Dominação",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 3,
+     "wins": 3
+    },
+    {
+     "key": "4+12",
+     "name": "Flash + Teleporte",
+     "games": 2,
+     "wins": 2
+    }
+   ],
+   "items": [
+    {
+     "key": "6699",
+     "name": "Cicloespada Voltaica",
+     "games": 5,
+     "wins": 5
+    },
+    {
+     "key": "2520",
+     "name": "Quebra-Bastião",
+     "games": 3,
+     "wins": 3
+    },
+    {
+     "key": "6696",
+     "name": "Arco do Axioma",
+     "games": 3,
+     "wins": 3
+    },
+    {
+     "key": "3036",
+     "name": "Lembranças do Lorde Dominik",
+     "games": 3,
+     "wins": 3
+    },
+    {
+     "key": "2517",
+     "name": "Fome Eterna",
+     "games": 2,
+     "wins": 2
+    },
+    {
+     "key": "3033",
+     "name": "Lembrete Mortal",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "boots": [
+    {
+     "key": "3168",
+     "name": "Caminho Imortal",
+     "games": 3,
+     "wins": 3
+    },
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 2,
+     "wins": 2
+    }
+   ]
+  },
+  "Tryndamere": {
+   "games": 6,
+   "wins": 0,
+   "keystones": [
+    {
+     "key": "8369",
+     "name": "Primeiro Ataque",
+     "games": 5,
+     "wins": 0
+    },
+    {
+     "key": "8010",
+     "name": "Conquistador",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 4,
+     "wins": 0
+    },
+    {
+     "key": "8200",
+     "name": "Feitiçaria",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 4,
+     "wins": 0
+    },
+    {
+     "key": "4+12",
+     "name": "Flash + Teleporte",
+     "games": 2,
+     "wins": 0
+    }
+   ],
+   "items": [
+    {
+     "key": "6699",
+     "name": "Cicloespada Voltaica",
+     "games": 5,
+     "wins": 0
+    },
+    {
+     "key": "2520",
+     "name": "Quebra-Bastião",
+     "games": 3,
+     "wins": 0
+    },
+    {
+     "key": "6692",
+     "name": "Eclipse",
+     "games": 3,
+     "wins": 0
+    },
+    {
+     "key": "3036",
+     "name": "Lembranças do Lorde Dominik",
+     "games": 2,
+     "wins": 0
+    },
+    {
+     "key": "2517",
+     "name": "Fome Eterna",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "6694",
+     "name": "Rancor de Serylda",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "boots": [
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 6,
+     "wins": 0
+    }
+   ]
+  },
+  "KogMaw": {
+   "games": 3,
+   "wins": 0,
+   "keystones": [
+    {
+     "key": "8369",
+     "name": "Primeiro Ataque",
+     "games": 3,
+     "wins": 0
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 3,
+     "wins": 0
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 3,
+     "wins": 0
+    }
+   ],
+   "items": [
+    {
+     "key": "6699",
+     "name": "Cicloespada Voltaica",
+     "games": 3,
+     "wins": 0
+    },
+    {
+     "key": "3036",
+     "name": "Lembranças do Lorde Dominik",
+     "games": 2,
+     "wins": 0
+    },
+    {
+     "key": "2520",
+     "name": "Quebra-Bastião",
+     "games": 2,
+     "wins": 0
+    },
+    {
+     "key": "6696",
+     "name": "Arco do Axioma",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "3814",
+     "name": "Limiar da Noite",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "boots": [
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 3,
+     "wins": 0
+    }
+   ]
+  },
+  "Gangplank": {
+   "games": 2,
+   "wins": 1,
+   "keystones": [
+    {
+     "key": "8369",
+     "name": "Primeiro Ataque",
+     "games": 2,
+     "wins": 1
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 2,
+     "wins": 1
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "4+12",
+     "name": "Flash + Teleporte",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "items": [
+    {
+     "key": "3814",
+     "name": "Limiar da Noite",
+     "games": 2,
+     "wins": 1
+    },
+    {
+     "key": "6699",
+     "name": "Cicloespada Voltaica",
+     "games": 2,
+     "wins": 1
+    },
+    {
+     "key": "2520",
+     "name": "Quebra-Bastião",
+     "games": 2,
+     "wins": 1
+    },
+    {
+     "key": "3036",
+     "name": "Lembranças do Lorde Dominik",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "3142",
+     "name": "Lâmina Fantasma de Youmuu",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "3026",
+     "name": "Anjo Guardião",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "boots": [
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 1,
+     "wins": 1
+    }
+   ]
+  },
+  "Kassadin": {
+   "games": 2,
+   "wins": 0,
+   "keystones": [
+    {
+     "key": "8010",
+     "name": "Conquistador",
+     "games": 2,
+     "wins": 0
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8200",
+     "name": "Feitiçaria",
+     "games": 2,
+     "wins": 0
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 2,
+     "wins": 0
+    }
+   ],
+   "items": [
+    {
+     "key": "6699",
+     "name": "Cicloespada Voltaica",
+     "games": 2,
+     "wins": 0
+    },
+    {
+     "key": "2520",
+     "name": "Quebra-Bastião",
+     "games": 2,
+     "wins": 0
+    },
+    {
+     "key": "3036",
+     "name": "Lembranças do Lorde Dominik",
+     "games": 2,
+     "wins": 0
+    },
+    {
+     "key": "2517",
+     "name": "Fome Eterna",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "6692",
+     "name": "Eclipse",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "boots": [
+    {
+     "key": "3168",
+     "name": "Caminho Imortal",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 1,
+     "wins": 0
+    }
+   ]
+  },
+  "Viego": {
+   "games": 5,
+   "wins": 3,
+   "keystones": [
+    {
+     "key": "8369",
+     "name": "Primeiro Ataque",
+     "games": 4,
+     "wins": 2
+    },
+    {
+     "key": "8021",
+     "name": "Agilidade nos Pés",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 4,
+     "wins": 2
+    },
+    {
+     "key": "8100",
+     "name": "Dominação",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 3,
+     "wins": 2
+    },
+    {
+     "key": "4+12",
+     "name": "Flash + Teleporte",
+     "games": 2,
+     "wins": 1
+    }
+   ],
+   "items": [
+    {
+     "key": "6699",
+     "name": "Cicloespada Voltaica",
+     "games": 5,
+     "wins": 3
+    },
+    {
+     "key": "2520",
+     "name": "Quebra-Bastião",
+     "games": 4,
+     "wins": 2
+    },
+    {
+     "key": "6694",
+     "name": "Rancor de Serylda",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "6692",
+     "name": "Eclipse",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "3036",
+     "name": "Lembranças do Lorde Dominik",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "3814",
+     "name": "Limiar da Noite",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "boots": [
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 5,
+     "wins": 3
+    }
+   ]
+  },
+  "Fiddlesticks": {
+   "games": 1,
+   "wins": 1,
+   "keystones": [
+    {
+     "key": "8369",
+     "name": "Primeiro Ataque",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+12",
+     "name": "Flash + Teleporte",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "items": [
+    {
+     "key": "2520",
+     "name": "Quebra-Bastião",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "3814",
+     "name": "Limiar da Noite",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "6696",
+     "name": "Arco do Axioma",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "6699",
+     "name": "Cicloespada Voltaica",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "boots": [
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 1,
+     "wins": 1
+    }
+   ]
+  },
+  "Nunu": {
+   "games": 3,
+   "wins": 2,
+   "keystones": [
+    {
+     "key": "8010",
+     "name": "Conquistador",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "8112",
+     "name": "Eletrocutar",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "8369",
+     "name": "Primeiro Ataque",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8200",
+     "name": "Feitiçaria",
+     "games": 2,
+     "wins": 2
+    },
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "spells": [
+    {
+     "key": "3+14",
+     "name": "Exaustão + Incendiar",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "4+12",
+     "name": "Flash + Teleporte",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "items": [
+    {
+     "key": "6692",
+     "name": "Eclipse",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "3814",
+     "name": "Limiar da Noite",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "2517",
+     "name": "Fome Eterna",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "2520",
+     "name": "Quebra-Bastião",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "6699",
+     "name": "Cicloespada Voltaica",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "boots": [
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 2,
+     "wins": 2
+    }
+   ]
+  },
+  "Quinn": {
+   "games": 2,
+   "wins": 2,
+   "keystones": [
+    {
+     "key": "8369",
+     "name": "Primeiro Ataque",
+     "games": 2,
+     "wins": 2
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 2,
+     "wins": 2
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 2,
+     "wins": 2
+    }
+   ],
+   "items": [
+    {
+     "key": "3036",
+     "name": "Lembranças do Lorde Dominik",
+     "games": 2,
+     "wins": 2
+    },
+    {
+     "key": "6699",
+     "name": "Cicloespada Voltaica",
+     "games": 2,
+     "wins": 2
+    },
+    {
+     "key": "2520",
+     "name": "Quebra-Bastião",
+     "games": 2,
+     "wins": 2
+    },
+    {
+     "key": "6696",
+     "name": "Arco do Axioma",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "3179",
+     "name": "Glaive Sombria",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "boots": [
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 2,
+     "wins": 2
+    }
+   ]
+  },
+  "Karthus": {
+   "games": 2,
+   "wins": 1,
+   "keystones": [
+    {
+     "key": "8369",
+     "name": "Primeiro Ataque",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "8112",
+     "name": "Eletrocutar",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8200",
+     "name": "Feitiçaria",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 2,
+     "wins": 1
+    }
+   ],
+   "items": [
+    {
+     "key": "6699",
+     "name": "Cicloespada Voltaica",
+     "games": 2,
+     "wins": 1
+    },
+    {
+     "key": "2520",
+     "name": "Quebra-Bastião",
+     "games": 2,
+     "wins": 1
+    },
+    {
+     "key": "6694",
+     "name": "Rancor de Serylda",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "boots": [
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 2,
+     "wins": 1
+    }
+   ]
+  },
+  "Annie": {
+   "games": 2,
+   "wins": 1,
+   "keystones": [
+    {
+     "key": "8369",
+     "name": "Primeiro Ataque",
+     "games": 2,
+     "wins": 1
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 2,
+     "wins": 1
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 2,
+     "wins": 1
+    }
+   ],
+   "items": [
+    {
+     "key": "3814",
+     "name": "Limiar da Noite",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "6695",
+     "name": "Presa da Serpente",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "6699",
+     "name": "Cicloespada Voltaica",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "2520",
+     "name": "Quebra-Bastião",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "boots": [
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 1,
+     "wins": 1
+    }
+   ]
+  },
+  "TahmKench": {
+   "games": 1,
+   "wins": 0,
+   "keystones": [
+    {
+     "key": "8369",
+     "name": "Primeiro Ataque",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+12",
+     "name": "Flash + Teleporte",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "items": [
+    {
+     "key": "6699",
+     "name": "Cicloespada Voltaica",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "2520",
+     "name": "Quebra-Bastião",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "boots": []
+  },
+  "LeeSin": {
+   "games": 1,
+   "wins": 0,
+   "keystones": [
+    {
+     "key": "8369",
+     "name": "Primeiro Ataque",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8400",
+     "name": "Determinação",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "spells": [
+    {
+     "key": "3+12",
+     "name": "Exaustão + Teleporte",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "items": [
+    {
+     "key": "6692",
+     "name": "Eclipse",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "3036",
+     "name": "Lembranças do Lorde Dominik",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "6695",
+     "name": "Presa da Serpente",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "6696",
+     "name": "Arco do Axioma",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "6699",
+     "name": "Cicloespada Voltaica",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "boots": [
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 1,
+     "wins": 0
+    }
+   ]
+  },
+  "Pantheon": {
+   "games": 3,
+   "wins": 2,
+   "keystones": [
+    {
+     "key": "8369",
+     "name": "Primeiro Ataque",
+     "games": 2,
+     "wins": 2
+    },
+    {
+     "key": "8112",
+     "name": "Eletrocutar",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 3,
+     "wins": 2
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+12",
+     "name": "Flash + Teleporte",
+     "games": 2,
+     "wins": 2
+    },
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "items": [
+    {
+     "key": "6699",
+     "name": "Cicloespada Voltaica",
+     "games": 2,
+     "wins": 2
+    },
+    {
+     "key": "6696",
+     "name": "Arco do Axioma",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "3814",
+     "name": "Limiar da Noite",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "2520",
+     "name": "Quebra-Bastião",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "6692",
+     "name": "Eclipse",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "3036",
+     "name": "Lembranças do Lorde Dominik",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "boots": [
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 3,
+     "wins": 2
+    }
+   ]
+  },
+  "Khazix": {
+   "games": 2,
+   "wins": 2,
+   "keystones": [
+    {
+     "key": "8369",
+     "name": "Primeiro Ataque",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "8010",
+     "name": "Conquistador",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "8400",
+     "name": "Determinação",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+12",
+     "name": "Flash + Teleporte",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "items": [
+    {
+     "key": "6699",
+     "name": "Cicloespada Voltaica",
+     "games": 2,
+     "wins": 2
+    },
+    {
+     "key": "6696",
+     "name": "Arco do Axioma",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "6692",
+     "name": "Eclipse",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "6695",
+     "name": "Presa da Serpente",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "6694",
+     "name": "Rancor de Serylda",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "boots": [
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 2,
+     "wins": 2
+    }
+   ]
+  },
+  "Diana": {
+   "games": 5,
+   "wins": 4,
+   "keystones": [
+    {
+     "key": "8112",
+     "name": "Eletrocutar",
+     "games": 2,
+     "wins": 2
+    },
+    {
+     "key": "8369",
+     "name": "Primeiro Ataque",
+     "games": 2,
+     "wins": 2
+    },
+    {
+     "key": "8010",
+     "name": "Conquistador",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8200",
+     "name": "Feitiçaria",
+     "games": 2,
+     "wins": 1
+    },
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 2,
+     "wins": 2
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 2,
+     "wins": 1
+    },
+    {
+     "key": "3+4",
+     "name": "Exaustão + Flash",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "4+12",
+     "name": "Flash + Teleporte",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "items": [
+    {
+     "key": "6699",
+     "name": "Cicloespada Voltaica",
+     "games": 5,
+     "wins": 4
+    },
+    {
+     "key": "6692",
+     "name": "Eclipse",
+     "games": 2,
+     "wins": 1
+    },
+    {
+     "key": "3036",
+     "name": "Lembranças do Lorde Dominik",
+     "games": 2,
+     "wins": 1
+    },
+    {
+     "key": "2520",
+     "name": "Quebra-Bastião",
+     "games": 2,
+     "wins": 2
+    },
+    {
+     "key": "6694",
+     "name": "Rancor de Serylda",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "6695",
+     "name": "Presa da Serpente",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "boots": [
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 4,
+     "wins": 4
+    },
+    {
+     "key": "3168",
+     "name": "Caminho Imortal",
+     "games": 1,
+     "wins": 0
+    }
+   ]
+  },
+  "Mel": {
+   "games": 5,
+   "wins": 3,
+   "keystones": [
+    {
+     "key": "8369",
+     "name": "Primeiro Ataque",
+     "games": 3,
+     "wins": 1
+    },
+    {
+     "key": "8010",
+     "name": "Conquistador",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "8112",
+     "name": "Eletrocutar",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 3,
+     "wins": 1
+    },
+    {
+     "key": "8300",
+     "name": "Inspiração",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 3,
+     "wins": 2
+    },
+    {
+     "key": "4+12",
+     "name": "Flash + Teleporte",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "3+4",
+     "name": "Exaustão + Flash",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "items": [
+    {
+     "key": "6699",
+     "name": "Cicloespada Voltaica",
+     "games": 5,
+     "wins": 3
+    },
+    {
+     "key": "2520",
+     "name": "Quebra-Bastião",
+     "games": 5,
+     "wins": 3
+    },
+    {
+     "key": "6695",
+     "name": "Presa da Serpente",
+     "games": 2,
+     "wins": 2
+    },
+    {
+     "key": "3179",
+     "name": "Glaive Sombria",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "6694",
+     "name": "Rancor de Serylda",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "3036",
+     "name": "Lembranças do Lorde Dominik",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "boots": [
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 4,
+     "wins": 2
+    },
+    {
+     "key": "3168",
+     "name": "Caminho Imortal",
+     "games": 1,
+     "wins": 1
+    }
+   ]
+  },
+  "Velkoz": {
+   "games": 3,
+   "wins": 1,
+   "keystones": [
+    {
+     "key": "8010",
+     "name": "Conquistador",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "8112",
+     "name": "Eletrocutar",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "8229",
+     "name": "Cometa Arcano",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8400",
+     "name": "Determinação",
+     "games": 2,
+     "wins": 1
+    },
+    {
+     "key": "8200",
+     "name": "Feitiçaria",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 2,
+     "wins": 1
+    },
+    {
+     "key": "4+12",
+     "name": "Flash + Teleporte",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "items": [
+    {
+     "key": "2520",
+     "name": "Quebra-Bastião",
+     "games": 2,
+     "wins": 0
+    },
+    {
+     "key": "6699",
+     "name": "Cicloespada Voltaica",
+     "games": 2,
+     "wins": 0
+    },
+    {
+     "key": "3071",
+     "name": "Cutelo Negro",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "6692",
+     "name": "Eclipse",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "3036",
+     "name": "Lembranças do Lorde Dominik",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "6694",
+     "name": "Rancor de Serylda",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "boots": [
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 3,
+     "wins": 1
+    }
+   ]
+  },
+  "Malzahar": {
+   "games": 2,
+   "wins": 0,
+   "keystones": [
+    {
+     "key": "8369",
+     "name": "Primeiro Ataque",
+     "games": 2,
+     "wins": 0
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 2,
+     "wins": 0
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 2,
+     "wins": 0
+    }
+   ],
+   "items": [
+    {
+     "key": "6698",
+     "name": "Hidra Profana",
+     "games": 2,
+     "wins": 0
+    },
+    {
+     "key": "2520",
+     "name": "Quebra-Bastião",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "2517",
+     "name": "Fome Eterna",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "6694",
+     "name": "Rancor de Serylda",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "3179",
+     "name": "Glaive Sombria",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "boots": [
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "3173",
+     "name": "Esmagadores Acorrentados",
+     "games": 1,
+     "wins": 0
+    }
+   ]
+  },
+  "Shen": {
+   "games": 1,
+   "wins": 1,
+   "keystones": [
+    {
+     "key": "8369",
+     "name": "Primeiro Ataque",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+12",
+     "name": "Flash + Teleporte",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "items": [
+    {
+     "key": "6692",
+     "name": "Eclipse",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "6699",
+     "name": "Cicloespada Voltaica",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "2517",
+     "name": "Fome Eterna",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "3036",
+     "name": "Lembranças do Lorde Dominik",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "3089",
+     "name": "Capuz da Morte de Rabadon",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "boots": [
+    {
+     "key": "3168",
+     "name": "Caminho Imortal",
+     "games": 1,
+     "wins": 1
+    }
+   ]
+  },
+  "Riven": {
+   "games": 3,
+   "wins": 0,
+   "keystones": [
+    {
+     "key": "8369",
+     "name": "Primeiro Ataque",
+     "games": 2,
+     "wins": 0
+    },
+    {
+     "key": "8010",
+     "name": "Conquistador",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8200",
+     "name": "Feitiçaria",
+     "games": 2,
+     "wins": 0
+    },
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+12",
+     "name": "Flash + Teleporte",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "1+4",
+     "name": "Purificar + Flash",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "items": [
+    {
+     "key": "6692",
+     "name": "Eclipse",
+     "games": 3,
+     "wins": 0
+    },
+    {
+     "key": "6699",
+     "name": "Cicloespada Voltaica",
+     "games": 2,
+     "wins": 0
+    },
+    {
+     "key": "6695",
+     "name": "Presa da Serpente",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "2520",
+     "name": "Quebra-Bastião",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "boots": [
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 2,
+     "wins": 0
+    },
+    {
+     "key": "3168",
+     "name": "Caminho Imortal",
+     "games": 1,
+     "wins": 0
+    }
+   ]
+  },
+  "Evelynn": {
+   "games": 1,
+   "wins": 0,
+   "keystones": [
+    {
+     "key": "8010",
+     "name": "Conquistador",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8200",
+     "name": "Feitiçaria",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "items": [
+    {
+     "key": "6695",
+     "name": "Presa da Serpente",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "3071",
+     "name": "Cutelo Negro",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "2520",
+     "name": "Quebra-Bastião",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "boots": [
+    {
+     "key": "3173",
+     "name": "Esmagadores Acorrentados",
+     "games": 1,
+     "wins": 0
+    }
+   ]
+  },
+  "Corki": {
+   "games": 3,
+   "wins": 1,
+   "keystones": [
+    {
+     "key": "8369",
+     "name": "Primeiro Ataque",
+     "games": 2,
+     "wins": 1
+    },
+    {
+     "key": "8010",
+     "name": "Conquistador",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 2,
+     "wins": 1
+    },
+    {
+     "key": "8400",
+     "name": "Determinação",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 3,
+     "wins": 1
+    }
+   ],
+   "items": [
+    {
+     "key": "6699",
+     "name": "Cicloespada Voltaica",
+     "games": 3,
+     "wins": 1
+    },
+    {
+     "key": "6692",
+     "name": "Eclipse",
+     "games": 2,
+     "wins": 1
+    },
+    {
+     "key": "2520",
+     "name": "Quebra-Bastião",
+     "games": 2,
+     "wins": 1
+    },
+    {
+     "key": "6694",
+     "name": "Rancor de Serylda",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "3814",
+     "name": "Limiar da Noite",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "boots": [
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 3,
+     "wins": 1
+    }
+   ]
+  },
+  "MissFortune": {
+   "games": 1,
+   "wins": 1,
+   "keystones": [
+    {
+     "key": "8010",
+     "name": "Conquistador",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8200",
+     "name": "Feitiçaria",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "items": [],
+   "boots": []
+  },
+  "Renekton": {
+   "games": 1,
+   "wins": 0,
+   "keystones": [
+    {
+     "key": "8010",
+     "name": "Conquistador",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8200",
+     "name": "Feitiçaria",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "items": [
+    {
+     "key": "6692",
+     "name": "Eclipse",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "6699",
+     "name": "Cicloespada Voltaica",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "boots": []
+  },
+  "Ivern": {
+   "games": 1,
+   "wins": 0,
+   "keystones": [
+    {
+     "key": "8112",
+     "name": "Eletrocutar",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8200",
+     "name": "Feitiçaria",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "items": [
+    {
+     "key": "6699",
+     "name": "Cicloespada Voltaica",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "6695",
+     "name": "Presa da Serpente",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "2520",
+     "name": "Quebra-Bastião",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "boots": [
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 1,
+     "wins": 0
+    }
+   ]
+  },
+  "Aphelios": {
+   "games": 1,
+   "wins": 0,
+   "keystones": [
+    {
+     "key": "8369",
+     "name": "Primeiro Ataque",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "items": [
+    {
+     "key": "6699",
+     "name": "Cicloespada Voltaica",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "2520",
+     "name": "Quebra-Bastião",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "2517",
+     "name": "Fome Eterna",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "6694",
+     "name": "Rancor de Serylda",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "boots": [
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 1,
+     "wins": 0
+    }
+   ]
+  },
+  "Swain": {
+   "games": 1,
+   "wins": 0,
+   "keystones": [
+    {
+     "key": "8369",
+     "name": "Primeiro Ataque",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "items": [
+    {
+     "key": "6699",
+     "name": "Cicloespada Voltaica",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "2520",
+     "name": "Quebra-Bastião",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "boots": [
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 1,
+     "wins": 0
+    }
+   ]
+  },
+  "Lulu": {
+   "games": 1,
+   "wins": 1,
+   "keystones": [
+    {
+     "key": "8369",
+     "name": "Primeiro Ataque",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "items": [
+    {
+     "key": "6699",
+     "name": "Cicloespada Voltaica",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "3036",
+     "name": "Lembranças do Lorde Dominik",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "6695",
+     "name": "Presa da Serpente",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "boots": [
+    {
+     "key": "3168",
+     "name": "Caminho Imortal",
+     "games": 1,
+     "wins": 1
+    }
+   ]
+  },
+  "Gragas": {
+   "games": 2,
+   "wins": 2,
+   "keystones": [
+    {
+     "key": "8010",
+     "name": "Conquistador",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "8369",
+     "name": "Primeiro Ataque",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8200",
+     "name": "Feitiçaria",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "4+12",
+     "name": "Flash + Teleporte",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "items": [
+    {
+     "key": "6699",
+     "name": "Cicloespada Voltaica",
+     "games": 2,
+     "wins": 2
+    },
+    {
+     "key": "2520",
+     "name": "Quebra-Bastião",
+     "games": 2,
+     "wins": 2
+    },
+    {
+     "key": "2517",
+     "name": "Fome Eterna",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "6333",
+     "name": "Dança da Morte",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "3036",
+     "name": "Lembranças do Lorde Dominik",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "3814",
+     "name": "Limiar da Noite",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "boots": [
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 2,
+     "wins": 2
+    }
+   ]
+  },
+  "Ziggs": {
+   "games": 1,
+   "wins": 0,
+   "keystones": [
+    {
+     "key": "8369",
+     "name": "Primeiro Ataque",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+12",
+     "name": "Flash + Teleporte",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "items": [
+    {
+     "key": "6699",
+     "name": "Cicloespada Voltaica",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "2520",
+     "name": "Quebra-Bastião",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "boots": [
+    {
+     "key": "3168",
+     "name": "Caminho Imortal",
+     "games": 1,
+     "wins": 0
+    }
+   ]
+  },
+  "MasterYi": {
+   "games": 1,
+   "wins": 1,
+   "keystones": [
+    {
+     "key": "8010",
+     "name": "Conquistador",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8200",
+     "name": "Feitiçaria",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "items": [
+    {
+     "key": "6699",
+     "name": "Cicloespada Voltaica",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "2520",
+     "name": "Quebra-Bastião",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "boots": [
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 1,
+     "wins": 1
+    }
+   ]
+  },
+  "Ornn": {
+   "games": 1,
+   "wins": 0,
+   "keystones": [
+    {
+     "key": "8369",
+     "name": "Primeiro Ataque",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "items": [
+    {
+     "key": "6699",
+     "name": "Cicloespada Voltaica",
+     "games": 1,
+     "wins": 0
+    },
+    {
+     "key": "2520",
+     "name": "Quebra-Bastião",
+     "games": 1,
+     "wins": 0
+    }
+   ],
+   "boots": [
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 1,
+     "wins": 0
+    }
+   ]
+  },
+  "Nocturne": {
+   "games": 1,
+   "wins": 1,
+   "keystones": [
+    {
+     "key": "8369",
+     "name": "Primeiro Ataque",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "secondary": [
+    {
+     "key": "8000",
+     "name": "Precisão",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "spells": [
+    {
+     "key": "4+14",
+     "name": "Flash + Incendiar",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "items": [
+    {
+     "key": "6699",
+     "name": "Cicloespada Voltaica",
+     "games": 1,
+     "wins": 1
+    },
+    {
+     "key": "2520",
+     "name": "Quebra-Bastião",
+     "games": 1,
+     "wins": 1
+    }
+   ],
+   "boots": [
+    {
+     "key": "3171",
+     "name": "Lucidez Escarlate",
+     "games": 1,
+     "wins": 1
+    }
+   ]
+  }
+ }
+}

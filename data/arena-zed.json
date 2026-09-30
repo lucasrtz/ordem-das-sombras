@@ -1,0 +1,14 @@
+{
+  "patch": "",
+  "source": "",
+  "augments": {
+    "prismatic": [],
+    "gold": [],
+    "silver": []
+  },
+  "items": {
+    "core": [],
+    "situational": []
+  },
+  "notes": []
+}
